@@ -1,0 +1,45 @@
+{
+  "name": "ContactInquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "message": {
+      "type": "string",
+      "description": "Message or inquiry"
+    },
+    "preferred_contact": {
+      "type": "string",
+      "enum": [
+        "phone",
+        "email"
+      ],
+      "description": "Preferred contact method"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "contacted",
+        "scheduled",
+        "closed"
+      ],
+      "default": "new"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "message"
+  ]
+}
