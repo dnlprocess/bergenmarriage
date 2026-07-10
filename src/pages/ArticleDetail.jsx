@@ -1,21 +1,29 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { ArrowLeft, Phone, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ReactMarkdown from 'react-markdown';
 import { articlesContent, articlesList, categories } from '../components/articles/articleData';
+import { createMarkdownComponents, scrollToSection } from '../utils/markdown';
+
+const markdownComponents = createMarkdownComponents();
 
 export default function ArticleDetail() {
+  const [searchParams] = useSearchParams();
   const [articleId, setArticleId] = useState(null);
 
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id');
+    const id = searchParams.get('id');
     setArticleId(id);
-    // Scroll to top when article changes
-    window.scrollTo(0, 0);
-  }, []);
+
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => scrollToSection(hash.slice(1)), 150);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [searchParams]);
 
   const article = articleId ? articlesContent[articleId] : null;
 
@@ -55,8 +63,8 @@ export default function ArticleDetail() {
     <div className="min-h-screen bg-[#FAF6EF]">
       {/* Breadcrumb */}
       <div className="bg-white border-b">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <nav className="flex items-center gap-2 text-sm flex-wrap">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <nav className="flex items-center gap-2 text-base flex-wrap">
             <Link to={createPageUrl('Articles')} className="text-stone-500 hover:text-[#2D5F3F]">
               Articles
             </Link>
@@ -74,8 +82,8 @@ export default function ArticleDetail() {
       </div>
 
       {/* Article */}
-      <article className="py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <article className="py-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <header className="mb-10">
             <div className="flex items-center gap-3 mb-4">
@@ -88,43 +96,48 @@ export default function ArticleDetail() {
                 </span>
               )}
             </div>
-            <h1 className="font-serif text-3xl md:text-4xl text-[#1B3A2F] mb-4 leading-tight">
+            <h1 className="font-serif text-4xl md:text-5xl text-[#1B3A2F] mb-4 leading-tight">
               {article.title}
             </h1>
-            <p className="text-stone-500">
+            <p className="text-stone-600 text-lg">
               By Reuben E. Gross, PhD, ABP, ABPP, LMFT
             </p>
           </header>
 
-          {/* Content */}
-          <div className="bg-white rounded-2xl shadow-sm p-6 md:p-10 lg:p-12 mb-8">
-            <div className="prose prose-lg prose-stone max-w-none 
-              prose-headings:font-serif prose-headings:text-[#1B3A2F] 
-              prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:first:mt-0
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-              prose-p:leading-relaxed prose-p:text-stone-600 prose-p:mb-5
-              prose-strong:text-[#1B3A2F] prose-strong:font-semibold
-              prose-em:text-stone-500
-              prose-blockquote:border-l-4 prose-blockquote:border-[#2D5F3F] prose-blockquote:bg-[#FAF6EF] prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-lg prose-blockquote:not-italic prose-blockquote:text-stone-600
-              prose-ul:my-4 prose-ul:pl-6
-              prose-ol:my-4 prose-ol:pl-6
-              prose-li:my-1 prose-li:text-stone-600
-            ">
-              <ReactMarkdown>{article.content}</ReactMarkdown>
+          {/* Featured Image */}
+          {article.imageUrl && (
+            <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
+              <img 
+                src={article.imageUrl} 
+                alt={article.title}
+                className="w-full h-auto"
+              />
+            </div>
+          )}
+
+          {/* Content - Styled like a proper article/webpage */}
+          <div className="max-w-4xl">
+            <div className="text-xl leading-relaxed text-stone-700">
+              <ReactMarkdown components={markdownComponents}>
+                {article.content}
+              </ReactMarkdown>
             </div>
           </div>
 
+          {/* Spacing */}
+          <div className="my-16" />
+
           {/* Article Navigation */}
-          <div className="grid md:grid-cols-2 gap-4 mb-12">
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
             {prevArticle ? (
               <Link
                 to={createPageUrl('ArticleDetail') + `?id=${prevArticle.id}`}
-                className="bg-white rounded-xl p-5 hover:shadow-md transition-all group flex items-start gap-3"
+                className="bg-white rounded-xl p-6 hover:shadow-lg transition-all group flex items-start gap-4 border border-stone-200"
               >
-                <ArrowLeft className="w-5 h-5 text-stone-400 mt-1 group-hover:text-[#2D5F3F] transition-colors" />
+                <ArrowLeft className="w-6 h-6 text-[#2D5F3F] mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-sm text-stone-400 mb-1">Previous Article</p>
-                  <p className="font-medium text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors line-clamp-2">
+                  <p className="text-sm text-stone-500 mb-2">Previous Article</p>
+                  <p className="font-semibold text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors">
                     {prevArticle.title}
                   </p>
                 </div>
@@ -134,38 +147,40 @@ export default function ArticleDetail() {
             {nextArticle && (
               <Link
                 to={createPageUrl('ArticleDetail') + `?id=${nextArticle.id}`}
-                className="bg-white rounded-xl p-5 hover:shadow-md transition-all group flex items-start gap-3 text-right md:justify-end"
+                className="bg-white rounded-xl p-6 hover:shadow-lg transition-all group flex items-start gap-4 border border-stone-200 md:justify-end"
               >
-                <div>
-                  <p className="text-sm text-stone-400 mb-1">Next Article</p>
-                  <p className="font-medium text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors line-clamp-2">
+                <div className="md:text-right">
+                  <p className="text-sm text-stone-500 mb-2">Next Article</p>
+                  <p className="font-semibold text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors">
                     {nextArticle.title}
                   </p>
                 </div>
-                <ArrowRight className="w-5 h-5 text-stone-400 mt-1 group-hover:text-[#2D5F3F] transition-colors" />
+                <ArrowRight className="w-6 h-6 text-[#2D5F3F] mt-1 flex-shrink-0" />
               </Link>
             )}
           </div>
 
           {/* Related Articles */}
           {relatedArticles.length > 0 && (
-            <div className="mb-12">
-              <h3 className="font-serif text-xl text-[#1B3A2F] mb-6">
+            <div className="bg-white rounded-2xl p-10 border border-stone-200">
+              <h2 className="font-serif text-2xl text-[#1B3A2F] mb-8">
                 More from {article.categoryName}
-              </h3>
-              <div className="grid md:grid-cols-3 gap-4">
+              </h2>
+              <div className="grid md:grid-cols-3 gap-6">
                 {relatedArticles.map((relatedArticle) => (
                   <Link
                     key={relatedArticle.id}
                     to={createPageUrl('ArticleDetail') + `?id=${relatedArticle.id}`}
-                    className="bg-white rounded-xl p-6 hover:shadow-md transition-all group"
+                    className="group"
                   >
-                    <h4 className="font-medium text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors line-clamp-2">
-                      {relatedArticle.title}
-                    </h4>
-                    <span className="inline-flex items-center gap-1 text-sm text-[#2D5F3F] mt-3">
-                      Read <ArrowRight className="w-3 h-3" />
-                    </span>
+                    <div className="bg-[#FAF6EF] rounded-xl p-6 hover:shadow-md transition-all h-full">
+                      <h3 className="font-semibold text-[#1B3A2F] group-hover:text-[#2D5F3F] transition-colors mb-4">
+                        {relatedArticle.title}
+                      </h3>
+                      <span className="inline-flex items-center gap-2 text-sm text-[#2D5F3F] font-medium">
+                        Read Article <ArrowRight className="w-4 h-4" />
+                      </span>
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -173,34 +188,33 @@ export default function ArticleDetail() {
           )}
 
           {/* CTA */}
-          <div className="bg-[#1B3A2F] rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="font-serif text-2xl text-white mb-4">
-              Questions About This Article?
+          <div className="mt-16 bg-gradient-to-br from-[#1B3A2F] to-[#234A30] rounded-2xl p-12 text-center">
+            <h2 className="font-serif text-3xl text-white mb-4">
+              Have Questions About This Article?
             </h2>
-            <p className="text-stone-300 mb-8 max-w-xl mx-auto">
-              Dr. Gross is readily available by phone or email to answer your questions 
-              and discuss how these insights apply to your situation.
+            <p className="text-stone-200 text-lg mb-8 max-w-2xl mx-auto">
+              Dr. Gross welcomes the opportunity to discuss these concepts with you and answer any questions about how they apply to your unique situation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 asChild
                 size="lg"
-                className="bg-[#2D5F3F] hover:bg-[#234A30] text-white rounded-full px-8"
+                className="bg-[#2D5F3F] hover:bg-[#1B3A2F] text-white rounded-full px-8"
               >
                 <a href="tel:2018362737" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Free 15-Minute Consultation
+                  Call (201) 836-2737
                 </a>
               </Button>
               <Button 
                 asChild
-                size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-[#1B3A2F] rounded-full px-8"
+                size="lg"
+                className="text-white border-white hover:bg-white/10 rounded-full px-8"
               >
-                <Link to={createPageUrl('Articles')}>
-                  Browse All Articles
-                </Link>
+                <a href="mailto:BergenMarriage1@gmail.com">
+                  Email Your Questions
+                </a>
               </Button>
             </div>
           </div>

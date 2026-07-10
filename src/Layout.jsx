@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from './utils';
-import { Phone, Menu, X, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Menu, X, Mail, MapPin, Clock, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { categories } from './components/articles/articleData';
 
 export default function Layout({ children, currentPageName }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [articlesDropdownOpen, setArticlesDropdownOpen] = useState(false);
+  const [mobileArticlesDropdownOpen, setMobileArticlesDropdownOpen] = useState(false);
 
   const navLinks = [
   { name: 'Home', page: 'Home' },
@@ -55,7 +58,7 @@ export default function Layout({ children, currentPageName }) {
 
       {/* Top Contact Bar */}
       <div className="bg-navy text-white py-2 px-4">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center text-sm">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center text-base">
           <div className="flex items-center gap-6">
             <a href="tel:2018362737" className="flex items-center gap-2 hover:text-sage-light transition-colors">
               <Phone className="w-4 h-4" />
@@ -83,25 +86,65 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to={createPageUrl('Home')} className="flex flex-col">
-              <span className="font-serif-display text-xl md:text-2xl text-navy font-semibold tracking-tight">
+              <span className="font-serif-display text-2xl md:text-3xl text-navy font-semibold tracking-tight">
                 Bergen Marriage & Couple Counseling
               </span>
-              <span className="text-sm text-stone-500">Reuben E. Gross, PhD, LMFT</span>
+              <span className="text-base text-stone-500">Reuben E. Gross, PhD, LMFT</span>
             </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
-              {navLinks.map((link) =>
-              <Link
-                key={link.page}
-                to={createPageUrl(link.page)}
-                className={`font-medium transition-colors hover:text-sage text-base ${
-                currentPageName === link.page ? 'text-sage' : 'text-charcoal'}`
-                }>
+              {navLinks.map((link) => {
+                // Special handling for Articles with dropdown
+                if (link.page === 'Articles') {
+                  return (
+                    <div key={link.page} className="relative">
+                      <button
+                        onMouseEnter={() => setArticlesDropdownOpen(true)}
+                        onMouseLeave={() => setArticlesDropdownOpen(false)}
+                        className={`font-medium transition-colors hover:text-sage text-lg flex items-center gap-1 ${
+                          currentPageName === link.page ? 'text-sage' : 'text-charcoal'
+                        }`}
+                      >
+                        {link.name}
+                        <ChevronDown className="w-4 h-4" />
+                      </button>
+                      
+                      {/* Dropdown Menu */}
+                      {articlesDropdownOpen && (
+                        <div
+                          onMouseEnter={() => setArticlesDropdownOpen(true)}
+                          onMouseLeave={() => setArticlesDropdownOpen(false)}
+                          className="absolute top-full left-0 mt-0 bg-white rounded-lg shadow-lg py-2 min-w-[240px] z-50"
+                        >
+                          {categories.map((category) => (
+                            <Link
+                              key={category.id}
+                              to={createPageUrl('Articles') + `?category=${category.id}`}
+                              className="block px-4 py-2 text-charcoal hover:bg-sage-light hover:text-sage transition-colors text-base"
+                              onClick={() => setArticlesDropdownOpen(false)}
+                            >
+                              {category.name}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
                 
-                  {link.name}
-                </Link>
-              )}
+                return (
+                  <Link
+                    key={link.page}
+                    to={createPageUrl(link.page)}
+                    className={`font-medium transition-colors hover:text-sage text-lg ${
+                      currentPageName === link.page ? 'text-sage' : 'text-charcoal'
+                    }`}
+                  >
+                    {link.name}
+                  </Link>
+                );
+              })}
               <Button
                 asChild
                 className="bg-sage hover:bg-sage/90 text-white rounded-full px-6">
@@ -123,19 +166,60 @@ export default function Layout({ children, currentPageName }) {
           {mobileMenuOpen &&
           <div className="lg:hidden pb-4 border-t">
               <nav className="flex flex-col gap-2 pt-4">
-                {navLinks.map((link) =>
-              <Link
-                key={link.page}
-                to={createPageUrl(link.page)}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`px-4 py-2 rounded-lg transition-colors ${
-                currentPageName === link.page ?
-                'bg-sage-light text-sage' :
-                'text-charcoal hover:bg-stone-100'}`
-                }>
-                
-                    {link.name}
-                  </Link>
+                {navLinks.map((link) => {
+                  // Special handling for Articles with dropdown in mobile
+                  if (link.page === 'Articles') {
+                    return (
+                      <div key={link.page}>
+                        <button
+                          onClick={() => setMobileArticlesDropdownOpen(!mobileArticlesDropdownOpen)}
+                          className={`w-full text-left px-4 py-2 rounded-lg transition-colors flex items-center justify-between ${
+                            currentPageName === link.page
+                              ? 'bg-sage-light text-sage'
+                              : 'text-charcoal hover:bg-stone-100'
+                          }`}
+                        >
+                          {link.name}
+                          <ChevronDown className={`w-4 h-4 transition-transform ${mobileArticlesDropdownOpen ? 'rotate-180' : ''}`} />
+                        </button>
+                        
+                        {/* Mobile Dropdown */}
+                        {mobileArticlesDropdownOpen && (
+                          <div className="pl-4 mt-1 space-y-1">
+                            {categories.map((category) => (
+                              <Link
+                                key={category.id}
+                                to={createPageUrl('Articles') + `?category=${category.id}`}
+                                className="block px-3 py-2 text-base text-charcoal hover:bg-sage-light/50 rounded transition-colors"
+                                onClick={() => {
+                                  setMobileArticlesDropdownOpen(false);
+                                  setMobileMenuOpen(false);
+                                }}
+                              >
+                                {category.name}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  }
+
+                  return (
+                    <Link
+                      key={link.page}
+                      to={createPageUrl(link.page)}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`px-4 py-2 rounded-lg transition-colors text-lg ${
+                        currentPageName === link.page
+                          ? 'bg-sage-light text-sage'
+                          : 'text-charcoal hover:bg-stone-100'
+                      }`}
+                    >
+                      {link.name}
+                    </Link>
+                  );
+                })}
               )}
                 <Button
                 asChild
