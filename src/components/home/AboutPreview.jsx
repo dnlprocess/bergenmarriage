@@ -28,11 +28,15 @@ export default function AboutPreview() {
                 of Marriage Counselors and the New Jersey State Board of Psychologists.
               </p>
               <p>
-                Dr. Gross has been in private practice as a marriage counselor and couples 
-                therapist for close to four decades in Teaneck, Bergen County, NJ with a 
-                concurrent practice in New York City while teaching and supervising marriage 
-                counselors and psychotherapists, and serving as a professor of a clinical 
-                supervisor at universities and psychological clinics.
+                Dr. Gross, LMFT, is a very down-to-earth person who offers a practical approach
+                to marriage and premarital counseling, couples counseling, and individual
+                psychotherapy when one member of the couple needs a little more individual
+                attention. As a highly trained and very experienced marriage counselor and
+                psychologist, he will help you address your individual or couple problems
+                beginning with the first marriage counseling session with highly structured,
+                solution-oriented counseling techniques, and he is geared to working with you
+                as rapidly as possible. He will treat you with respect, dignity, and compassion
+                and will ensure maximum confidentiality.
               </p>
             </div>
 

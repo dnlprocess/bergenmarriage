@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { Search, Filter, BookOpen, ArrowRight, FileText, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,17 +14,24 @@ import {
 import { articlesList, categories } from '../components/articles/articleData';
 
 export default function Articles() {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Read category from URL on mount
+  // Read category from URL and update when URL changes
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const category = urlParams.get('category');
-    if (category) {
-      setSelectedCategory(category);
+    const category = searchParams.get('category') || 'all';
+    setSelectedCategory(category);
+  }, [searchParams]);
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+    if (category === 'all') {
+      setSearchParams({});
+    } else {
+      setSearchParams({ category });
     }
-  }, []);
+  };
 
   const articles = articlesList;
 
@@ -89,7 +96,7 @@ export default function Articles() {
             
             <div className="flex items-center gap-3 w-full md:w-auto">
               <Filter className="w-5 h-5 text-stone-400" />
-              <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+              <Select value={selectedCategory} onValueChange={handleCategoryChange}>
                 <SelectTrigger className="w-full md:w-64 rounded-full">
                   <SelectValue placeholder="Filter by category" />
                 </SelectTrigger>

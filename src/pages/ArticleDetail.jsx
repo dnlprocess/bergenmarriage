@@ -4,6 +4,7 @@ import { createPageUrl } from '../utils';
 import { ArrowLeft, Phone, ChevronRight, BookOpen, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { articlesContent, articlesList, categories } from '../components/articles/articleData';
 import { createMarkdownComponents, scrollToSection } from '../utils/markdown';
 
@@ -118,7 +119,7 @@ export default function ArticleDetail() {
           {/* Content - Styled like a proper article/webpage */}
           <div className="max-w-4xl">
             <div className="text-xl leading-relaxed text-stone-700">
-              <ReactMarkdown components={markdownComponents}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                 {article.content}
               </ReactMarkdown>
             </div>

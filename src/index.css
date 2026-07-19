@@ -77,12 +77,13 @@
 
 
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-
-  body {
-    @apply bg-background text-foreground text-lg;
+@layer utilities {
+  .bg-parchment {
+    background:
+      radial-gradient(ellipse 80% 50% at 15% 10%, rgba(221, 232, 216, 0.45) 0%, transparent 55%),
+      radial-gradient(ellipse 60% 40% at 85% 90%, rgba(232, 223, 208, 0.4) 0%, transparent 50%),
+      radial-gradient(ellipse 50% 30% at 50% 50%, rgba(253, 250, 244, 0.6) 0%, transparent 60%),
+      linear-gradient(160deg, #FAF6EF 0%, #FDFAF4 30%, #F8F2E8 60%, #F5EFE6 100%);
+    background-attachment: fixed;
   }
 }

@@ -109,6 +109,26 @@ export function createMarkdownComponents() {
     blockquote: ({ node, ...props }) => (
       <blockquote className="border-l-4 border-[#2D5F3F] bg-[#FAF6EF] py-4 px-6 rounded-r-lg my-6 italic text-stone-600 text-xl" {...props} />
     ),
+    table: ({ node, ...props }) => (
+      <div className="my-8 overflow-x-auto rounded-xl border border-stone-200 shadow-sm">
+        <table className="w-full border-collapse text-lg text-left" {...props} />
+      </div>
+    ),
+    thead: ({ node, ...props }) => (
+      <thead className="bg-[#DDE8D8]" {...props} />
+    ),
+    tbody: ({ node, ...props }) => (
+      <tbody className="divide-y divide-stone-200 bg-white" {...props} />
+    ),
+    tr: ({ node, ...props }) => (
+      <tr {...props} />
+    ),
+    th: ({ node, ...props }) => (
+      <th className="px-5 py-3 font-serif font-bold text-[#1B3A2F]" {...props} />
+    ),
+    td: ({ node, ...props }) => (
+      <td className="px-5 py-3 text-stone-600 align-top" {...props} />
+    ),
     a: ({ node, href, children, ...props }) => {
       if (href && href.startsWith('#')) {
         const sectionId = href.slice(1);

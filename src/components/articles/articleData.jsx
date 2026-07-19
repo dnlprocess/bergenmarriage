@@ -13,6 +13,16 @@ export const articlesContent = {
   // 3. Section links — link to headings within the same article:
   //    [Go to Section 1](#1-overview-of-the-marriage-counseling-process)
   //    Heading IDs are auto-generated from heading text (lowercase, hyphens).
+  //
+  // 4. Tables — use standard markdown table syntax (GitHub-flavored markdown):
+  //    | Column A | Column B |
+  //    | -------- | -------- |
+  //    | Row 1a   | Row 1b   |
+  //    | Row 2a   | Row 2b   |
+  //
+  // 5. Headings — use markdown headings (##, ###, ####) for section titles and
+  //    subtitles within the content instead of plain bold text, so they get
+  //    proper styling, anchor links, and appear in the table of contents.
 
   // ==========================================
   // MARRIAGE COUNSELING PROCESS
@@ -27,7 +37,7 @@ export const articlesContent = {
     content: `
 ## A. Your First Call
 
-Since I am not part of a hospital or psychological clinic, but rather a marriage counselor and psychologist in private practice, when you call my office, you speak directly to me. I’ll be happy to spend time with you, at no charge, sympathetically exploring your reasons for inquiring about marriage, pre-marital or individual counseling. If you wish, we can arrange an appointment at that time, or if you prefer, you can talk it over with your spouse and call me back. If your spouse/partner is unwilling to come, it may be even more important for you to come and start the process. When we meet, I will help you explore new approaches to alleviate the situation; hopefully, your spouse to join you in the process of fighting for the success of your relationship and help you explore options that you may not have considered. please [click here](article:hidden-agenda-relationships) for articles on “Spouse Resists Counseling.“
+Since I am not part of a hospital or psychological clinic, but rather a marriage counselor and psychologist in private practice, when you call my office, you speak directly to me. I’ll be happy to spend time with you, at no charge, sympathetically exploring your reasons for inquiring about marriage, pre-marital or individual counseling. If you wish, we can arrange an appointment at that time, or if you prefer, you can talk it over with your spouse and call me back. If your spouse/partner is unwilling to come, it may be even more important for you to come and start the process. When we meet, I will help you explore new approaches to alleviate the situation; hopefully, your spouse to join you in the process of fighting for the success of your relationship and help you explore options that you may not have considered. please [click here](article:hidden-agenda-in-relationships) for articles on “Spouse Resists Counseling.“
 
 ## B. Questionnaire
 
@@ -117,7 +127,7 @@ My approach during counseling sessions reflects an amalgamation of theories and 
 
 As I observe the dynamics of my work with couples, it is clear that a couple who participates in the marriage, couples, and relationship counseling process with me has the experience of being enrolled in a private learning program personalized to help them achieve their goal of lasting happiness in their marriage. The program includes two sub-goals: how to bring out the best in your spouse and how to bring about the best in yourself.
 
-This Structured Program Consists of:
+## This Structured Program Consists of:
 
 A private learning experience, tailored to the specific needs of each couple in a warm, friendly, safe, and supportive atmosphere.
 
@@ -185,8 +195,7 @@ However, the approach has universal value since the couple is freed from the tas
 
 During the initial interview and at every successive meeting, both persons are always free to add to their original agenda. Spouses are encouraged to redefine the problems originally cited. Or, if they wish, explore problems not previously mentioned, because they did not comfortably fall into the categories or formulations offered in the questionnaires, or not delineated during the initial phase of counseling for any other reasons.
 
-# B. Both Spouses Express Their Unhappiness
-in the Marriage
+# B. Both Spouses Express Their Unhappiness in the Marriage
 
 It is customary in the initial phase of marital counseling for both spouses to express their unhappiness in the relationship and to elaborate on this theme with a list of complaints about their partner.
 
@@ -331,7 +340,7 @@ A GRADE OF “B” is given by a person who believes his marriage is good and wh
 
 A GRADE OF “B+” is given by someone who is very happy. What is he doing in my office? Strange as it may seem, I have had couples wherein usually the man (but the genders can be reversed) was quite, or even perfectly happy, but his wife was nowhere in the same league. Clearly, she was satisfying his needs in the marriage, but he was not satisfying her needs. His wife might grade her happiness as “C”, “D” or worse. The husband comes for counseling because his wife insists on it, and she may have even moved out of the bedroom or threatened separation to get him “to see the light”.
 
-Happiness is Catching; So is Misery
+### Happiness is Catching; So is Misery
 
 For the most part, however, partners are generally at the same grade of happiness, or else one full grade apart. As time elapses in the relationship, the grades come closer and closer. This is so because if one person is unhappy, that person will eventually express it by complaining, attacking, or withdrawing. Partners are like Siamese twins who share the same circulatory system. Their blood flows into each other. So it is with the happiness-unhappiness continuum as regards two people who live with each other. Eventually, they will both be experiencing the same level of happiness, discontent, alienation, or misery.
 
@@ -364,16 +373,16 @@ or
 or
 3. When a partner makes a reasonable complaint against his/her partner…
 
-It Sadly Deteriorates Into A Futile And Sometimes Ugly Fight
+## It Sadly Deteriorates Into A Futile And Sometimes Ugly Fight
 
-This Article Explains How Couples Can:
+## This Article Explains How Couples Can:
 
 1. Comfortably express their honest thoughts, feelings, or opinions on any matter as well as listen to each other attentively,
 2. Make a complaint, discuss sensitive issues, disagree, and even argue their point of view assertively without fighting,
 3. Arrive at excellent solutions that are highly satisfactory to both partners, or at least, compromise solutions they can both live with.
 4. Change the household atmosphere from a state of tension to one of peace and harmony. Are all these goals really possible? ABSOLUTELY!
 
-Three Different Ways of Relating:
+## Three Different Ways of Relating:
 
 - Cooperate
 
@@ -389,10 +398,9 @@ In other cases, the fighting is less frequent, but it is a constant menace that 
 
 A spouse might say that he/she avoids his/her partner “to save my sanity,” “save the peace,” or “not make things worse.” Unfortunately, sweeping the problem under the rug by avoidance or withdrawal from confrontation is not the answer to the problem(s). Such individuals yearn to live with each other in peace and harmony, but just don’t know how to achieve this dream.
 
-## A. Characteristics of a Fight
-& How It Differs from an Argument
+## A. Characteristics of a Fight & How It Differs from an Argument
 
-A.1. A Fight is an Argument That Has Gone Awry
+### A.1. A Fight is an Argument That Has Gone Awry
 
 When people express opposing or differing views respectfully, they are arguing. When they are not respectful in their attitude, words, or behavior, they have crossed a line; they are no longer arguing, they are fighting. The fighter might interrupt, raise his voice angrily, overtalk, or fail to give his opponent an opportunity to express his point of view.
 
@@ -402,26 +410,17 @@ Opposite of the arguer is the fighter. The attitude of the fighter is “I’m r
 
 Marriage counseling is often a last resort to avoid separation.
 
-## A. 2. The Nineteen Rules of Engagement
-for Constructive Arguing
+## A. 2. The Nineteen Rules of Engagement for Constructive Arguing
 
 People should argue constructively when they have differences in a matter. However, once they’ve crossed a line, they are no longer arguing. They have done something hostile and are in the beginning stages of a fight. Even a single violation is the equivalent of the dangerous crossing of a line and facing opposite traffic, or taking the ball off the court in sports. You’re not acting according to the rules anymore.
 
-Learning the Nineteen Rules
+### Learning the Nineteen Rules
 
-Three Examples
+#### Three Examples:
 
-Insults or an Angry Tone
-
-Always be respectful.
-
-Interrupting
-
-Patiently wait your turn.
-
-Lecturing
-
-Make your point short and sweet.
+| Insults or an Angry Tone | Interrupting | Lecturing |
+| --- | --- | --- |
+| Always be respectful. | Patiently wait your turn. | Make your point short and sweet. |
 
 In order to sensitize each partner to the nineteen rules of good communication, I have them play the role of husband and wife in a script of two partners driving on a highway and fighting over the husband’s driving. I wrote the script to dramatize the nineteen rules. After each spouse’s comment, we analyze the violations made by that person. The script begins with the wife shouting at her husband, “Stop speeding!” We determined that these two-word statements violated at least two rules of good behavior: 1. She raised her voice angrily, and 2. She was commanding and ordering.
 
@@ -435,8 +434,7 @@ As we analyze the give and take of the ensuing battle in the script, during coup
 
 They learn that they can successfully get on with the original order of business (in this case, the wife’s concern about the husband’s speeding) in a friendly and cooperative mode when the wife apologizes for her shouting at her husband and uses a different approach. At this point, she is taught how to use the “I statement, ” telling the driver how his behavior is affecting her emotionally and giving him a remedy. In this case, the marriage counselor suggests that she say to him, “At this speed, I am afraid of a crash. Would you please slow down?”
 
-## A. 3. Some of the Differences Between an
-Argument and a Fight
+## A. 3. Some of the Differences Between an Argument and a Fight
 
 In both an argument and a fight, two people disagree, and in both situations, each person would prefer to have his own way. However:
 
@@ -524,13 +522,13 @@ Yes, there are exceptions to the structure of an argument as presented here, and
 
 In such a case, the decision should be postponed. If a lot of time has elapsed, and the decision can no longer be postponed, then the agreed-upon solution may end up favoring one person. However, every attempt should be made to keep the other person as happy as possible. And the person who gave in now has “money in the bank” and can draw on this the next time the couple is involved in a hotly contested decision.
 
-Hope for The Future
+## Hope for The Future
 
 Clearly unresolved differences between spouses result in frustrations, annoyances, and disappointments, which spawn a more painful layer of emotions and attitudes, including ill will, bitterness, anger, and depression. These emotions set the stage for feelings of futility and hopelessness, indifference to the partner’s happiness, and even feelings of revenge (if he could hurt me by doing “X,” I could hurt him by doing “Y”). This type of thinking initiates a vicious cycle and spirals downward into even more negative couple interactions. But this situation can be remedied.
 
 In an overwhelming majority of cases, couples who fight can transform old habits and adopt new patterns of behavior within a reasonable period of time. In fact, I am no longer surprised at how many couples dramatically change the climate of their household after a few sessions of marriage counseling by scrupulously adhering to the nineteen rules, by playing the role of referee or umpire (as I instruct them to do) and calmly “blowing the whistle” (rather than counterattack) when their partner takes the ball off the court by violating one of the accepted rules of engagement.
 
-Stopping the Vicious Cycle & Initiating a Benign Cycle
+## Stopping the Vicious Cycle & Initiating a Benign Cycle
 
 Understandably, treating each other with respect is only the first step. Respect during an argument or when one person airs a complaint may stem the slippery slope from argument to fight, but respect in itself does not solve the problem(s). However, a respectful approach to the feelings and opinions of one’s partner does create a benign atmosphere and a safe forum for addressing the underlying problem(s).
 
@@ -558,29 +556,29 @@ Of course, many problems that couples face are much more complicated than this, 
     content: `
 You can talk to a wall but not communicate with a wall. However, you can talk to a person and also communicate with a person. Getting the message across to the other person is the essence of communication. Therefore, the communicator should be able to: 1. Express himself clearly, concisely and in a friendly manner, 2. Use skill in gearing his words to the setting and context of the situation as well as the person to whom he is talking, 3. Make sure that he is understood, and 4. In all relationships, but especially in the context of a marriage or couple relationship, the speaker should encourage and be warmly receptive and sensitive to his partner’s communications.
 
-Are Talking and Communicating Always the Same?
+## Are Talking and Communicating Always the Same?
 
 Many people have never considered the difference between “talking” and “communicating.” In fact, talking and communicating can be two different activities.
 
 Talking is uttering words with the goal of getting a message across; sometimes it works, sometimes it doesn’t. Communicating refers to one step further in the process: it is the successful transmission of a message. When a person talks to his partner and there is no communication, the relationship will suffer.
 
-Do Radio, TV and Podcast Hosts Talk Or Communicate?
+## Do Radio, TV and Podcast Hosts Talk Or Communicate?
 
 In choosing a metaphor to illustrate my point, may I offer that of a radio, TV or cellphone blaring away in an empty room. The person who is talking may be thousands of miles away from that empty room. He has no idea who—if anybody—in that room is listening to him/her (or that the room and the radio, TV and cellphone exist in the first place). And even if someone did step into the room at some point, the speaker would have no idea who the potential listener might be. Nor would the speaker know whether that “someone” is paying attention, is interested in what he’s saying, or understands the concepts proposed or the terminology used to express them. In short, the speaker does not know anything about “the listener,” nor can he adjust his words to make them more intelligible or interesting to “the listener” in any way. The speaker simply talks and hopes that someone, somewhere out there is listening, and understands what he is talking about. But all this is wishful thinking. For all he knows, his microphone isn’t even plugged in. Consequently, no one is listening to him and he is talking to the four walls of the studio. But the speaker may have no clue about this while reading his carefully prepared script and making his points with energy and enthusiasm.
 
 Unfortunately, many of us reenact a scenario that resembles the problem of the TV announcer when we talk to a “listener” while focusing on our own desires –often, in a burst of emotion. In such instances, we frequently fail to focus on the listener and his/her needs. We are often remiss in adjusting our words or thoughts to the situation, the specific context and setting in which we may be at the time, and the receptivity of the person we are trying to influence.
 
-How To Maximize Communication
+## How To Maximize Communication
 
 As one can gather from the aforementioned metaphor of the radio speaker, communicating a message entails a number of steps. Before she says a word, the speaker must make sure that she has the full attention of her target listener. If he is busy doing something, she should ask if she may interrupt. If it is not convenient for her partner to talk at that time, they should agree on a specific time to talk. The speaker must stick to the topic that is on her mind, be self-aware enough to know her true feelings on the matter, and clear in her mind as to how she wishes to approach the subject. She does not have to figure out a complicated strategy as regards the progress of the conversation, but she should be aware of how she wishes to begin. She should say what is on her mind in a clear voice, adjust her rate of speech and volume to the technical barriers between them, e.g., cell phone receptivity, physical distance or ambient noise level (TV in the background, kids fighting, etc.) She should speak clearly, express herself accurately, and get to the point as quickly as is reasonable, depending upon the complexity of the problem.
 
 In addition to the above steps, she should keep her eyes focused on the person to whom she is talking. She should follow the listener’s facial expressions, nodding of the head and other non-verbal as well as verbal sources of feedback to ensure that her message is being received and understood. If a person neglects to do all of the above-mentioned subtasks, she is not doing her best to assure communication, she is just talking.
 
-Sometimes the Speaker is Lucky
+## Sometimes the Speaker is Lucky
 
 As noted, if the speaker fails to take the proper steps to communicate, the speaker did not communicate properly…she just talked. Sometimes, however, in spite of all the speaker’s failings, she does get her point across and her mere talking actually becomes a communication. This could happen if the speaker is fortunate enough to have a boyfriend/husband who is not only perceptive but acutely attuned to her. But this is pure luck. No one should depend on luck because, in real life, the speaker will not find out whether or not she successfully communicated her point until later when the assigned task was completed or was ignored and the damage has already been done. This is especially true in a case where she failed to communicate something important or asked him to do something that had a time limit.
 
-Summary
+## Summary
 
 Clearly, talking is not always communicating. If a person wants to communicate with another, it is primarily the responsibility of the speaker to make sure that the transmission of her message actually takes place.
 
@@ -600,31 +598,29 @@ For good communication to take place, the discussants are not required to agree 
     categoryName: 'Effective Communication',
     articleNumber: 'III',
     content: `
-A, B, & C Should Always Be the Same
+## A, B, & C Should Always Be the Same
 
-Getting the True Message Across
-is the Essence of Communication
+### Getting the True Message Across is the Essence of Communication
 
 Summary: Both speaker and listener play an important role in bringing about good communication. The speaker should say what he truly means and be clear and unambiguous in his statements. The listener should be fully attentive. Both should take precautionary steps to avoid misinterpretations. Examples of breakdowns in communication between partners are given to illustrate the points made in this article. Since neither gender wins an Emmy for communication, to be fair to both genders, I will use “he” and “she” at different times with the understanding that all of my points are relevant to both genders.
 
-People Communicate Both Facts and Emotions
+## People Communicate Both Facts and Emotions
 
 People communicate to request information or to transfer information to each other. Sometimes the information consists of concepts, facts, or data. At other times it consists of emotions, feelings, and attitudes. In a business setting, at school, and generally speaking outside of the home, the facts are more important and the emotions are secondary. TV’s star detective, Sgt. Friday, invariably put it this way when he interviewed a witness to a crime: “Just the facts, Ma’am.”
 
 However, with regard to the progression, growth, and improvement of personal relationships, emotions play a primary role. With people who aspire to be close, such as husband and wife, an honest, respectful, reciprocal sharing of feelings, attitudes, and emotions is of fundamental importance in building the relationship. Understandably, this sharing is valuable only when there is an adherence to the basic facts of the situation, rather than distortions or misinterpretations by either partner.
 
-The Goal of Communication is to
-Get The True Message Across
+## The Goal of Communication is to Get The True Message Across
 
 When the process of getting the message across breaks down, the failure may be due to a shortcoming on the part of the speaker, listener, or both. At the risk of oversimplifying a complicated matter, let’s break down the communication process into three components: “A,” “B,” and “C.”
 
-Overview of the A-B-C's of Good Communication
+## Overview of the A-B-C's of Good Communication
 
 Let “A” represent the exact thoughts or emotions of the speaker.
 Let “B” represent the actual words that come out of the speaker’s mouth.
 Let “C” represent what the listener “hears” i.e. his understanding or interpretation of what was said.
 
-In a Perfect Communication “A” = “B” = “C”
+### In a Perfect Communication “A” = “B” = “C”
 
 “Let Thine Ears Hear What Your Mouth Speaketh” —Talmud-Brachot
 
@@ -659,9 +655,10 @@ Often, the speaker does not say what is on his mind, or, if he does, he fails to
 Feels in His Heart. His B is Not The Same as His A. [Learn more](article:poor-communication-patterns)
 5. It is Poor Communication When B is Not The Same as A due to an Honest Mistake on the Part of the Speaker. [Read more](article:poor-communication-patterns)
 6. Other Reasons Why Misinterpretation Takes Place: 6a. The Role of the Speaker  6b. The Role of the Listener [See more](article:poor-communication-patterns)
-Detailed Illustrations With Case History
-Examples of the 6 Points Listed Above
-Reason 1. Poor Communicators Do Not Reveal The Complexity of Their Emotional State; They Reveal Only Part of What is Going On Inside of Them, Hence Their B is Not The Same as Their A
+## Detailed Illustrations With Case History Examples of the 6 Points Listed Above
+
+## Reason 1. Poor Communicators Do Not Reveal The Complexity of Their Emotional State; They Reveal Only Part of What is Going On Inside of Them, Hence Their B is Not The Same as Their A
+
 ## Case History One:
 Annette, a 32-year-old housewife with two young children complained to me that her husband, Jack, a 39-year-old successful contractor, always criticized her when she was on the phone.
 He was especially harsh when he would come home from work and see her on the phone at which time he would invariably yell angrily “Why are you always on the phone?” The words that came out of his mouth were his B. His words constituted a loud, angry outburst, and clearly a criticism in spite of the fact that they were phrased as a question.
@@ -676,8 +673,8 @@ During an individual session with Allison, she reported that she took no enjoyme
 On other occasions, she was thinking “I married you because I love you, but you seem to be married to your job, you don’t seem to be eager to come home and this hurts me.” And on still other occasions she was thinking “I am disappointed and angry that you are hardly around to assume your responsibilities with the kids, and that you see it as 100% my burden.” In addition to the above reasons for her displeasure, she was especially angry on those evenings when he had specifically promised to be home at a certain time, but came home an hour or two later, without even alerting her, thereby messing up her schedule.
 Allison was certainly successful in conveying her frustration and anger at Jeff’s tardiness. Unfortunately, however, her short angry outbursts as well as her cold shoulder later in the evening did very little to convey her other thoughts and feelings on Jeff’s late homecomings. In this situation too, Allison’s communication, her B, came nowhere near expressing her true feelings and thoughts, her A.
 During another individual session with Allison, we discussed her unexpressed emotions towards her husband, and I encouraged her to communicate them to him in a loving, rather than angry, fashion. She followed my advice; this approach made a very different impression on Jeff. It inspired him to rethink his priorities and make some adjustments in his schedule which allowed him to spend more time with his family and participate more actively in satisfying the needs of his wife and children.
-## Reason 2 Communication Breaks Down
-When C is Not The Same as B
+## Reason 2 Communication Breaks Down When C is Not The Same as B
+
 In some cases the speaker is quite good at saying exactly what is on her mind, but the listener does not get the message that was transmitted. The C that he hears, i.e. his interpretation of what was said is quite different from the B that she actually said.
 This type of communication breakdown could occur for a variety of reasons including:
 (a) Inattention
@@ -722,17 +719,19 @@ Other complaints that use the “always” word are of the same genre. For examp
 ## Reason 3 (c). Making a blanket statement.
 Blanket statements, often made in anger or hurt, are generally untrue and constitute another form of exaggeration, and therefore a miscommunication. For example, even when “always” or “never” is not used, if a wife makes a categorical statement such as “you don’t respect my opinion,” which is her B it is generally an error in communication.
 A husband would be incorrect, and miscommunicating, if he says to his wife “you are irresponsible with money,” when, deep in his heart, he knows that she is an excellent shopper for the household but has a problem when buying clothing or jewelry for herself. He is similarly off track if he says, “you don’t appreciate me,” when, in fact, he might have believed and correctly stated to her “I know that deep down you appreciate me, but I would like you to express it more often.” Or he might believe and correctly say: “Sometimes I question whether you really appreciate everything I do for you and the kids.” When a person makes a blanket statement, he is guilty of miscommunicating because he does not say what he actually believes and unfortunately makes things worse by exaggerating.
-The Goal is to Say What You Mean, But Say it Diplomatically
+
+### The Goal is to Say What You Mean, But Say it Diplomatically
+
 Now, even if a husband truly believes that his wife doesn’t appreciate him, he still shouldn’t say: “You don’t appreciate me,” since he would then be guilty of “mind-reading,” one of the forbidden nineteen negative interactions.
 The most he could legitimately say is, “I don’t believe that you appreciate me,” or, “Based on how you treat me, I don’t feel appreciated.” And expressing his true feelings on the subject, in this manner, is seen as a positive event since it opens the door for a problem-solving discussion on the matter.
 ## Reason 3 (d). Name calling.
 This behavior takes place when a person is angry. Name-calling, or putting down is one of the more hurtful and offensive infractions of the “Nineteen Rules.” A man may scream an epithet at his partner; but if asked to reflect on what he said, he will often deny that he believes what he called her. If so, when he said it, he was uttering an untruth; and is miscommunicating because he did not truly believe what he said.
 Now, even if he had a legitimate complaint, it would be destructive for him to lodge it in an offensive manner, and/or turn it into a personal attack. Unfortunately, once the words are out of his mouth, the damage has been done, and if his partner takes the epithet to heart, and counterattacks with her own choice words, they are deep into a fight, and at this point, they are both wrong since they are both adding fuel to the flame.
 ## Reason 4. Some Communicators Knowingly Distort What They Truly Believe or Feel in Their Heart. Their B is Not The Same as Their A.
-## Reason 4 (b). People Misrepresent (lie) or Withhold Information to
-Paint Themselves in a Better Light or Defend Themselves Against Blame or Attack.
-## Reason 4 (a). A Person May Distort What They Truly Believe or Feel
-to Protect Partner's Feelings or Not Ruffle Feathers
+## Reason 4 (b). People Misrepresent (lie) or Withhold Information to Paint Themselves in a Better Light or Defend Themselves Against Blame or Attack.
+
+## Reason 4 (a). A Person May Distort What They Truly Believe or Feel to Protect Partner's Feelings or Not Ruffle Feathers
+
 ## Case History Six:
 Harvey, 29, a newlywed computer analyst, came to my office with his wife Susan, 33, an accountant, because of marital problems. Harvey was so sensitive to the possibility that Susan’s feelings might be hurt if he told her an unflattering truth about herself that he would not give an honest answer even when she asked him if he liked the dress she was wearing. He admitted to his misleading replies but justified them by saying that he thought she was beautiful no matter what she wore. Susan, however, recognized this reply as a rationalization and saw his evasiveness as a problem which she tried to highlight for Harvey by saying to him in a disappointed voice: “If I wanted to wear a yellow polka dot dress and hot pink shoes to a funeral, you wouldn’t say anything…I want you to state your honest opinion. I don’t want a ‘yes-man’.” But Harvey’s “yes-man” approach permeated their marriage. He did not express disagreement with Susan even on minor issues let alone stand up to her on important issues. Harvey was all-too-aware that he wasn’t saying what he meant.
 Sadly, Harvey was using the communication process for defensive purposes rather than to convey truth and bring about a better understanding between himself and his wife. Harvey knew, and eventually, Susan began to realize, that Harvey’s B was not always consistent with the A that he thought. To her great disappointment and utter frustration, his habit grew to a point where she never knew when to believe him.
@@ -747,8 +746,8 @@ After exploring Marjorie’s childhood, I explained to her that whereas it had b
 I then trained both of them in the A-B-C’s of good communication. My focus with Marjorie was to be open in revealing her wishes and to be more self-assertive in asking that they are fulfilled. My focus with Frank was to be more sensitive to Marjorie’s early experiences as a child and her consequent “beating around the bush” type of communication. To help her compensate for her fear of self-assertion, he was asked to encourage her to express her wishes directly, and say her true thoughts in any given situation. I helped them understand how a breakdown in communication, such as the one that occurred with the hoped-for dinner date and the desire for cuddling—neither of which (unexpressed) wishes were fulfilled—can initiate unintended and totally unnecessary feelings of rejection, hurt, confusion, and an unnecessary distance between them.
 In this example with Marjorie, as in the case cited above with Harvey who was also afraid, to tell the truth, both of these individuals were aware that they were not saying what they meant. In my work with more than a thousand couples over the past 35 years, I have found that a failure to express one’s feelings can happen to either gender, due to a fear of loss of love, fear of starting a fight, or for other reasons. This crippling reticence can go on for years. Not saying what you really mean in any situation that involves your partner is a psychological problem for the “quiet” party, shortchanges the partner, and creates an interpersonal problem for the couple. Keeping silent when something should be said hurts both persons and diminishes the relationship.
 For a more elaborate discussion on people’s failures to say what is on their mind, [Thirteen Reasons Why Spouses Fail to Communicate](article:thirteen-reasons-fail-communicate) Why Spouses Fail to Communicate”.
-## Reason 4 (b). People Misrepresent (lie) or Withhold Information to
-Paint Themselves in a Better Light or Defend Themselves Against Blame or Attack.
+## Reason 4 (b). People Misrepresent (lie) or Withhold Information to Paint Themselves in a Better Light or Defend Themselves Against Blame or Attack.
+
 In other situations, a person may deliberately withhold information, mislead, or lie, to keep something hidden from his partner. People lie to their partners to paint themselves in a better light, e.g., by boasting about an accomplishment that never happened, or by not mentioning a failure that did happen, or to hide some experience or activity that their partner would have disapproved of had they known about it. Withholding information might involve past or present problems with alcohol, drugs, sex, gambling, or other unflattering behaviors; or it may involve an erratic employment history, or large debts to credit cards, or personal loans. At still other times, a person may withhold information about medical or psychological problems in oneself or one’s family.
 The most serious form of lie involves contact or liaison with a third party. This may include an Internet-initiated relationship that begins with “innocent” chat room interchanges, moves into instant messaging and “graduates” to personal emails. Eventually the “sound barrier” is broken and the couple starts talking to each other, usually on a cell phone, and sometimes on a newly purchased secret cell phone. In many of these extra-marital relationships, the individuals never meet, but might talk to each other at great length, sometimes quite explicitly about their fantasies, and might call or text message each other numerous times a day. They might exchange pictures, sometimes very personal ones. These liaisons have been variously called “friendships,” “harmless flirtations,” and “blatant acts of infidelity,” depending on who does the calling. However, no matter what the clandestine relationship is called, and no matter what the couple does or doesn’t do (something the hurt spouse will often wonder whether he/she will ever really know), the mere fact that a secret relationship exists would evoke many very painful emotions in the hurt party.
 At times the hidden relationship involves face-to-face involvement with clandestine meetings taking place when the offending spouse is supposed to be working late, out with some friends, or out of town at a business conference. Very often these extra-marital relationships occur with a coworker, an “ex” who has reappeared on the scene, or with the spouse’s best “friend.” Too many sad examples come to mind.
@@ -759,7 +758,8 @@ Another piece of good news is that every cloud has a silver lining. In your desp
 I have seen many “offenders” (a technical term for the unfaithful partner) not only guilty and shaken by the enormity of the hurt and pain they inflicted on their spouse, but also frightened by the damage done, and by the prospect of losing the love of their partner and the possible death of their marriage. In such situations, they take serious stock of the situation and come face to face with the vital importance of the marriage to them and their underlying love for their spouse. They then throw themselves into the hard work that is required for the healing process.
 In many cases, the marriage counseling process opens their eyes to the possibility of a good marriage. Sadness and regret over the numerous lost opportunities for growth and love over the preceding years mobilize the couple to grow their relationship from routine and humdrum to dynamic and fulfilling. The sensitive interaction required by both spouses for the promotion of healing and reconciliation often brings about a closer, more caring, and intimate relationship than the couple ever thought possible.
 Unfortunately, it often takes a crisis for the marriage to get the attention it should have gotten all along. [See the silver lining in infidelity](article:silver-lining-infidelity) for “Can There Be a Silver Lining Around The Cloud of Infidelity?
-Is Lying the Same as Poor Communication?
+## Is Lying the Same as Poor Communication?
+
 It might be argued that lying is not an example of poor communication, but rather one of pure deception. This is true. Withal, I would like to also say that withholding information or lying is a very serious category of deliberate miscommunication or breakdown in communication. Communication means “to share” or “make known” and withholding information or lying does neither of these. A lie creates a separation between two individuals. The dangers that lying brings to a relationship are obvious and cannot be overemphasized. Lying is a recipe for disaster and is discussed in another article on this website. [see Thirteen Reasons Why Spouses Fail to Communicate](article:thirteen-reasons-fail-communicate)
 ## Reason 5. It is Poor Communication When B is Not The Same as A due to an Honest Mistake on the Part of the Speaker
 At times, the speaker does his best to honestly say what is on his mind, i.e., convey an accurate A. However, the words that come out of his mouth, B, is not what he has on his mind. In the following examples the person wants to say what is on his mind but unintentionally says something else:
@@ -770,7 +770,8 @@ In another situation, a person might tell his partner to meet him/her at a certa
 Sometimes a person knows the location of something in their own house but mistakenly gives ambiguous or incorrect information thus causing frustration for the partner. There was never an intent to deceive in any of the examples cited here; however, neither of these individuals said what they really knew and truly wanted to say. Even though their words were innocent slips of the tongue, this type of miscommunication can start a battle with couples who are on edge with each other and virtually looking for something to fight about.
 ## Reason 6 Other Reasons
 
-Why Misinterpreting Takes Place
+## Why Misinterpreting Takes Place
+
 1) The Role of the Speaker, 2) The Role of the Listener
 If the speaker did not say what he really thought either intentionally, or by accident, the breakdown is the speaker’s fault.
 If the listener misinterpreted what was said, the breakdown is the listener’s fault
@@ -795,18 +796,23 @@ Now, going back to Sandra’s original ambiguous statement to Roger, let’s ela
 (b) The second possibility is that in fact, Sandra was angry when she originally spoke and did mean to attack him. In this case, Roger’s gentle question for clarification “How did you mean that?” would afford her a moment to pause and reconsider her attack. She would now have two choices.
 (1) She could continue her attack and call him “idiot,” or:
 (2) She could let her better judgment take over and permit his gentle question to stop her tirade. Roger’s failure to attack affords Sandra a wonderful opportunity to admit that she did mean to be provocative with her ambiguous statement and that Roger was correct when he suspected hostile intent. Thus, Roger’s refusal to respond in kind even when he correctly heard her fighting words, opens the door for Sandra to pull back, apologize, and start over again in a constructive vein.
-The Role of Anger in Relationships
+## The Role of Anger in Relationships
+
 Anger is a destructive emotion. It has the power to ruin personal relationships. Anger can be compared to fire. When controlled, fire warms our homes and cooks our food. When out of control, fire wreaks havoc. Anger too, when controlled and directed to a good cause, e.g., to right an injustice, is a wonderful force. However, when unjustified, or unmonitored, like fire, it wreaks havoc. No wonder, King Solomon, the ancient monarch of Israel wrote so many aphorisms on the subject. Here is one of them:
 “It is a Person’s Choice to be Slow to Anger;
 And it is to His Glory to Pass Over a Transgression.”
 King Solomon: Proverbs 19:11
-Summary
-Overview of the A-B-C’s of Good Communication
+
+## Summary
+
+### Overview of the A-B-C’s of Good Communication
+
 A represents the exact thoughts or emotions of the speaker.
 B represents the actual words that come out of the speaker’s mouth.
 C represents what the listener “hears” i.e. his understanding or interpretation of what was said.
-In a Healthy Relationship,
-Communication Flows in Both Directions
+
+### In a Healthy Relationship, Communication Flows in Both Directions
+
 If both partners generally achieve situations where A=B=C they have the basis for excellent communication. Note, of course, that in a healthy two-way relationship, this is only one side of the coin. The process of communication demands a two-way flow of conversation. Thus the A=B=C should continue to bounce back and forth between both parties to the conversation.
 If both partners understand the crucial necessity of—and actively promote—that A, B, and C should match perfectly when they talk to each other, they have achieved the first step in establishing a framework for good communication. If each partner expresses him/herself and encourages the other to express him/herself freely, and if they each listen attentively to what the other says, they have successfully created a loop which forms a healthy pathway for reciprocal understanding.
 As noted at the beginning of this article, neither gender wins an Emmy for communication. In all of the communication errors cited here all of my points are relevant to both genders.
@@ -835,15 +841,15 @@ b) Develops a Clear Understanding of How to Fulfill This Agenda to Your Partner�
 
 One of the goals of marriage counseling is to reduce the number and intensity of hurtful verbal and behavioral interactions. When tensions are high between two people because of internal problems in the relationship such as unmet expectations, unresolved differences, insensitive, controlling, insulting, or other negative behaviors, there tends to be a corollary increase in misunderstandings, friction, fights, and emotional withdrawal. Additionally, when tensions are high in the lives of one or both members of the couple for reasons external to their relationship, e.g., problems with a family member or career, many people tend to “let it all out” at home and discharge their irritated feelings onto their spouse. In such circumstances, when nerves are “shot,” tensions rise, misunderstandings increase in frequency and many individuals become short-tempered and get angry at each other with very little provocation.
 
-Effective Communicators Avoid Problems With Their Mates
+### Effective Communicators Avoid Problems With Their Mates
 
 When effective communicators experience problems in their personal lives, they may become anxious, worried, edgy, or even irritable but they will avoid deterioration of their relationship with their partner or mate. This is so because it is normal for effective communicators to discuss their personal problems with their spouse and enlist his/her emotional support. Instead of seeing their partner as one more irritant or problem to be dealt with, they look upon him/her as a source of comfort and strength. Effective communicators see their spouse as part of the solution rather than as part of the problem. Such a positive attitude towards one’s mate reduces the chances of misunderstandings and friction.
 
-Poor Communicators Create Problems With Their Mates
+### Poor Communicators Create Problems With Their Mates
 
 When tensions rise among poor communicators, there is a tendency to “press each other’s buttons” or “rub each other the wrong way,” thereby creating friction and even more tension. Consequently, even when there is no problem, misunderstandings take place and problems arise out of nowhere. And even when they try to solve their conflicts, not only do poor communicators fail to solve the original conflict or complaint, but they alienate each other early in the discussion/argument, turn it into a fight and end up angrier and worse off than they were before the discussion began. This alienation has a ripple effect and leads to the next problem which is avoiding the discussion of problems altogether.
 
-Poor Communicators Let Problems Grow
+### Poor Communicators Let Problems Grow
 
 Poor communicators either blow up at each other when a problem arises or have come to a point of exhaustion and have stopped fighting. In this scenario, they simply do not talk to each other about substantive matters. Consequently, neither will approach the other to forestall an anticipated problem. Additionally, they will shun discussions of existing problems as well as avoid bringing a new complaint to their partner’s attention. They have little hope that discussing the matter will help, and worse, they fear that a fight will evolve Once a couple reaches such a point of resignation, they let problems grow and fester thus bringing about more frustration, hurt and anger —which is sometimes submerged until it reaches explosive force– as both individuals grow farther and farther apart. This alienation between spouses promotes a vicious cycle since it is now even harder for each person to discuss his unhappiness in the relationship with his growing distant and apparently uncaring partner.
 
@@ -857,7 +863,7 @@ Since each person is a unique individual, no two people are going to agree on ev
 
 In a respectful argument, the couple gains much from the exchange of ideas because each partner is open to learning from the other, wants to work as a team member, and considers solving the problem the primary goal. In a healthy relationship, the individuals are motivated towards the goal of solving the problem because each person is sensitive to the other’s needs, wants to please his partner as well as him/herself, and understands the importance of resolving the problem and the danger of letting it fester. Further, such a couple also understands that if the suggested solution is the result of a joint effort, it is more likely that both parties will do their best to cooperate in bringing about the agreed-upon solution.
 
-Training a Couple to Argue Respectfully
+### Training a Couple to Argue Respectfully
 
 One part of my communication program exposes you and your spouse to nineteen positive arguing behaviors.
 
@@ -881,48 +887,47 @@ Since spouses do not take easily to criticism from their partners, especially wh
 
 ## 3. Good Communicators Know When and How to Talk; and When and How to Listen
 
-The Talk/Listen Technique
+### The Talk/Listen Technique
 
 As part of your training in communication, you will learn the “Talk/Listen Technique” and you will practice it with your partner under my supervision. One of you will choose a new –or an old– but unsolved personal complaint or problem, and you and your partner will discuss it calmly and thoroughly within the structure of your newly learned “Talk/Listen Technique.” In this mode of discussion, disagreements and arguments are processed within a safe and secure structure. The technique also guarantees each person an equal opportunity to participate since both partners take turns at talking and listening. This effective mode of arguing gives each partner an opportunity to express himself in full detail while also making sure that his partner listened and understood everything that he said.
 
-It Takes Both Parties to Solve an Interpersonal Problem
+### It Takes Both Parties to Solve an Interpersonal Problem
 
 Successful collaboration on a solution to any problem cannot take place until both parties have had their full say on the matter, and each person is confident that the other person understands his position. The “Talk/Listen Technique” is structured in such a way that there is simply no room for not listening, interrupting, yelling, insulting, or any other negative behavior during the discussion. After both of you present your arguments on the issue that was chosen for discussion, you will go into Phase Two of the technique which is the problem-resolution stage.
 
 To reinforce what you and your spouse will have just learned, I may lend you a tape of a professionally prepared script of two actors playing the roles of husband and wife arguing respectfully with each other about a certain problem using the “Talk/Listen Technique.” The tape can be played in the car on your way home following your counseling session. Or, you can listen to it at another time when both of you are relaxed and have time to analyze and discuss the taped “argument.”
 
-The "Talk/Listen Technique" is Especially Valuable For Argumentative Couples
+### The "Talk/Listen Technique" is Especially Valuable For Argumentative Couples
 
 Both you and your partner will be encouraged to use the “Talk/Listen Technique” as preventive medicine when you are about to discuss a potentially explosive topic. You will also be encouraged to use this technique when you find yourselves in the midst of a heated argument and you recognize that you are at the brink of a shouting match. Further, even if a fight has already started and one of you realizes that the argument is off track, it is never too late for that person to stop the fight, gain their partner’s agreement to access this technique and start the argument all over again using this highly effective approach.
 
 ## 4. Good Communicators Resolve Problems Through Discussion And Constructive Arguing
 
-As Long as The Discussants Deal With Each Other Respectfully, Arguing is a Good Thing.
+### As Long as The Discussants Deal With Each Other Respectfully, Arguing is a Good Thing.
 
 Many people avoid bringing a problem to their partner’s attention because they fear that an argument will evolve. As noted above, there is nothing wrong with arguing. An argument is simply a verbal exchange between two people with differing views of a situation or different solutions to a problem. When one person suggests “A” as the correct view or best solution, and the other presents “B”, each tries to convince his partner that he is right. Think of a formal debate where each team does its best to present its own point of view and to demolish its opponent’s arguments. At the end of the debate, not only are there no hard feelings, but the members of each team might even complement their former opponents on how well they debated.
 
 Something similar takes place in a couple relationship when both partners are effective communicators. The argument ends in a friendly manner, and often each person respects the other more than they did at the beginning of their argument. This is so because when a couple argues reasonably and constructively, each person will admire how his partner handled himself “under fire,” and more importantly, each person will have learned something, for example, the strengths of his partner’s point of view and the weaknesses of his own. In a friendly argument, there might come a time when one person is willing to relinquish his original position because he is convinced that his partner’s assessment of the situation is more accurate or that his partner’s solution is really better. At other times, both partners might relinquish their original position because of what they learned during the argument. At this point, they will join hands in forming a third assessment or solution which incorporates the best of both partner’s original positions.
 
-Agreeing That They Agree, or Agreeing That They Disagree
+### Agreeing That They Agree, or Agreeing That They Disagree
 
 If two people argue constructively, when the argument is over, the chances are good that they will have resolved their conflict to each person’s satisfaction. And in those situations where they did not find a solution, they will at least have come closer to an understanding of what is mutually acceptable. In such a scenario even if each person has not achieved his original goal, since both now have a good understanding of their partner’s needs in the situation, both will be in an excellent position to work out a reasonable compromise. Therefore, the end result will be an approach they can both live with. In a worst-case scenario, when there is no agreement or compromise insight, good communicators will “agree to disagree” and plan to approach the problem at a future date with goodwill on both parts.
 
-With Poor Communicators Arguments Become Fights
-And Problems Are Not Solved
+### With Poor Communicators Arguments Become Fights And Problems Are Not Solved
 
 With poor communicators, the arguers often fail to show respect for their partner or his/her position. They alienate each other by employing many of the nineteen negative behaviors referred to above. Furthermore, they lose sight of the original goal of addressing a particular problem and descend into personal attacks as they slug it out for control.
 
 At this point, they are no longer arguing, they are fighting. Unfortunately, the goal of finding a solution to the original problem has been lost in the scuffle and is now the farthest thing from each person’s mind. The progression from argument to fight plunges both parties into a muddy pit which may include interrupting, shouting, not listening and name calling, among other insulting behaviors. Now, it is true that one person may correctly charge that the other person started the fight and that he was only reacting to his partner’s provocative behavior. Does that make him guiltless? Not in my book. The sad fact is that once the slug fest begins, and both individuals are guilty of insulting and antagonistic behavior, neither can claim “clean hands.” I frequently tell my clients, “Two wrongs don’t make a right” and even if your partner did start the fight, how does it help the situation if you add fuel to the flame?
 
-5. Good Communicators Engage in Frank Discussions That Reveal Each Person's Needs/Desires/Agenda and Develop a Clear Understanding of How to Fulfill Each Other's Expectations
+## 5. Good Communicators Engage in Frank Discussions That Reveal Each Person's Needs/Desires/Agenda and Develop a Clear Understanding of How to Fulfill Each Other's Expectations
 
 One part of my counseling program with couples involves setting a goal for both spouses to revive their love relationship. I do this, in part, by encouraging both parties to increase the alone-time that they spend with each other. More time together affords the couple a framework within which they can talk to each other in a relaxed setting on a regular basis so as to express their needs to each other, work on outstanding problems, head off future problems, express their feelings on a variety of subjects, and fine-tune the relationship. Further, more time together affords the couple an opportunity to plan and engage in mutually enjoyable activities.
 
-Couples Are Introduced to Techniques Which Promote Self Knowledge and Reciprocal Understanding of Each Other's Needs, Desires, and Agenda
+### Couples Are Introduced to Techniques Which Promote Self Knowledge and Reciprocal Understanding of Each Other's Needs, Desires, and Agenda
 
 Spouses in a happy marriage seek pleasurable joint activities with each other as well as personal validation and satisfaction of their psychological needs. People marry to increase their happiness, not their misery. A person who marries hopes to attain, in marriage, satisfaction of those needs, desires, and expectations that cannot be satisfied as a single. What are those needs? Neither spouse can read the other person’s mind, hence the need for constant communication and feedback on this subject.
 
-Exploration of Your Partner's Needs Should be Followed by Frank Revelation of Your Own Needs
+### Exploration of Your Partner's Needs Should be Followed by Frank Revelation of Your Own Needs
 
 This phase of the counseling program begins with honest self-exploration of each person’s needs and what they desire from the relationship. Both members of the couple are asked to make a list of their expectations from each other.
 
@@ -932,7 +937,7 @@ Although both spouses may overlap greatly in their needs, e.g., to talk to each 
 
 As noted in Benefit 3. above, good communicators know how to play two roles: when to talk and when to listen. Good “talkers” express their needs, and how they would like to have them fulfilled. Good “listeners” pay careful attention when their partners talk and do their best to remember what is said to them. The next step, of course, is for both spouses to take appropriate steps to satisfy their partner’s appropriate needs and expectations.
 
-Spouses Need to Know How to Fulfill Their Partner's Needs
+### Spouses Need to Know How to Fulfill Their Partner's Needs
 
 As noted earlier, I give each person an exercise in which they express their needs to their partner. During this friendly exchange, I will ask the person who is expressing the need to spell out for their partner exactly how that need can best be fulfilled to her satisfaction and how often she wants it fulfilled. People differ in their needs as well as in the form or frequency with which those needs are to be fulfilled. For example, one woman might want her husband to tell her that he loves her every day, and another might say, “I know how you feel about me, so you could save it for a special occasion.” Or, one wife may request that her husband tell her that she’s beautiful one or more times a week, and another might say, “Tell it to me when I get dressed up.”
 
@@ -941,11 +946,11 @@ Among other wishes, individuals frequently ask that their spouse to make them th
 
 After this exchange of information about the wishes and needs of each partner, I then encourage a commitment from each person to fulfill their spouse’s reasonable and appropriate emotional and physical needs as a top priority in the relationship. Understandably, fulfillment of some needs requires sensitive negotiations between spouses. This is because of different need levels of each partner, different skill levels, different timetables of the partners as well as the necessity to consider family schedules and other events.
 
-Promoting Recognition and Appreciation
+### Promoting Recognition and Appreciation
 
 To further promote the strength of the marital relationship, I engage the couple in exercises that stimulate recognition and respect for each other’s values, contributions, and behaviors. For example, I ask each person to make a list of all of the things they like, admire, or appreciate about their spouse. I then ask each person to make a list of their own personal qualities, the values that they stand for, and the contributions that they make to their partner, or to the nuclear or extended family for which they would like to get recognition and appreciation from their spouse. I then encourage each person to draw upon these lists and give their partner the appreciation and recognition as often as is appropriate, needed, and wanted by his spouse.
 
-Unexpressed Needs: The Hidden Agenda
+### Unexpressed Needs: The Hidden Agenda
 
 The phrase “hidden agenda” refers to those needs, desires or expectations that each person wishes to have fulfilled in a relationship, but which are not explicitly expressed, much less discussed with his partner. Often, the individual does not relate these expectations to his/her partner because he/she simply doesn’t know what they are. Living apart is not the same as living together; living together is not the same as marriage; and marriage without children is not the same as marriage with children. Consequently, it is virtually impossible for an engaged individual to imagine every possible future scenario between spouses, and/or between the couple, their future children together, their children from previous marriages, their respective in-laws and friends. How then can a future bride or groom know exactly how they would want their spouse to behave in each situation, none of which has taken place yet? Since so many of these situations and expectations are yet to be born, they are hidden from each person’s conscious mind and are, therefore, part of the hidden agenda.
 
@@ -955,11 +960,11 @@ Since individuals do not spell out all of their expectations in advance, everybo
 
 Following this exercise in self-exploration, there is a need for self-revelation so that each individual may reveal that specific agenda to their spouse. One aspect of my communication training program involves written assignments that help each person accomplish both of these goals: uncover as much as possible of his hidden agenda, and convert it to an open agenda so that his spouse will be in a position to help him find fulfillment.
 
-“The Hidden Agenda in Relationships” is the title of a separate article on this website; if you wish to access this article, please [click here](article:hidden-agenda-relationships).
+“The Hidden Agenda in Relationships” is the title of a separate article on this website; if you wish to access this article, please [click here](article:hidden-agenda-in-relationships).
 
 ## 6. Good Communication Promotes Sharing, Companionship, and Bonding
 
-Sharing and Companionship
+### Sharing and Companionship
 
 When individuals marry, they hope to grow together as they age, not grow apart. Their goal is to enjoy their lives with each other. For many people, it is hoped that this will take place within the context of sharing their hopes, thoughts, feelings, and experiences (both happy and sad) with their lifelong partner/ companion/ friend/ spouse.
 
@@ -967,17 +972,17 @@ Nonetheless, some husbands and many wives complain that they feel lonely in the 
 
 On the other hand, many men are sensitive to their feelings and are quite capable of “opening up,” but don’t routinely do so because it was not a “man thing” to do as they went through the adolescent locker room experiences and post-adolescence activities with their male buddies. In their present involvement in a committed male-female bond, however, they are fortunate enough to experience a relationship where closeness and sharing are relished by their partner. Sadly, however, due to lack of experience, they are not comfortable interacting along these lines and do not actively search for this part of the relationship. In such situations, husbands can be encouraged to relate to their spouses on a more feeling level; this behavior can be reinforced by their wives so that eventually sharing will come more naturally to them. Although it is more usual for the man not to share his experiences and feelings, and it is the wife who feels left out and alone, the problem of not sharing can affect either gender. For more information on this subject, please see the next article “Thirteen Reasons Why Spouses Fail to Communicate“
 
-Is Marriage For Better or For Worse?
+### Is Marriage For Better or For Worse?
 
 Although studies show that the majority of married people live longer, healthier, and somewhat happier lives than singles, most people are sophisticated enough to realize that being in a committed relationship, or marriage, is not a bowl of cherries. And the mere act of commitment or getting married is not an insurance policy for happiness. Fulfilling your responsibilities to your spouse, showing patience with his/her deficiencies, and seeking fulfillment of your own agenda as well as your spouse’s agenda are among the most challenging tasks that society has devised for all who have chosen marriage. It does not come naturally. It takes skill, but it can be done!
 
-Personal Growth, Closeness, And Fulfillment
+### Personal Growth, Closeness, And Fulfillment
 
 If you are like most people when you first married, you did not have a complete understanding of your role or responsibilities as a spouse. Your perception of your true role as a husband or wife, and your highest aspirations for yourself in this new role expanded as you grew and matured, and as you gained more experience with your spouse. This growth occurred because of the experience of living with another person who provided you with a rich opportunity to learn about the realities of the marital relationship. The interchange of ideas that took place between you and your partner, sometimes lovingly and sometimes angrily and the various forms of feedback that you gave each other in your attempts to fine-tune and improve the relationship contributed greatly to your understanding of your role as a husband or wife. Your role as a spouse will become even clearer to you over the years as you gain even more knowledge and understanding of what you are all about, what your partner is all about, and what a committed relationship is all about. But this greater knowledge and understanding will come about only if you have an open mind and if open channels of communication exist between you and your spouse.
 
 As both of you improve in your capacity to share your life with each other, the distance that now exists between you and your spouse will be bridged. Eventually, both of you will recapture at a mature level the closeness and bonding that you felt during the heady days at the beginning of your relationship and which you were confident would continue for the rest of your life.
 
-Summary
+## Summary
 
 In the following paragraph, as in all previous paragraphs “he” and “she” are interchangeable.
 
@@ -993,16 +998,15 @@ If, in spite of a person’s disillusionment, frustrations, and the pain that he
     content: `
 “All the world is on the tip of the tongue” —Talmud, Brachot
 
-Poor Communication Is a Leading Factor
-in Relationship Disharmony
+## Poor Communication Is a Leading Factor in Relationship Disharmony
 
 In close to forty years of fielding initial calls for marriage counseling appointments, a very frequent reason people give to explain their need for professional help is that they and their partner are not communicating well with each other.
 
-Communication Problems Affect Us All
+## Communication Problems Affect Us All
 
 To a greater or lesser degree, communication problems affect virtually all couples. There are a number of reasons why the communication process is constrained and the message doesn’t get delivered. Let’s consider some of them.
 
-Thirteen Reasons Why Spouses Fail to Communicate
+## Thirteen Reasons Why Spouses Fail to Communicate
 
 Sometimes it is one partner and sometimes it is both.
 
@@ -1021,19 +1025,19 @@ Sometimes it is one partner and sometimes it is both.
 12. Withholds Vital Information or Lies
 13. Communication Fails Because He Only Pretends to Listen
 
-Let Us Consider and Elaborate on Each of These 13 Reasons
+### Let Us Consider and Elaborate on Each of These 13 Reasons
 
-Reason 1. One of the Partners Doesn't Have a Personal Need to:
+## Reason 1. One of the Partners Doesn't Have a Personal Need to:
 
 (a) Share Experiences or Feelings,
 (b) Discuss the Relationship, or
 (c) Doesn’t Understand the Importance of Verbally Expressing to Partner Feelings of Love, Appreciation, or Praise
 
-1 (a) One of the Partners Doesn’t Have a Personal Need to Share Daily Experiences or Feelings
+### 1 (a) One of the Partners Doesn’t Have a Personal Need to Share Daily Experiences or Feelings
 
 If either spouse does not share his day or inner experiences with his mate, the other person will soon be thinking along these lines: “Who is this person that I married?” “I feel so alone in this relationship,” or “This is not like having a spouse; this is like having a roommate.”
 
-1 (b) Doesn’t Have a Personal Need to Discuss the Relationship
+### 1 (b) Doesn’t Have a Personal Need to Discuss the Relationship
 
 Sometimes it is the male, and sometimes it is the female who has a minimal need to discuss the intricacies of the relationship. In the course of my counseling sessions with thousands of couples, I have found that it is generally, but not always, the man who has a lesser need to discuss his feelings about his partner or his concerns about the relationship. Virtually all professionals in the field of Marriage and Family Therapy have found this phenomenon to be true, and it is a major issue in many marriages.
 
@@ -1047,11 +1051,11 @@ In a similar vein, the authors quote Acitelli, who found that “wives were more
 
 In this situation, the person doesn’t “open up” or share his feelings or experiences with his partner. When a person fails to share with his partner his daily experiences with friends, family, or interactions with others at work, he subverts one of the main goals of teaming up in the first place. One of the reasons people bond with others is to avoid loneliness and to bridge the existential separateness that begins with birth and from which we can never totally escape.
 
-Discussing the Relationship Is Necessary for Its Growth
+#### Discussing the Relationship Is Necessary for Its Growth
 
 When a person fails to share his inner thoughts, including positive as well as negative feelings towards his partner, there is a flaw in the relationship since discussing the various interactions that make up the relationship between two people is a necessary process for repair and growth. A person who misses these opportunities to fine-tune and improve the relationship creates distance between himself and his partner and permits frustrations and friction to build up.
 
-1 (c) Doesn’t Understand the Importance of Verbally Expressing to Partner Feelings of Love, Appreciation, or Praise
+### 1 (c) Doesn’t Understand the Importance of Verbally Expressing to Partner Feelings of Love, Appreciation, or Praise
 
 “Pleasant words are as honey, sweet to the soul and healthy to the bones” Proverbs 1:24
 
@@ -1061,7 +1065,7 @@ Sometimes, a husband fails to convey his positive feelings towards his wife beca
 
 A husband’s failure to communicate his love for his wife or his appreciation of her could lead to his wife’s insecurity in the relationship. Consequently, she might hesitate to make her emotional needs known to him, much less ask him again and again to fulfill them. If the wife doesn’t get her message across about her emotional needs, because he doesn’t get his message across that he truly cares, they are both contributing to a vicious cycle, and the relationship will suffer. Eventually, the woman will try to resign herself to a lackluster relationship. However, if her frustrations mount, as the years go by, she might become vulnerable to temptations from admiring males whom she meets in her social circles or in the course of her professional life.
 
-Case History Number One:
+#### Case History Number One:
 
 Janet, 36, an attractive, outgoing, self-employed, successful entrepreneur, met a lot of interesting people at work who were attracted to her because of her good looks, engaging personality, and successful business accomplishments. Janet’s husband, Alvin, 42, a software developer, truly loved Janet but was not the romantic type. Alvin rarely praised her appearance or looks, nor did he verbally express his love and other feelings.
 
@@ -1075,7 +1079,7 @@ Although there had been much frustration and unhappiness on Janet’s part, she 
 
 The change that took place in this couple was most gratifying for both. Not only did they recapture some of the exciting feelings they had experienced when they first met, but they also found a new, mature understanding and happiness in their hitherto humdrum relationship.
 
-Case History Two:
+#### Case History Two:
 
 Robert, a 46-year-old physician who had pulled himself up by the proverbial bootstraps to rise educationally and socially from his humble origins with parents who did not speak English, was very proud of his professional success and his other accomplishments in life. Though successful, he needed to be admired and hear words of praise from his wife, Maria, but she was not aware of this need.
 Robert claimed that he had told her about this need again and again, yet it was apparent that he had not gotten through to her on this issue.
@@ -1088,11 +1092,11 @@ In my one-to-one sessions with Robert, he complained to me that the only place h
 
 In exploring her inhibitions in fulfilling this task for her husband, we discovered that she was unconsciously conflicted about throwing herself fully into this project to satisfy Robert’s emotional needs since she was unhappy about her lack of satisfaction from him on some of her own emotional needs. The mutual revelation of emotional needs had never taken place. Neither spouse had ever grasped their partner’s needs.
 
-Reason 2. Talks, But Doesn't Make Sure That the Partner is Listening
+## Reason 2. Talks, But Doesn't Make Sure That the Partner is Listening
 
 A lack of trying is not the only reason why people fail to get their message across. Sometimes the failure to get the message across is due to the “mechanics” of the situation. For example, a woman may tell something to her husband/boyfriend but fail to realize that she doesn’t have his attention.
 
-Case History Three:
+#### Case History Three:
 
 Margie, a 28-year-old mother of a three-year-old child and employed part-time, complained to me that her husband, Tom, a salesman, frequently insisted that she never told him something she distinctly remembers having told him. In examining the situation, it became clear that Tom was a great sports lover, and when engrossed in the excitement of a sporting event, he was all ears and eyes on the TV screen. When she wanted to tell Tom something, Margie would sometimes call out from another room.
 
@@ -1108,35 +1112,35 @@ I also suggested more dependable ways of assuring her husband’s full attention
 
 Now, it is true that some people will realistically claim that “there’s never a right time” to talk to their partner because he “never makes himself available.” Unavailability should be addressed as an interpersonal problem by the marriage counselor, and although avoiding one’s partner may be manifested by a lack of communication, there are other symptoms to this problem. Avoidance of one’s partner is a serious interpersonal issue, and the various underpinnings of the problem must be explored fully with the counselor. Total accessibility to one’s spouse and a free flow of communication will not take place until the basic problem of avoidance is addressed directly and resolved.
 
-Reason 3. Faulty Patterns:
+## Reason 3. Faulty Patterns:
 
 (a) Speaker Mumbles
 (b) Speaker is Ambiguous or Vague
 (c) Listener Misinterprets
 (d) Listener Mind-Reads
 
-3 (a) Speaker Mumbles.
+### 3 (a) Speaker Mumbles.
 
 Another example of a failed attempt at communication occurs when a woman gets her partner’s attention, but mumbles her words when transmitting her message. Even though both the speaker and listener assume that communication has taken place, in effect, he heard something other than what she wanted to say. Consequently, no viable communication has taken place.
 
-3 (b) Speaker is Ambiguous or Vague.
+### 3 (b) Speaker is Ambiguous or Vague.
 
 A person is ambiguous when her words can be legitimately interpreted in more than one way. Consequently, her partner may believe he correctly interpreted her words, but in fact, she meant them to be interpreted in another way. People are vague when they talk about an event without relating the context or significant details of the event, and they fail to explain the ramifications of what happened or the importance of the event to the speaker (or listener). If the listener fills in these gaps with ideas that emanate from his own imagination, he may very well be wrong. The result is that the speaker did not get across the message she wished to convey. Here, too, no viable communication has taken place.
 
-3 (c) Listener Misinterprets.
+### 3 (c) Listener Misinterprets.
 
 At other times, a spouse may state her position clearly, but for various reasons (and these reasons should be explored), her partner misinterprets what was said.
 
-3 (d) Listener Mind-Reads.
+### 3 (d) Listener Mind-Reads.
 
 Mind reading is similar to misinterpreting, but there is a difference.
 In Misinterpreting, the speaker says something, but the listener “hears what he wants to hear” and interprets it in a way that suits his purpose at the time. For example, a woman says “maybe,” but her date hears (misinterprets it as) “yes.” In a contentious relationship, a spouse makes an innocent remark, and her partner misinterprets it as an accusation or attack and gets angry at her.
 
 In Mind-Reading, the speaker doesn’t say a word, but her partner assumes that she is thinking something negative about him or is about to attack him. His suppositions might be the farthest thing from her mind, but he reacts with anger as if she is thinking or has already said the thought that he projects onto her. The mind-reader then falsely accuses the innocent “speaker” (who has yet to say anything) of a malicious attack.
 
-Example of Misinterpretation:
+#### Example of Misinterpretation:
 
-Case History Four:
+#### Case History Four:
 
 Vicki, a 28-year-old homemaker who had married young, was proud of the motherly skills and loving devotion that she showered upon her 8-year-old son and 6-year-old daughter. Her mother-in-law didn’t quite see things that way. Further, the mother-in-law was not shy in expressing her disapproval of the care that was being given by her daughter-in-law to “her son’s children.”
 
@@ -1148,7 +1152,7 @@ Since she had given up her wish to be a nurse when she married and was throwing 
 
 Further, Jimmy had actually commented to his mother that he was sorry that he didn’t spend enough time with the children. In her heightened sensitivity to the children’s issue, Vicki went to an extreme in misinterpreting his words. She read into his comment (mind-reading) an indirect way of saying to his mother that he needed to spend time with the children in order to teach them better manners and undo the poor parenting that Vicki was giving them.
 
-Other Examples of Misinterpretations
+### Other Examples of Misinterpretations
 
 1. A concerned husband quietly asked his wife if she had called the credit company to straighten out an incorrect bill. She misinterpreted his simple question as an accusation. She shouted back, “Why are you always checking up on me? What do you think, I’m so stupid that you can’t depend on me to call the credit company?”
 
@@ -1181,7 +1185,7 @@ Don’t take your partner’s words or non-verbal cues at face value. Give your 
 
 For example, if your fiancé says, “I am going out with Jonathan and Janet next Saturday,” don’t jump to the conclusion that he means to exclude you and attack. He may have made a slip of the tongue. But even if he did mean to exclude you, it would help him reconsider if you ask him gently, “Honey, do you mean you alone, or does that include me?”
 
-Reason 4. Doesn't Reveal Self Due to Fear of Criticism or Attack
+## Reason 4. Doesn't Reveal Self Due to Fear of Criticism or Attack
 
 Virtually all people come into a relationship with a hidden agenda. The hidden agenda refers to subjects that pertain to the individual or to the future relationship that are not discussed with the partner in advance of the commitment to each other, the engagement, or marriage. Undisclosed items might include embarrassing or unflattering events of the past or present. Sometimes they consist of specific hopes, expectations, or demands that one person intends to make on their partner in the future, e.g., I would like to have children, don’t want to have children, etc. Other subjects that might not be discussed include poor job history, financial status, debts, drinking or drug history, or other negative habits. Still, other avoided topics include family secrets, sexual history, medical history, details of important past events in the person’s life, such as marriages and long-term relationships, or ongoing ties with an “ex.”
 
@@ -1191,13 +1195,13 @@ A husband might withhold information from his wife because he is afraid that she
 
 Sometimes a spouse discovers an important negative item about their partner after marriage, which he/she believe should have been disclosed before marriage. This type of experience can be unsettling, can breed distrust, and generally has a negative impact on the relationship. A seed is planted for other problems relating to the trust.
 
-Reason 5. Doesn't Communicate Because She Believes That the Partner is Not Interested
+## Reason 5. Doesn't Communicate Because She Believes That the Partner is Not Interested
 
 When a wife (or husband) assumes that her spouse is uninterested in her daily life, a vicious cycle evolves that harms both. There are times when a wife will fail to tell her husband about her day because she thinks that he is not interested. Frequently, she does not get feedback from him, indicating otherwise. Sometimes her assumption is correct; other times, it is incorrect. But even if her partner is interested, if he doesn’t show it, how is she to know?
 
 A vicious cycle ensues when his failure to let her know of his interest in her day leads her to believe that he doesn’t care. In response, she refrains from sharing her experiences with him. Her failure to relate her daily experiences at work or with her friends leads him to the false conclusion that she doesn’t want to share this part of her life with him.
 
-Case History Five:
+#### Case History Five:
 
 Martha, 54, was a successful physical therapist at a Veterans Administration Hospital who took pride in her work with injured veterans. Her husband, Jack, 57, was a chief financial officer of a large corporation. Jack rarely asked his wife about her work, in part because of his busy schedule, his constant preoccupation with major problems in his company, and also because Martha didn’t seem interested in talking about her day.
 
@@ -1220,13 +1224,13 @@ When Jack and Martha completed their marriage counseling, Jack marveled to me th
 
 Partners who do not communicate with each other and fail to communicate about their problem of not communicating are stuck in the mud. Their passivity creates a vicious cycle and perpetuates an undesirable situation. If not for the unexpected problem that brought this couple into therapy, they might have stayed locked in their lack of communication and in their emotional alienation for the rest of their lives.
 
-Reason 6. Doesn't Communicate Because He (or She) Believes That Talking Would be Futile
+## Reason 6. Doesn't Communicate Because He (or She) Believes That Talking Would be Futile
 
 There are times when one partner would love to communicate because he wants to raise a complaint, pre-empt a problem that might arise, or solve an ongoing problem. However, he doesn’t even try because he has learned from a sad experience that his partner will either not take the matter seriously, will not be open-minded during the discussion, or will not be willing to compromise at the end. He believes that discussing the matter would be futile.
 
 This type of situation can bring about a sense of powerlessness and pessimism about his status in the relationship and in his ability to remediate a problem. Such a situation will bring about a distance between two people, which will cause further deterioration in the relationship. If a problem is not discussed, how can it be resolved? Ignoring it does not make it disappear.
 
-Case History Six:
+#### Case History Six:
 
 A couple came to me after twenty-one years of marriage. The wife, Marion, was demanding a divorce. Her husband, John, an independent contractor, was flabbergasted. They had not had a fight in the last eighteen years, nor had there been a harsh word between them, or even a disagreement. She had not made a single complaint to him since their only son was born, had never commented negatively on anything he ever did, and never complained that he failed to fulfill a responsibility. He was bewildered: “How could she possibly want a divorce?”
 
@@ -1238,7 +1242,7 @@ After struggling with John for three years and getting nowhere, Marion did a 100
 
 After high school, her son joined the army, and Marion began to act upon her original plan to the utter consternation and unbelievable shock of her husband. Her negative position towards him had hardened over a period of many years and was so frozen by the time the couple came to me, in response to John’s pleas that they go for marriage counseling rather than to a divorce lawyer, that it was impossible for me to reach her. John and Marion ended up in the divorce court. This was the most extreme case I have ever encountered in which one spouse considered it futile to talk to the other spouse.
 
-Reason 7. Doesn't Communicate Because She Is Afraid of Starting a Fight
+## Reason 7. Doesn't Communicate Because She Is Afraid of Starting a Fight
 
 It has been aptly said: “One word can start a war.”
 
@@ -1248,7 +1252,7 @@ The slightest spark sets off an explosion. After years of having failed to settl
 
 In such couples, both partners have “learned” to stop talking to each other about potentially confrontational issues in order to keep the peace. A frequent result of this pessimism about their ability to work out their problems is that the relationship becomes humdrum, loses its former ardor, and problems are not solved. As their unhappiness and frustrations build up, such couples slowly drift away from each other. This progressive deterioration eventually leads to a co-existence with little meaningful interaction. At some point, even if they are not looking for an outside relationship, their need for closeness and connection makes them both vulnerable to outside liaisons or to a sudden breakup.
 
-Sometimes One Partner Mistakenly Fears a Fight
+### Sometimes One Partner Mistakenly Fears a Fight
 
 In a variation of a couple’s fear of fighting as a barrier to communication, it is not the couple but only one of the spouses who fears and avoids confrontations. In this situation, one of the spouses mistakenly equates all complaints and expressions of disagreement with fighting. Frequently, the other spouse would welcome diplomatic, constructive criticisms and fine-tuning of the relationship, but the reticent spouse does not know how to do this.
 
@@ -1260,7 +1264,7 @@ If a person fails to bring his unhappiness to the attention of his partner in a 
 
 When problems are not addressed, they accumulate, often over many years and even decades, and eventually, the situation reaches a breaking point.
 
-Case History Seven:
+#### Case History Seven:
 
 Keith, a graphics designer, was unhappy about a number of things in his marriage, but never let his wife, Kathy, a school secretary, know his feelings. After five years of marriage, he sprang upon her the announcement that he was leaving her: he moved out. She was shocked. In all their years of marriage, he had never given her the slightest reason to suspect any unhappiness on his part. Although they were already separated, he acceded to her request that they go for marriage counseling.
 
@@ -1284,7 +1288,7 @@ Thus, he is committed to taking instruction in problem-solving tools and to prac
 
 Eventually, he moved back with Kathy and continued to express his complaints and feelings as problems arose. He and Kathy had profited greatly from their marriage counseling experience. They were both doing well and were happy with each other when they came for their last session.
 
-When Good Communicators Make Tacit Deals With Each Other
+### When Good Communicators Make Tacit Deals With Each Other
 
 Although there are many people who avoid confronting problems because they fear an angry argument, there are also individuals who shy away from a problem due to fear of hurting or aggravating the other party. These couples will discuss all of their problems with each other except for one or two major issues. The avoided issue might involve a problematic adult family member who disturbs the harmony of the marriage by plunging the couple into one crisis after another because of an exaggerated need for attention, money, or even direct care. It might also involve a difficult child from a previous relationship who was brought into the marriage and household.
 
@@ -1294,15 +1298,15 @@ In these situations, I explain to the couple that this “third party” is putt
 
 A constructive goal would be for the two adults to confer with each other and work together on the problem. This will not only benefit the dependents who will now be presented with a united front but will also benefit the couple since they will no longer be on opposite sides of the fence but will be on the same side. They will achieve a win-win situation in that they will strengthen the relationship as well as remediate the situation by exchanging ideas and working together on a problem that they both recognize.
 
-Reason 8. Makes Unilateral Decisions Due to Lack of Respect for Partner's Opinion, or by Default
+## Reason 8. Makes Unilateral Decisions Due to Lack of Respect for Partner's Opinion, or by Default
 
-a. Some spouses enjoy the decision-making role; others have it thrust on them
+#### a. Some spouses enjoy the decision-making role; others have it thrust on them
 
 Sometimes a spouse’s failure to communicate reflects a lack of respect for her partner’s opinion. This type of avoidance might include a wife’s reluctance to get her husband’s input on matters concerning the house, children, family, or friends. The decision-maker thinks that she knows the situation better than her husband because she spends more time at home and because it is primarily her responsibility to care for the children or manage the family’s social activities with friends.
 
 In the same vein, a husband might not ask his wife’s opinion about buying a car, investing money or office politics, e.g., his goal of getting a promotion at work, because he thinks “What does she know about getting a promotion in a large corporation, she’s had the same job as a teacher in a small school for the last ten years.” With regards to buying a new car, he might not consult her with respect to the financial implications since he has no confidence in her ability to handle their money obligations. Sometimes the spouse enjoys the decision-making role; at other times/she doesn’t.
 
-b. Spouse Does Not Enjoy the Decision-Making Role
+#### b. Spouse Does Not Enjoy the Decision-Making Role
 
 In other marriages, the lone decision-maker does not voluntarily choose the decision-maker role, nor do they enjoy it. In fact, she sees this responsibility as an added burden and resents having been thrust into this role. She landed there by default because her spouse is either:
 a. A procrastinator,
@@ -1317,13 +1321,13 @@ Ironically, in some situations of this nature, the passive spouse is happy to be
 
 As noted at the beginning of the article, the English language forces the author to write “he” or “she” and will not allow for a gender-neutral term such as “it” when referring to a person. All of the points mentioned in this article are relevant to both genders.
 
-Reason 9. Doesn't Share Decisions Because of a Desire to Control
+## Reason 9. Doesn't Share Decisions Because of a Desire to Control
 
 Sometimes people fail to communicate their intentions or plans with their spouse because consulting with another is seen as a limit on their sense of control. Therefore, they make unilateral decisions even on matters that affect both partners. For example, when it comes to making a major expenditure such as decorating the house or buying a car, the person might rationalize: “Why do I have to ask him/her for permission to spend my money? I earned it!” to further separation and alienation from each other.
 
 The individual fails to understand that communicating his plans and sharing in the decision-making process does not impair, but in fact enhances his status in the relationship, since sharing ideas and consulting with another person strengthens the bond between two people. Failure to communicate with one’s spouse due to a desire to control leads to further separation and mutual alienation.
 
-Case History Eight:
+#### Case History Eight:
 
 Meredith had married young and had given birth to a congenitally ill child. The stress of her son’s chronic and deteriorating condition added to her marital woes, and she eventually lost both child and marriage. After her husband left, she continued living in the comfortable house they had purchased and furnished together. Meredith threw herself into the business world, where her intelligence, charm, initiative, and diligence propelled her to more and more responsible positions, but she longed for marriage and family.
 
@@ -1341,7 +1345,7 @@ All of the above-mentioned factors created friction from the very beginning of M
 
 Meredith’s unhappiness led to a threat of divorce. This plunged the couple into a crisis and catapulted them into marriage counseling. It soon became clear to Marshall that in order to save his marriage, it was essential for him to take a long, hard look at his controlling attitude and make some very important concessions to meet his wife’s wishes.
 
-Reason 10. Couple Does Not Communicate Because of Incompatible Schedules, Heavy Workload, and Lack of Time Together
+## Reason 10. Couple Does Not Communicate Because of Incompatible Schedules, Heavy Workload, and Lack of Time Together
 
 There are couples who would like to engage in discussion and communicate, but their work schedules stand in their way. A restaurant owner leaves his house early and comes home late at night. Policemen, firemen, nurses, and others work shifts that may change from week to week. Physicians, lawyers, accountants, chiropractors, and other professionals, as well as self-employed business people or corporate executives, rarely have 9-5 jobs.
 
@@ -1353,7 +1357,7 @@ Sometimes, one member of the couple has frequent out-of-town assignments that se
 
 They have virtually no time alone with each other. If both spouses are excellent communicators, they will compensate for these handicaps in some way, but should one partner be deficient, and certainly, if both partners are deficient in communication skills, the relationship will suffer. In 21st-century America, with opportunities opening for women in virtually every area of employment, two working spouses are the norm. The problem of limited communication due to a lack of private time together is an all-too-common phenomenon.
 
-Case History Nine:
+#### Case History Nine:
 
 In the case of one young couple that I saw, the husband went to school during the day and worked at night. His wife was training for a career as a beautician and had the opposite schedule. Both also had Saturday classes. Since they had no children, they were free to spend all of their spare time with each other. But they didn’t have spare time and virtually never saw each other. Consequently, they were like two ships passing each other at night. They spent all of their time and energies on their respective careers. The relationship suffered. The husband spent more time with his classmates than with his wife. He became attracted to a young woman at school and had an affair.
 
@@ -1361,7 +1365,7 @@ Lack of time together and the resulting failure to communicate is sometimes unav
 
 In situations where psychological needs are not met at home, a person may be tempted to become emotionally involved with a third party to fulfill those unmet needs. However, temptations can be resisted. Problems at home can be addressed and resolved.
 
-Reason 11. Communicates in an Offensive Manner
+## Reason 11. Communicates in an Offensive Manner
 
 “An angry tongue is worse than a wicked hand.” –Author Unknown
 
@@ -1373,7 +1377,7 @@ A variation of the above scenario is one in which both partners initiate the com
 
 Because of poor communication skills, many couples will quickly transform a discussion into an argument, and an argument into a fight. During one of these destructive episodes, the original complaint or problem is quickly overshadowed and even forgotten because of the fight that ensues. Sadly, since the problem has not been resolved and the partners are now angry at each other, they are worse off than before. One of the goals of marriage counseling is to teach partners how to discuss, complain, and argue respectfully. The end of a good argument is a mutually agreed-upon solution. The end of a deteriorated argument is a fight.
 
-Reason 12. Lying or Withholding Vital Information
+## Reason 12. Lying or Withholding Vital Information
 
 Deception is the forerunner of serious trouble. Communication means sharing or imparting information. Deception or withholding important information is a form of miscommunication and represents a complete breakdown in the communication process. Trouble is brewing when a person lies or withholds information from their partner on the theory, “What she doesn’t know won’t hurt her.”
 
@@ -1385,11 +1389,11 @@ Other instances of deception include sending and receiving secret e-mails or tex
 
 Other reasons for suspicion include later than usual hours, more and longer out-of-town trips, more attention to personal appearance, emotional distance, and a change in sexual behavior. Using a 21st-century high-tech approach to this painful inquiry into spousal infidelity, Ruth Houston lists 829 tell-tale signs, divided into 21 categories, in her book, Is He Cheating on You?
 
-Breaking Trust is a Recipe for Disaster
+### Breaking Trust is a Recipe for Disaster
 
 Any of these lying or withholding-of-information behaviors or even a temptation to engage in these practices should be brought into the open as quickly as they arise so that the problem can be nipped in the bud. When a person in a committed relationship crosses a line in the area of trust, it is crucial that such deceptive behavior be addressed. Often, addressing such a problem opens the door for a more thorough evaluation of the relationship, and other possible flaws or deficiencies in the relationship are brought to the fore.
 
-Every Cloud Has a Silver Lining
+### Every Cloud Has a Silver Lining
 
 Although it is true that breaking trust is a recipe for disaster, it is also true that even if disaster strikes, for example, when trust is broken due to an act of infidelity, it doesn’t mean that the relationship is totally destroyed and beyond repair. But once trust is lost, it takes a lot of hard work, patience, and sustained effort to get the relationship back on track. But even after the painful emotions are addressed and a modus vivendi has been established, there are often painful memories, lingering doubts, and a lack of total trust.
 
@@ -1400,13 +1404,13 @@ The goal of marriage counseling is to jump from the infidelity to a mature re-ev
 
 Janis Spring, Ph.D., wrote two good books on this subject: “After the Affair” and “How Can I Forgive You?” Each book is written with sensitivity and compassion in a nonjudgmental way, with the goal of helping both partners in their struggle for reconciliation and healing.
 
-Reason 13. The Speaker is Clear, But the Partner is Only Pretending to Listen. consequently, Communication Does Not Take Place.
+## Reason 13. The Speaker is Clear, But the Partner is Only Pretending to Listen. consequently, Communication Does Not Take Place.
 
 There is one more type of failed communication that I’d like to discuss. I am referring to a situation in which an individual tries to get a point across again and again, but fails. She may follow every communication rule in the book, but her husband just doesn’t get it. He neither wants to hear her complaints nor do anything about them. He finds the status quo perfectly acceptable, and except for her constant complaints, even fine. He may not care very much about her feelings or her state of unhappiness. Or perhaps he does care at some level, but rationalizes that her unhappiness is a passing phase and “she’ll get over it.”
 
 In either case, he doesn’t take the problems she presents as serious, and he certainly doesn’t think that he and his wife need professional counseling. But she doesn’t give up her quest for satisfaction. She talks till she’s blue in the face—to no avail—and one day, she’s finally “had it.” She realizes that she cannot and will not live this way anymore and threatens divorce, or may even go to a lawyer. This mobilizes her husband to act. His eyes are now open to the possibility that he may lose his wife and children, as well as the convenient, comfortable family setup. He doesn’t want this to happen. Although her complaints have been ignored for all these years, she has his attention now. What went wrong in the communication process? This is open to debate.
 
-What Went Wrong?
+### What Went Wrong?
 
 In the aforementioned scenario, one might be tempted to conclude that since the wife failed to get his attention—a cardinal rule in communication—it was her fault all along that the message of her unhappiness failed to get across to her husband. Support for this argument comes from the fact that when she changed her approach (by threatening divorce), she did get his attention and mobilized him to act.
 
@@ -1420,9 +1424,9 @@ When a couple comes for marriage counseling with the type of problem described a
 
 Both spouses must be willing to place their cards on the table face up and play an “open game” with each other. It takes flexibility, a cooperative spirit, and courageous honesty to give the counseling process—and the marriage—a fair chance for success.
 
-Epilogue:
+## Epilogue:
 
-Verbal Communication; Behavioral Communication
+### Verbal Communication; Behavioral Communication
 
 Although this article emphasized verbal communication and the need to focus on the aforementioned thirteen reasons why people fail to communicate, there is another dimension to communication: behavioral communication. Sometimes a person will complain, “How can my partner say that he/she loves me and yet treat me this way?” The Talmud states, “It is not what is said that is important, but what is done.” More colloquially, we say, “Action speaks louder than words.”
 
@@ -1443,7 +1447,7 @@ When a positive attitude is supported by positive behavior, there will be an inc
     categoryName: 'Infidelity & Trust Issues',
     articleNumber: 'I',
     content: `
-Possible Interactions Immediately Following an Infidelity
+## Possible Interactions Immediately Following an Infidelity
 
 There are so many challenges, varying in the extent of their difficulty, that a couple faces during the course of their marriage. Sometimes, the couple can manage the problems by themselves, but at other times, the problems are too great for them to solve without professional help. One of these great challenges to a couple is the problem of infidelity.
 
@@ -1451,14 +1455,13 @@ Sadly, this type of transgression is committed by both men and women, and variou
 
 However, not all studies agree; some give lower (and some give higher) figures.
 
-The Hurt and Pain of Infidelity
+## The Hurt and Pain of Infidelity
 
 It is always sad when one or both members of a couple come to the realization that their hoped-for happiness in marriage has not materialized. However, it is particularly heartbreaking when one of the individuals begins to question his or her partner’s fidelity. This terrible fear, or realization—with the consequent sense of betrayal, very great pain, and a wide range of many other very negative emotions, can occur with either member of a committed couple.
 
 The suspicion and, much worse, the discovery that a person has been betrayed by a partner with an act of infidelity will cause excruciating pain to the person and extreme damage to the relationship. It casts a thick cloud over the marriage and will throw the relationship into an unparalleled major crisis…but need not destroy it. In fact, if treated appropriately, and the couple is carefully led through the healing process, there can be a silver lining around this cloud.
 
-Shock and Heartbreaking Disillusionment
-Following the Discovery of an Infidelity
+## Shock and Heartbreaking Disillusionment Following the Discovery of an Infidelity
 
 Although infidelity occurs with both men and women, since this behavior is more common among men, I shall present my experiences and thoughts on this subject within the context of an unfaithful male partner.
 
@@ -1478,7 +1481,7 @@ Other emotions include a sense of rejection, disrespect, great hurt, powerlessne
 
 It is perfectly normal for women whose husbands have been unfaithful to be in a heightened state of emotion as they feel whirled around by their emotions. This unpredictability of what she will feel from day to day or even hour to hour confuses many of these hurt spouses and adds to the pain of this event.
 
-The Pain and Hurt of Infidelity
+## The Pain and Hurt of Infidelity
 
 The goal of the counselor in marriage counseling is to help people make their own decisions about their lives, after considering many factors and as many options as possible. Hopefully, in the case of infidelity, as with any major problem that comes into one’s life, the person evaluates the situation at length, taking both feelings and rational processes into consideration. The final step in coping is to come to terms with the event, and after considering the outcomes of the various options open to them, deal with the problem in terms of their best long-term interests.
 
@@ -1494,10 +1497,9 @@ As an aside, I remember the lawyer mentioned above very clearly. A mere three mo
 
 By the time they were finished with counseling, the man said to me, “In the past, we had nothing to say to each other, could barely keep up a conversation for five minutes; now, we can’t stop talking. “Last weekend, we drove to Washington, D.C., and talked the whole way. We are so affectionate in public that our (grown) children are embarrassed and tell us that we are acting like teenagers.”
 
-How Could He Have Done This to Me?
+## How Could He Have Done This to Me?
 
-The Hurt Party Is in a State of Shock, Hurt, Humiliation,
-Depression, Anger, and Confusion
+### The Hurt Party Is in a State of Shock, Hurt, Humiliation, Depression, Anger, and Confusion
 
 And when he did think of you, he fooled himself into believing that you would never find out, and “what she doesn’t know won’t hurt her” (nor did it occur to him how much it would hurt him). There are multiple reasons for affairs. Often, the emotions are so powerful that personal values are cast aside at great cost to self and others.
 
@@ -1519,8 +1521,7 @@ The wisest of all men, King Solomon, says in Ecclesiastes that there is not a pe
 
 Dr. Sigmund Freud, the father of psychoanalysis, warned against a runaway id (that part of the personality that harbors aggression and sex) when unmonitored by the ego (portion of personality that exerts logic, reason, and planning), and the person’s superego (conscience). More recently, Albert Ellis, Ph.D., father of REBT (Rational Emotive Behavioral Therapy), focused on the interplay among the rational, emotional, and behavioral aspects of each person while continually noting that we are all fallible.
 
-In Order for the Healing Process to Work,
-The Violator Must Feel the Hurt and Pain of His Spouse
+## In Order for the Healing Process to Work, The Violator Must Feel the Hurt and Pain of His Spouse
 
 In many cases, the husband is just as devastated as his wife when he realizes the enormity of his behavior and the horrible pain he has inflicted upon her, his children, and others. He may also suffer great shame, and he, too, may fear for the future of the marriage.
 
@@ -1538,7 +1539,7 @@ Other husbands, for a variety of reasons, are less sensitive to the pain they ha
     content: `
 Before reading this article I recommend you read Article 1 “Achieve A Happy Togetherness After The Devastation Of An Infidelity.” [See Article on Recovering After Infidelity](article:happy-togetherness-infidelity)
 
-Not All Houses are the Same
+## Not All Houses are the Same
 
 I generally tell my clients that infidelity in a relationship is like an earthquake to a house. It can reduce the house to rubble or just cause minor damage, depending on how the house was built in the first place, and the intensity of the earthquake which may vary from a Richter Scale Rating of 1.4, a minor tremor, to an utterly devastating earthquake with an extremely high Richter Scale Rating of 9.8.
 
@@ -1554,7 +1555,7 @@ For more information on this delicate and complex process see “How Can I Forgi
 
 Now, although the metaphor “infidelity = earthquake to house” is apt, there are many weaknesses in it. In exploring these weaknesses, I will have an opportunity to make a number of points about the various nuances that go into the making and breaking of marriage and show how there is a lot of hope for a marriage that goes through an earthquake.
 
-The Pain and Hurt of Infidelity
+## The Pain and Hurt of Infidelity
 
 The strength of a real house can be measured by its construction, and experts can predict fairly well how it would stand up under different conditions. Assuming a very mild earthquake: A thatched hut would collapse, a wood-framed house with shingled walls would sustain noticeable damage, but a steel-framed house with brick walls may not sustain any damage.
 
@@ -1568,7 +1569,7 @@ Now, some may question: “How can there even be infidelity in a very good marri
 
 ## 2. Nor Are All "Earthquakes" The Same;
 
-The Difference Between A Real Earthquake and The Infidelity "Earthquake"
+### The Difference Between A Real Earthquake and The Infidelity "Earthquake"
 
 Another weakness in the metaphor comparing an infidelty to an earthquake: Whereas, the intensity of a real earthquake can be measured objectively by the Richter scale, an infidelity cannot; It is subjectively experienced by the hurt party. For example, an emotional email flirtation by her husband, with a woman he never met, might be more hurtful to one spouse than a one night stand to another. When I think of the wide range of the wife’s possible reactions to her husband’s affair(s) that I have experienced, two very different situations come to mind.
 
@@ -1580,15 +1581,15 @@ Another factor in measuring the damage of the “earthquake” : Males and femal
 
 Many wives are extremely upset by their husband’s attention to pornographic sites, and certainly cybersex. They consider these behaviors an infidelity. I’ve had numerous situations where a single email, text message, or a suspicious repetition of a number on a cell phone bill has set off a major battle over trust.
 
-An Infidelity Is A Problem That Should Never Be Underestimated
+## An Infidelity Is A Problem That Should Never Be Underestimated
 
 If not treated properly, an infidelity leaves a residue of lack of trust, lingering pain and resentment and will weaken the relationship for years to come, if not absolutely destroy it at some future point. I remember a physician’s wife telling me “He was unfaithful with one of his staff 14 years ago, and the relationship was never the same.” Apparently, they had “smoothed it over” and went about their business in a state of partial denial. But the pain was there. They had come to me because of recent infidelity on the husband’s part…again, with a member of his staff. The pain of the recent infidelity was greatly magnified because it was augmented by the ever-present pain of her husband’s original misdeed, and by her new suspicions that there may have been other incidents that she did not know about. At the couple’s third session with me, the wife said: “I’ve had enough,” and she quit therapy, choosing to go to a lawyer instead. When discussing a past or present infidelity I will often say to a couple. “If you cover a pile of garbage with a white sheet, it will not remove the garbage….this problem will not go away; it has to be dealt with.”
 
-Assessing The Damage
+## Assessing The Damage
 
 Coming back to my metaphor of a house that sustains an earthquake. If the owner wants to save the house, he will call in a contractor who will assess the damage. This may include live electrical wires, leaking pipes, broken windows, damaged roof, collapsed wall, etc. All of these have to be repaired to make the house livable. In the case of an infidelity, the husband is not only the precipitant of the earthquake, but he is also the contractor. But whereas a contractor takes out his pad and writes down the damage that he sees with his own eyes, the husband must learn from his wife the nature and extent of the damage to her and to the marriage, as she sees it. This takes place during a structured healing process, under the guidance of the counselor, during which time spouses immerse themselves into many structured warm, loving, attentive and sensitive conversations with each other.
 
-The Silver Lining Around The Cloud Of Infidelity
+## The Silver Lining Around The Cloud Of Infidelity
 
 In some cases, the couple may say to the contractor: “As long as so many windows are broken, let’s replace all of the windows with the kind I’ve always wanted, and since that wall collapsed, let’s just push out the house, enlarge that room and convert it into a dream family room with a cathedral ceiling, skylights, fireplace, picture windows, and a huge TV. Further, I’ve always wanted a fantastic sound system for music in every room, etc.”
 
@@ -1602,7 +1603,7 @@ After the repairs and renovations are completed, the couple ends up with a bette
 
 If both partners throw themselves wholeheartedly into the healing process, the crisis could become a stepping stone to better and increased communication between the couple, greater bonding, a much deeper understanding of each other, a greater appreciation of what marriage and love is all about, a happier and more mature relationship and a greater love for each other than they ever had before the infidelity lifting the marriage to a level it had never reached before. I have seen this happen again and again, so many times.
 
-How Does The Counseling Process Help?
+## How Does The Counseling Process Help?
 
 Couples come out of the counseling process with a marriage far stronger than they ever had. The marriages are saved by a structured counseling process and the healing that takes place. At the beginning of the process, the offending party learns the emotional consequences of his behavior and how much damage he actually did. He is then in a position to demonstrate true regret and repentance. He tries to understand and identify with the pain he inflicted on his spouse, and rather than brush off his errant behavior with such insensitive comments as “it’s over, it’s past, get over it, or forget it” shows a new sensitivity to, respect for, and appreciation of the spouse that he very nearly lost.
 
@@ -1625,7 +1626,7 @@ As part of your training in communication, you will learn the “Talk/Listen Tec
     categoryName: 'Infidelity & Trust Issues',
     articleNumber: 'III',
     content: `
-Secret Relationship, But Also Easy To Be Discovered
+## Secret Relationship, But Also Easy To Be Discovered
 
 Although men cheat more frequently, women also cheat. It would be confusing if I switched genders in every sentence. Since men do this more frequently, this article is slanted in that direction, i.e., the husband is the “offending party,” and the wife is the “hurt party.” All statements go in both directions, and the words “husband,” “wife,” “partner” are interchangeable. The words “marriage” and “relationship” are also interchangeable.
 
@@ -1635,7 +1636,7 @@ The devastation and heartache of an affair cannot be simply “smoothed over” 
 
 Disclaimer: I am not an expert on tracking down errant spouses. Nothing in this article should be understood that I am giving advice on how to do so. The purpose of the article is to let people know that errant behavior can be traced and discovered comparatively easily.
 
-Then vs. Now
+## Then vs. Now
 
 In Ancient China, soldiers stationed along the Great Wall would alert each other of impending enemy attack by signaling from tower to tower. In this way, they were able to transmit a message as far away as 750 kilometers (470 mi) in just a few hours.
 
@@ -1643,7 +1644,7 @@ Polybius, a Greek historian, came up with a complex system of alphabetical smoke
 
 Sending personal communications far distances required a mail system and was not initially used for casual social communications. When people lived in fairly isolated communities, they had very little access to others not living close by, so it was hard to maintain a relationship with an out of towner, much less keep it secret. In small villages and towns, people could easily observe what others were up to, and so it was impossible to keep an ongoing relationship secret.
 
-Enter The 21st Century
+## Enter The 21st Century
 
 In today’s high tech era, and especially for people who live in cities, a person can easily engage in clandestine relationships with others both within as well as outside of his/her own community, and even with a person who lives thousands of miles away. Today the bulk of communications in relationships are not dependant on meeting a secret acquaintance face to face. People are “meeting” using ordinary telephones, cell phones, and email. They are using Zoom and Facetime when they want to see each other, and can do so with complete privacy within moments of pressing a single memory button or clicking a “mouse.” In split seconds, text messages and photos are being sent thousands of miles away. Then it was impossible, but now, it’s so easy.
 
@@ -1651,7 +1652,7 @@ In addition to the opportunities offered by mobile devices, people augment their
 
 Unlike earlier times when work was dictated by the rotation of the sun, many people sometimes stay late at their job, entertain out-of-town customers, have changing shifts, or need to travel on a regular basis. Spouses do not know from hour to hour, day to day, or even week to week (unless their partner “remembers” to give them the “updated” itinerary) where their spouse is supposed to be at any given time, much less where he actually is.
 
-The Truth Will Come Out
+## The Truth Will Come Out
 
 Many discoveries of hidden communications or relationships with a third party are made by an unsuspecting partner by accident. This may happen when a wife comes across a very personal email or text message to (or from) her husband, sometimes with attached pictures, from a member of the opposite sex. She might have innocently used her husband’s computer for some household related tasks. Or found her husband’s cell phone in some forgotten corner of the house, picked it up to return it to him, and noticed a suspicious text on the screen. Perhaps her curiosity was then aroused to check his incoming/outgoing calls, and she discovered a certain phone number occurring again and again. Her suspicions would be aroused if the calls were frequent, lengthy, and/or at odd hours. Of course, emails are much more revealing as there is little opportunity to explain away the printed word.
 
@@ -1661,7 +1662,7 @@ I’ve worked with wives who accidentally came across a female’s name and phon
 
 One client told me that she smelled perfume on her husband as he walked into the house. Another wife found a lipstick in the husband’s car. However, neither of these situations are “smoking guns” since the man may have taken a heavily perfumed female colleague to the train station after work or driven some colleagues to a team lunch during which time a woman spilled contents of her pocketbook. In these two cases, the husband bolstered his claim with other facts and evidence, and the wife believed him.
 
-Playing With Fire is Dangerous
+## Playing With Fire is Dangerous
 
 Sometimes, the wife becomes suspicious when she discovers a cell phone in her husband’s possession that she did not know existed. Or she may note E-Z Pass charges for trips across the G.W. Bridge or the Lincoln Tunnel, not at the usual commuting times of her spouse. On one occasion, a husband told his wife that his arrival time from his out-of-town business trip was at 8:22 p.m., and in fact, he did come home shortly after that time. The problem was that the bill from the chauffeur service, which she found on their vanity, said that he was picked up at the airport at 1 p.m. The wife wondered how her husband spent his time between the 1 p.m. pickup at the airport and his arrival at home at 9:30 p.m.
 
@@ -1679,17 +1680,17 @@ Except for cases where the husband’s job requires that he meet many people in 
 
 An upsetting behavior may range from a comparatively innocent, but secret, phone call or email to someone the husband met in a chat room to the more serious secret phone call, email, or “lunch” with an “ex.” This latter type of errant behavior is all the more damaging when the hurt partner personally knows, or at least has heard about her spouse’s “ex,” and has been promised by her spouse, or committed partner, that he cut off all ties to that person. With one of my clients, the husband actually called the other woman with his wife in the room and told his “ex” that since he is now married and does not wish to upset his wife, he is cutting off all ties, told her that we would not call her, asked the “ex” never to call him either and affirmed that he would not take her calls. But he failed to keep his promise. I’ve had this happen many times. The errant husband loses his wife’s trust and is pushed further and further away. His efforts to win his wife back are more complex, and he will have to work much harder if he wishes to succeed.
 
-Conscious or Unconscious Denial
+## Conscious or Unconscious Denial
 
 Sometimes, a wife will close one eye to the suspicious behavior of her spouse. She may even brush off the delicately-put comments of her alert and suspicious close friends. Such a woman may flit in and out of denial, ignoring signs of infidelity because she fears a confrontation, hurt and pain, and the possibility of the breakup of her marriage. I’ve had situations where husbands have been unfaithful for years and even decades and often with more than one woman.
 
-Technology Tells All: You Can’t Really Hide
+## Technology Tells All: You Can’t Really Hide
 
-Other Sources of Suspicion: Even More Likely Symptoms of an Affair
+### Other Sources of Suspicion: Even More Likely Symptoms of an Affair
 
 However, in most cases, upsetting discoveries by a spouse are not ignored. The offended partner may make a concerted effort to retrieve from the computer’s “trash”, including the suspected partner’s deleted email messages and attachments. She will carefully search electronic records of (hopefully undeleted) incoming and outgoing cell phone texts or calls. The suspicious wife will now scrutinize all hard copy phone or credit card bills looking for frequent calls to/from a certain number, especially if they were made at a “suspicious” time or from a suspicious store. Sometimes, the wife will simply ask her husband who the phone number belongs to, and at other times she will call the number herself and become very upset if a female answers the phone.
 
-Do-it-Yourselfers Can Rapidly Uncover The Truth
+## Do-it-Yourselfers Can Rapidly Uncover The Truth
 
 The do-it-yourselfers, who suspect that their spouse is using the home phone for surreptitious calls, can go to uspystore.com and purchase numerous “spy equipment.” This website has a special section called “Spouse Cheating” and offers a plethora of equipment that suspicious “do-it-yourself” wives may wish to try out. Wives who wish to trace their spouse’s computer activities can buy “007 Spyware” at e-spy-software.com, which will track every key pressed including as well as log-ins to such sites as “Facebook,” “Twitter, “Married But Lonely,” EHarmony.com.” “Asian Women,” “Match.com,” “Plenty of Fish,” as well as pornographic and other sites offensive to the wife. These keyword logger applications help a person discover email passwords, incoming as well as outgoing emails, and internet chats. Other spouses buy voice-activated recorders and place them under the seat of their husband’s car, thus determining who he talks to while driving his car. Other sources sell a “Home Evidence Collection Kit,” which will analyze stains, including body fluids on clothing, car seats, or elsewhere.
 
@@ -1701,7 +1702,7 @@ One savvy woman told me that she did not believe her husband when he said he’d
 
 In her book “Is He Cheating on You?” Ruth Houston relates 829 different signs of cheating. And in addition to all of the tell-tale signs that have been noted here, let us not ignore a woman’s intuition. Many many women have reported to me, “I just had a feeling.” In today’s high tech era, once suspicions are aroused, secret connections are easily traced, and the findings often confirm doubts and a growing loss of trust. I have known spouses who were unable to retrieve any “smoking gun” data by their own efforts but could not ignore various changes in their relationships and so to clear things up; they hired private investigators to follow and document the movements of their husbands. Following the investigator’s report, the wife would “innocently” ask her husband how he spent the previous day, or how come he came home so late the previous evening. If her husband’s reply contradicted that of the investigator, it would be clear he had broken her trust. This scenario was usually followed by a confrontation wherein the husband had no choice but to confess, especially if the investigator presented “smoking gun” information such as pictures, or tape recordings.
 
-Summary
+## Summary
 
 The suspicious behavior of a spouse may embrace a wide range of activities. A spouse who is suddenly “busy” at the office may not arouse suspicion, but doubts may begin to grow, possibly at a subconscious, or even conscious level when a person is questioned and offers a vague explanation for lateness or absence or other personal behavioral changes are observed, e.g., a sudden interest in physical appearance. Understandably, when a wife catches her husband in an outright lie, or when there is other “smoking gun” evidence, the suspicion is extremely high, and a confrontation will ensue. In today’s high tech era, it is easy to start a secret relationship, be it physical or emotional, and maintain it for some time. But once suspicions are aroused, detection is fairly rapid by most women and certainly by an investigator. It is in the best interests of all for infidelity not to take place, but if it does, the sooner it stops, the better. Further, the heartbreak, devastation, and shock are proportionately diminished when the offending party stops on his own free will and confesses his errant behavior with sensitivity and caring while displaying heartfelt contrition and remorse. The consequences are more difficult to contend with when the hurt party makes the discovery herself.
 
@@ -1726,7 +1727,7 @@ Often, infidelity takes place in a marriage that is vulnerable. However, infidel
     content: `
 Once upon a time when one heard the phrase; “They got married and . . . ” an internal cue would prompt the words, “they lived happily ever after.” But those associations took place when we were younger and the memory of Cinderella and other fairy tales still lurked in our minds. Nowadays, many of us are more knowledgeable about the complications of marriage and our thought might be a more sophisticated “their problems first began.”
 
-First-Time Marriages
+## First-Time Marriages
 
 With first-time marriages, the problems might be power struggles over who makes the decisions, how much time partners spend with (or without each other), different needs for: 1. closeness and companionship, 2. free expression of feelings towards each other, 3. expression of emotional needs from each other, 4. sharing information about each person’s day, 5. expression and fulfillment of emotional needs, and 6. whether or not they make their spouse their number one priority.
 
@@ -1736,11 +1737,11 @@ Judith Viorst writes in Grown-up Marriage as follows: “IT’S SO HARD TO BE MA
 
 How do we decide how much blood and sweat and tears we owe to our marriage?” Mira Kirschenbaum addresses this problem in her book “Too Good to Leave; Too Bad to Stay.” She calls her book “a step by step guide to help you decide whether to stay in or get out of your relationship.”
 
-Are Second Marriages Better?
+## Are Second Marriages Better?
 
 With second marriages, the phrase “They got married and…” might be followed by such realistic epilogues as (here too, in a worst-case scenario): her alimony stopped, her children resented that she had to go to work, they had to move to a new neighborhood, change schools, lose contact with their friends, etc. Further, her children resented having to share their mother with her new husband, didn’t like him very much, nor did he seem to like them, nor did they get along with his children from his first marriage. Sometimes, previously married spouses fight over loyalties to their own biological children, from their first marriage, vs. their loyalty to their spouse’s children from his/her first marriage. They may also fight over time commitments with their original families, or ties with their respective “ex,” or their ex-in-laws, especially at holiday times. With older or more established couples, disputes may arise over prenuptial agreements, how each spouse’s will is to be written, inheritance of property and other financial matters.
 
-The Sad Epilogue Might Be:
+## The Sad Epilogue Might Be:
 
 They were happy for a while because they were very much in love, but they discovered that they couldn’t live with each other for a variety of reasons, not limited to those cited above. They came to the sad conclusion that they simply could not juggle all the demands made on them from so many different sources and that getting married was a mistake. Nor did each person turn out to be what the other person thought he/she was getting in the first place.
 
@@ -1750,19 +1751,19 @@ Since people who enter into second marriages are more experienced, both partners
 
 Unexpected problems constitute a challenge, but this is not a defeat; with professional help, under most circumstances, this challenge can be met successfully!
 
-For more information on this subject, please [click here](article:hidden-agenda-relationships) for my article on “The Hidden Agenda in Relationships.“
+For more information on this subject, please [click here](article:hidden-agenda-in-relationships) for my article on “The Hidden Agenda in Relationships.“
 
-Marriage is a Long Term Gamble. (60% make it; 40% don't).
+## Marriage is a Long Term Gamble. (60% make it; 40% don't).
 
 According to the National Center for Health Statistics, the U.S. divorce rate has hovered at this unacceptably high since 1980. But if getting married can be a mistake for some people, a far more serious mistake is society’s failure to prepare prospective mates for marriage. Essentially we build up the institution of marriage, glorify and romanticize it, make a great big hoopla while planning and enjoying the celebration, all the while spending a small fortune on a 4 to 5-hour event. We then wish the couple “good luck” while sending them off on a virtual sink-or-swim mission. At Jewish weddings, many people say, “mazal tov,” without realizing that the literal translation of these words is: “may you have good astrological signs.” But perhaps this is the most appropriate blessing to bestow upon the happy, but unwitting, couples because at the rate that marriages go today, their chances of success are only slightly better than their chances at the casinos in Atlantic City. But there is one difference: the casino gamblers understand the odds, the newlyweds do not. And, unfortunately, due to the lack of an even rudimentary course on “The Proper Care, Training and Treatment of a Spouse,” luck (the astrological signs) will play too much of a part in their marital success.
 
 But the biggest mistake most couples can make is to become discouraged and give up just because their marriage has hit a wall…is going nowhere…or is going downhill. Spiraling downward marriages can be saved, can be turned around, and ultimately can be very happy.
 
-The Need For Formal Instruction in Human Relationships
+## The Need For Formal Instruction in Human Relationships
 
 Why do we assume that just because a couple has reached a certain age, they are capable of a successful marriage? Indeed, no one would question a couple’s right to marriage and parenthood. And yet, a wise observer might legitimately ask: “What training, instruction or competencies do the newlyweds have in either of these great and complicated enterprises?” Many people would respond “Individuals learn all about marriage in their homes.” Unfortunately, this argument often boils down to a case of the blind leading the blind. And even in the best of cases, i.e., with a very happily married couple, is it realistic for parents to invite their children into the inner chambers of the marriage to demonstrate its complexities, problems, and solutions. Where does this leave the next generation?
 
-Courses, Courses Everywhere, But Not Any in Human Relations
+## Courses, Courses Everywhere, But Not Any in Human Relations
 
 Our schools require training and proficiency in algebra, ancient history, and foreign languages. However, they give scant attention to the most important and complicated of life’s challenges: being a good spouse. Some would say that such a subject cannot be taught in a formal fashion. Not so. Being a good spouse is composed of numerous individual skills that can be isolated, highlighted, and taught at all age levels. These skills can then be practiced on members of one’s family, friends, and classmates–the very people the person would practice on with what the child supposedly learns in the informal “at home” classroom. The curriculum to prepare individuals for marriage should focus on the development of such basic interpersonal skills as respect for self and others, compassion, selflessness, respect for the truth, the ability to empathize, express emotions, bond, communicate effectively, and resolve differences.
 
@@ -1772,17 +1773,17 @@ There was a time when the total education of the young took place at home. Event
 
 Our schools require training and proficiency in algebra, ancient history, and foreign languages. However, they give scant attention to the most important and complicated of life’s challenges: being a good spouse. Some would say that such a subject cannot be taught in a formal fashion. Not so. Being a good spouse is composed of numerous individual skills that can be isolated, highlighted, and taught at all age levels. These skills can then be practiced on members of one’s family, friends, and classmates–the very people the person would practice on with what the child supposedly learns in the informal “at home” classroom. The curriculum to prepare individuals for marriage should focus on the development of such basic interpersonal skills as respect for self and others, compassion, selflessness, respect for the truth, the ability to empathize, express emotions, bond, communicate effectively, and resolve differences.
 
-Overcoming Negative Stereotypes
+## Overcoming Negative Stereotypes
 
 Sadly, many people consider any course in human emotions or relationships “sissy” or stigmatic. Well, if negative stereotypes such as prudery in sexuality have changed, so can attitudes about education in human relationships. However, as a concession to those people who would feel more comfortable about such courses if they were required, and we do require courses in physical health, why not establish a required progression of courses in mental health and interpersonal relationships beginning with elementary school? If we recognize the dangers of inept driving, why not the dangers of emotional immaturity and unprepared marital partners? For those who still say that such courses are unnecessary, I reply: look at the devastation around you. The “normative” child in this country no longer comes from a two-parent household. The stability and strength that our children once derived from the old-fashioned “nuclear family” is a fading phenomenon.
 
-What Form Will This Education Take?
+## What Form Will This Education Take?
 
 Understandably, for the education and training recommended here, there is a need for an experiential and interactive type of presentation rather than the lecture, note-taking format we so frequently experience in school. No problem. Many program formats for the type of workshop and education suggested here can be formulated from the abundance of experience in curriculum development that evolved from the numerous workshops and seminars offered by various humanistic schools and marriage encounter groups all over the country for the past few decades.
 
 How long will society continue to ignore an epidemic that destroys American marriages? Shall we continue to shrug our shoulders and ignore this problem, or shall we do something about it? Blackjack players who wish to beat the odds can always sign up for a course in card-memorization. What can the newlyweds do? And what about the “old marrieds?”
 
-How Should You be Feeling Now?
+## How Should You be Feeling Now?
 
 For one thing, don’t feel embarrassed about recognizing or admitting that you need help from a marriage counselor. This is a very healthy first step for you. Denial and delay will only make the problem worse and harder to solve when you finally do face up to it. Secondly, don’t feel guilty. In most situations, you and your spouse got very little or no training for your marriage or committed relationship. How is either of you supposed to be a competent partner?
 
@@ -1794,7 +1795,7 @@ I sometimes make the same point by asking my clients: Would you trust your life 
 
 For more information on this subject, please read the article following this one entitled “Love Conquers All?”
 
-What Can You Do To Help Yourself?
+## What Can You Do To Help Yourself?
 
 To help yourself at this point, you can attend lectures and workshops with your spouse, read self-help articles and books, and discuss all of these learning experiences with each other. The self-help measures are all valuable, but especially so at the beginning of your relationship and are even more valuable before your problems take on a heavy dimension. Two of my favorite books for couples are written by the following psychologists who are in the vanguard of research on marriage: We Can Work it Out by Clifford Notarius, Ph.D. & Howard Markman, Ph.D., and Fighting For Your Marriage by Howard Markman, Ph.D., Scott Stanley, Ph.D., and Susan L. Blumberg, Ph.D. Self-help measures are best used for: a) marital preparation to forestall future problems, and b) marital enhancement to improve your ongoing relationship. However, they can also be used to work out problems that have not become too serious.
 
@@ -1832,7 +1833,7 @@ BergenMarriage1@gmail.com
     categoryName: 'Growing a Couple\'s Loving Relationship',
     articleNumber: 'II',
     content: `
-How Important is Romantic Love?
+## How Important is Romantic Love?
 
 Although beautifully described in the Bible, particularly in Solomon’s “Song of Songs,” romantic love was not a common theme in Western literature until the 17th century English poets extolled their love in lilting rhymes and iambic pentameter.
 
@@ -1840,7 +1841,7 @@ How do such romantic declarations grab the modern suitor? Is the love that today
 
 In truth, although virtually all Americans are romantically inclined, very few would agree with the 17th century English lyricists on the topic of love. Even by the romantic Hollywood standards of the romantic Hollywood movies of yesteryear, those old-time lyricists were too romantic, hopelessly unrealistic, and overwhelmingly guilty of idealizing their beloved. Nonetheless, the English poets of yesteryear did have a powerful impact on (at least modern) American thinking, and the concept of “falling in love” or “being in love” is a virtual sine qua non, in the minds of many to initiate, and in many cases, to maintain a marital relationship. And yet, important though it may be to so many people, how important is it really for a happy marriage? Can being in love alone sustain a relationship?
 
-The Difference Between "Being in Love" and "Loving"
+## The Difference Between "Being in Love" and "Loving"
 
 Now, let's differentiate between "falling/being in love" and "loving."
 
@@ -1850,7 +1851,7 @@ Loving (or what I call true love): Now let’s consider this: The verb “loves�
 
 Quite to the contrary the phrase “falling in love” which refers to a romantic relationship, grammatically refers to an involuntary act or status, such as “he got wet” in the rain. So what is the significance of the phrase “falling in love?” Yes, it’s a wonderful romantic feeling which contributes to his own happiness, a feeling everyone would like to experience, money can’t buy, but what does it say about responsibilities? Further, one can be “in love” with a movie star who doesn’t know that the other exists. What does this say about a relationship?
 
-Case History I
+### Case History I
 
 A married man once confided to me that in spite of all his marital problems, when he took his wife in his arms, he was as close to hearing heavenly music as anyone on earth had ever experienced; furthermore, he was talking about something much beyond sexual excitement. It was an all-powerful all-consuming state of utter bliss with deep feelings of connection, comfort, union, and elation. He was at the height of romantic love. Now, although this man had the good fortune to marry his childhood sweetheart, most people aren’t so lucky. And wouldn’t anyone give their right arm to have such a partner for marriage? Not if they knew all the facts of this particular case!
 
@@ -1860,7 +1861,7 @@ Now, it might be argued that the aforementioned childhood sweethearts were young
 
 Unfortunately, people of all ages, levels of experience, even those in previous long-term live-in relationships and the formerly-married still meet each other, fall in love, and get married….and often end up with severe problems and, too often, divorce.In fact, the divorce rate for second marriages is higher than that for first marriages. On the other hand, it is true that the older the age and the more educated the couple is, the better their chance for permanence. In either case, falling in love and staying in love, even if a person stays that way for many years, and this is rare, is not an antidote for divorce.
 
-Case History II
+### Case History II
 
 Ten years and three children later, Linda, in tears, depressed, and demoralized was seeking a separation. They both agreed to seek the help of a marriage counselor. Linda complained that her husband was “not there for her” at sensitive moments such as the death of her mother, her recuperation after an auto accident, and other events. Moreover, she saw Robert as selfish, said that he didn’t respect her work or interests, didn’t help with the children and that the reason they got along until now was that she always let him have his way. Now Linda’s frustration level had reached a breaking point, and she refused to live this way any longer.
 
@@ -1870,21 +1871,21 @@ In view of their previous marriages, experience in life, maturity in years, and 
 
 The names and some facts were disguised to protect the privacy of this couple. Robert and Linda, both unhappy in their respective marriages, got to know each other because their professional lives overlapped. As time elapsed, they began to talk to each other more and more and developed a friendly relationship. After both were divorced, their relationship flourished into a full-fledged romance and continued for a few years during which time they planned for a life together and marriage. Both were very much in love and convinced that they had found their true partner for life.
 
-What Happens to the Romantic Love?
+## What Happens to the Romantic Love?
 
-Romantic Love Goes First
+### Romantic Love Goes First
 
 (1) In virtually all situations, romantic love reaches a peak early in the relationship and declines as other feelings take over including commitment and real love. In the best of cases, true love remains after the romantic love is gone and remains the basis of the relationship.
 
-What Happens to True Love?
+## What Happens to True Love?
 
-True Love Has Its Limits Too
+### True Love Has Its Limits Too
 
 (2) However, although true love is stronger, it can be whittled away and not be strong enough to save a deteriorating marriage. One wife told me “I still love him but I have put up with too much and refuse to put up with anymore. ” Her love was not strong enough to endure the negative behavior that she has sustained all these years. She claimed to still love him but it wasn’t enough to sustain the relationship; she wanted to leave him.
 
 What do all of these scenarios have in common? All of these marriages began in an initial blaze of romance and later true love. Over time, the romance evaporated, and the true love faded. What little true love or caring remained was not enough to sustain the relationship. Immature, selfish, and inconsiderate behaviors can wear away even true love and ruin a relationship.
 
-What Is The Case For Love?
+## What Is The Case For Love?
 
 And now, let’s open the subject for discussion. On the one hand, even if we accept that romantic love may be instrumental in beginning a relationship, but it is ephemeral and not enough to maintain a relationship, can we accept that it is nevertheless a crucial ingredient for marital happiness? Or perhaps, it isn’t. In fact, let’s go further. Admittedly, romantic love greatly enhances a relationship but is it a necessary ingredient for a sustained happy marital relationship?
 
@@ -1934,17 +1935,17 @@ Not everybody who gets into a binding relationship is perfectly self-aware. Cons
 
 As life would have it in our society, people fall in love and get married in a blaze of romance and confidence. Unfortunately, not everyone knows who he/she is, or what he/she wants or needs in a relationship. People are even less aware of who they will be, or what they will want or need, five, ten, or twenty years hence.
 
-How Can These Problems Be Addressed?
+## How Can These Problems Be Addressed?
 
-Renegotiating A Relationship
+### Renegotiating A Relationship
 
 The problem of Category Two, Unverbalized Expectations, can be mitigated through premarital workshops or private meetings with a marriage counselor. Short of these, other options would include courses in communication prior to marriage, or at any time afterwards, or at the very least reading articles and books on the essentials of communication. Following this, there should be a simple agreement to talk out in great detail each person’s expectations in an atmosphere of mutual encouragement and frankness. If a special time is set aside for this on a regular, or at least on an ad hoc basis, a much better understanding of each other, and a better, richer, and stronger marital bond will ensue.
 
 Unfortunately, Category Three, Lack of Self-Awareness, is more problematical. However, this potential source of problems can also be reduced. How? Premarital singles should be encouraged to learn more about themselves through a variety of educational and growth experiences. They should not shy away from frank discussions with close friends of both sexes, family members or with their partner. They might join groups that are led by psychologists, marriage counselors, or other facilitators with a view towards self-exploration and self-awareness. Reading articles, books, attending lectures, and plays, followed by discussions, and taking self-administered questionnaires are other avenues that lead to self-exploration and self-discovery.
 
-Conclusion
+## Conclusion
 
-The Need for Continuous Self-Revelation, Reciprocal understanding and Mutual Accommodation
+### The Need for Continuous Self-Revelation, Reciprocal understanding and Mutual Accommodation
 
 For committed or married couples, constant discussion and mutual exploration of needs and frustrations is recommended. The marital contract must be renewed and renegotiated on a regular basis. It is wishful thinking to assume that an agreement contracted 20,10 or even 5-years ago still holds, in view of the fact that the obligations are not spelled out in detail at the beginning, each person’s needs are different, and these needs also change as the person grows and matures.
 
@@ -1960,15 +1961,13 @@ Hidden agendas do not remain dormant; they eventually emerge; and when they do, 
     categoryName: 'Growing a Couple\'s Loving Relationship',
     articleNumber: 'IV',
     content: `
-The Need For Relationship-Building Communications
+## The Need For Relationship-Building Communications
 
-Relationship-Building Communications Are The Key
-To Emotional Bonding & Intimacy
+### Relationship-Building Communications Are The Key To Emotional Bonding & Intimacy
 
 This article addresses the issues of women who say “My husband is quiet,” “We barely talk,” ” We’re like two ships passing at night,” We’re like roommates.” “I feel lonely in this relationship.” Couples who say “We don’t communicate effectively, we’re always fighting” have a different problem which is addressed in the article “How to Complain Diplomatically, Disagree and Yet Argue Constructively Without Fighting Thus Achieving A Win-Win Situation” ([see How to Complain Diplomatically and Argue](article:complain-diplomatically))
 
-How Do We Assess a Couples'
-Relationship-Building Communications?
+## How Do We Assess a Couples' Relationship-Building Communications?
 
 ## 1. Introduction
 
@@ -1992,13 +1991,13 @@ I have been using this diagnostic instrument successfully to help individuals as
 
 Can men be trained to be more sensitive to the emotional components of a situation? Yes. Will it change their personalities? That depends on how you define personality. If “personality” includes internal changes (greater awareness) as well as external changes (behavior), then the answer is “yes.” Men, as well as women, can learn to alter their personality to better accommodate the emotional needs of their partners by becoming more revealing of their emotions, more interested in their partner’s life, and by becoming more skillful in making warm, constructive, ego-boosting communications, and behaviors to enhance each other’s happiness.
 
-3a. Description of the "Measuring a Couples' Relationship-Building Communications" Assessment Form
+## 3a. Description of the "Measuring a Couples' Relationship-Building Communications" Assessment Form
 
 The assessment form is composed of 19 questions with sub-categories. Each category describes a type of relationship-building communication or interpersonal behavior the goal of which is to promote closeness with one’s partner. During the course of this article the following terms will be used interchangeably to describe the 19 questions on the list:
 
 Relationship-building communication, relation-building statement, constructive overture, approach-behavior, and bonding-communication. These terms, in themselves, describe the panorama of actions that are being addressed.
 
-Examples of Relationship-Building Communications and Constructive Overtures
+### Examples of Relationship-Building Communications and Constructive Overtures
 
 A few examples of some of the bonding-communication approaches and constructive behaviors, that are assessed, are listed below. We grade each partner’s tendency (or lack thereof) to:
 
@@ -2012,11 +2011,11 @@ Listen attentively and respectfully with an open mind to one’s partner’s tho
 
 Express appreciation, recognition, love, and other ego-boosting and relationship-building thoughts and emotions.
 
-3b. Administration and Use of This Assessment Form
+## 3b. Administration and Use of This Assessment Form
 
 The paragraphs that follow give an abridged overview of how I use this tool with couples:
 
-Scoring:
+### Scoring:
 
 Each member of the couple is given an assessment form and independently rates himself and his partner on all of the fifteen categories of interpersonal behaviors listed in this questionnaire.
 
@@ -2026,13 +2025,13 @@ Each member of the couple is given an assessment form and independently rates hi
 
 Since each partner gives two scores per behavior (one score for himself, and one score for his mate), we end up with a total of four scores for each item.
 
-Reviewing and discussing the scores:
+### Reviewing and discussing the scores:
 
 We approach the test results by discussing one item at a time. For example, when discussing the item: “Expresses appreciation to partner,” we ask each person what grade he gave himself and how satisfied he is with the frequency with which he communicates his feelings of appreciation. Does he think there is room for improvement?
 
 We then ask his partner what grade she gave him, and how satisfied is she with the frequency with which her partner expresses his appreciation to her, how important this is to her, and how often would she like her partner to declare his love appreciation to her. Does she think that there is room for improvement?
 
-Different Strokes for Different Folks:
+### Different Strokes for Different Folks:
 
 During the course of the evaluation, it frequently becomes evident to the couple that some items are more important to one spouse and other items are more important to the other spouse. This is so because partners differ in their need for specific types of bonding behavior and/or closeness. Consequently, people differ in how frequently they expect their spouse to make a certain type of statement or display a certain type of bonding behavior.
 
@@ -2056,7 +2055,7 @@ c. His level of satisfaction/dissatisfaction with his own competence/performance
 
 ## 4. And finally, the crucial part of the marriage counseling process:
 
-“Contracting” with each person to improve upon strengths, minimize deficiencies, and do his best to meet his/her partner’s reasonable expectations for the constructive overtures and bonding communications enumerated in this assessment form. For a related article on meeting your partner’s needs and expectations, [see](article:hidden-agenda-relationships) for “The Hidden Agenda in Relationships.”
+“Contracting” with each person to improve upon strengths, minimize deficiencies, and do his best to meet his/her partner’s reasonable expectations for the constructive overtures and bonding communications enumerated in this assessment form. For a related article on meeting your partner’s needs and expectations, [see](article:hidden-agenda-in-relationships) for “The Hidden Agenda in Relationships.”
 
 Women who complain about their spouse’s quiet nature, inability or reluctance to “open up” and couples who present the problem “We don’t talk to each other,” are expressing their unhappiness about a deficit in the approach/bonding behaviors that are targeted and assessed in my questionnaire. These individuals are aware that their relationship suffers from the lack of personal revelation, sharing, bonding and relationship-building communications that people exchange with those who are closest to them and with whom they wish to develop intimacy. These women yearn for the intimacy they may have yearned for, or actually had when they first began going with each other. Women with this complaint will often say that feel alone because they hardly know their husband, don’t know how he really feels about a lot of things in the relationship, see him as a virtual stranger or a good roommate.
 
@@ -2076,9 +2075,9 @@ Spouses do not need to go through life feeling distant or disconnected from thei
     categoryName: 'Growing a Couple\'s Loving Relationship',
     articleNumber: 'V',
     content: `
-Our Inattention To The Importance Of Reciprocal Spousal Obligations
+## Our Inattention To The Importance Of Reciprocal Spousal Obligations
 
-When Do We Tell Newlyweds About Their Obligations To Each Other?
+### When Do We Tell Newlyweds About Their Obligations To Each Other?
 
 Summary: What does a group’s language tell us about the importance of certain physical phenomena or the social/cultural/philosophical values of that group? The English language has a deficit due to its limited vocabulary in describing a core dimension of the marital relationship. It would therefore appear that this core dimension: the obligations of a husband to his wife and vice versa, is not recognized as important enough to even have a single encompassing verb to describe each spouse’s responsibilities to his partner. Some of these reciprocal spousal obligations are enumerated.
 
@@ -2090,7 +2089,7 @@ Clearly, the quantity of words a language contains about any subject, reflects h
 
 Since snow is not a crucial factor in our lives in America, we don’t need separate words to describe the different types of snow. To us, snow is just an occasional event and if we want to be more specific when we talk about it, we throw in an adjective. Accordingly, it seems reasonable to believe that there are many languages of people living at the Equator that don’t even have a word for snow.
 
-We Need to Highlight Reciprocal Spousal Obligations, But We Don’t
+## We Need to Highlight Reciprocal Spousal Obligations, But We Don’t
 
 Now let’s talk about “marriage” and those who enter its portals. The English language gives us “marriage” as a noun and “married” as an adjective, a (passive!) state of being, but no verb to give recognition to the fact that a husband and a wife must be active in pursuing their ongoing responsibilities to their spouse and must perform them faithfully to fulfill their role, or perhaps even deserve the title “husband” or “wife.” For a teacher, the verb is “teach.” If she doesn’t teach, she is a failure as a teacher…but due to our language deficit, it makes no sense when we say: “if he doesn’t husband he is a failure as a husband.”
 
@@ -2104,19 +2103,17 @@ Now, if sometime during the marriage ceremony, the clergyman would ask the prosp
 
 Contrasting with those who are naïve about marriage, are those who are only too well aware of its risks, having seen marital breakups in the marriages of parents, family members, friends or neighbors and being very much aware of the marital world around them. These sophisticated individuals are very concerned about the stability of marriages and fear, correctly, that they are not prepared to handle the problems that await them. These individuals are happy enough to live with their partners and postpone marriage for years, sometimes waiting until one, two, or even three children are born.
 
-What Are Some of Those Reciprocal Spousal Obligations?
+## What Are Some of Those Reciprocal Spousal Obligations?
 
 How do I address the problem of reciprocal spousal obligations in my practice? After making the initial appointment with a couple, married or not, I send them a number of questionnaires to fill out at home and bring with them to our first meeting. Filling out these questionnaires helps them understand their strong and weak points, and gives me a panoramic view of their situation, as they experience it. One of these questionnaires I named “Measuring a Couple’s Relationship-Building Communications.” The replies help me gauge how active each person behaves in building and maintaining the relationship. How good are they at fulfilling some of those “pesky” obligations and duties that they owe to their partner? I ask them to ink in a score to evaluate themselves and their partners on the frequency with which they display certain behaviors. Understandably, the list of obligations is not complete, but it gives each spouse an understanding of how successful he and his partner rate in discharging at least some of their responsibilities to each other. Understandably, no two persons are alike; people differ in the strength or frequency that they wish or need certain relation-building interactions. In each case, the couple is encouraged to reveal and openly discuss their personal and specific needs and wishes to each other.
 
-For more information on the Relationship-Building questionnaire which lists many spousal obligations, please [click here](article:hidden-agenda-relationships) for my article: “How Do We Assess a Couples’ Relationship-Building Communications?” Some universal needs and wishes are enumerated at the end of this article.
+For more information on the Relationship-Building questionnaire which lists many spousal obligations, please [click here](article:hidden-agenda-in-relationships) for my article: “How Do We Assess a Couples’ Relationship-Building Communications?” Some universal needs and wishes are enumerated at the end of this article.
 
-The Couple Should be Taught to Recognize And Acknowledge Relationship Problems And Should be Taught to Resolve Them Peacefully And Effectively
+## The Couple Should be Taught to Recognize And Acknowledge Relationship Problems And Should be Taught to Resolve Them Peacefully And Effectively
 
 And should the clergyman, note: “Well, you know that no two people agree on everything, and sooner or later as decisions have to be made, you will be arguing your points with each other. How skilled are you at keeping those arguments from escalating to not listening carefully, interrupting, losing patience, raising your voices angrily when you’re not getting your way and fighting with each other?” The young man might say. “Sir, we love each other and get along very well. We don’t intend to fight. We’re not like all those other couples that you hear about.” The cleric then sighs slowly and says: “Okay….”
 
-Learning How to Argue in a Respectful Fashion
-
-is a Prerequisite to Avoid Fighting
+## Learning How to Argue in a Respectful Fashion is a Prerequisite to Avoid Fighting
 
 The problem of discussions or arguments escalating to fights, when I work with a couple, especially those who complain “We’re fighting all the time” or “We have communication problems,” one of the first things I tell them is: disagreeing and arguing your point is good. After a good argument, each person knows more about the subject than he knew before the argument began. But arguing means a respectful exchange of ideas, listening to what the other person says with an open mind, looking for the best solution to the problem, and showing a willingness to compromise. When you fail to follow the rules, you are not arguing, you are fighting.
 
@@ -2130,7 +2127,7 @@ Couples that follow these suggestions and the techniques that I introduce are am
 
 For more information on this subject, [see How to Complain Diplomatically](article:complain-diplomatically) and Argue Without Fighting.”
 
-Developing Better Communication When Fighting is Not an Issue
+## Developing Better Communication When Fighting is Not an Issue
 
 Learning how to disagree, argue and even complain without fighting is very important, but not enough. The next approach in marriage counseling is to teach the couple a number of behaviors that are important to know so that they may get their point(s) across clearly to their partner when they discuss a complex situation and take the proper steps to bring about a mutually satisfactory resolution of the matter under discussion. One of my questionnaires relates to this area.
 
@@ -2141,7 +2138,7 @@ fulfillment in the relationship.
 
 A sophisticated cleric might encourage a couple to visit him, or go to a licensed marriage counselor before the marriage ceremony for premarital counseling, or have a learning experience some weeks or months after their honeymoon at which time the expert will highlight important concepts, philosophies and behaviors for each of them to adopt. Hopefully, he will encourage each person to fulfill his/her role in the relationship by adhering to the following minimal basic behavioral responsibilities:
 
-Basic Behavioral Responsibilities That Husbands And Wives Owe Each Other
+## Basic Behavioral Responsibilities That Husbands And Wives Owe Each Other
 
 Showing total interest in his spouse’s life and giving his spouse’s happiness and well-being priority in his life.
 
@@ -2159,7 +2156,7 @@ Protecting the relationship from interfering outside forces.
 
 But who thinks of these concepts when they walk down the aisle? How many of the marital hopefuls contemplate that indeed, it is so easy to get married, but in fact, so hard to stay married (happily)?
 
-Summary
+## Summary
 
 Spousal responsibilities, duties, obligations and respectful behavior that each partner owes the other are given scant attention if any at all. This sad fact is reflected in a language deficit. There is not a single verb describing the active role a husband or wife must fulfill in their obligations to their partner. Accordingly, many people get married with the mistaken belief that all they have to do is get married, and happiness will be an automatic result. Society fails our singles by not preparing them for marriage with the result that so many people are disappointed with their partners, and so many marriages end in failure.
 
@@ -2167,7 +2164,7 @@ For more information on this subject, [see So Easy To Get Married But So Hard To
 
 End of article 5. “Language Deficit Reflects Conceptual Deficit”
 
-For more articles on “Growing a Couple’s Loving Relationships” please [click here](article:hidden-agenda-relationships).
+For more articles on “Growing a Couple’s Loving Relationships” please [click here](article:hidden-agenda-in-relationships).
 
 The quickest way to reach me is by phone.
 
@@ -2201,25 +2198,25 @@ BergenMarriage1@gmail.com
     categoryName: 'Growing a Couple\'s Loving Relationship',
     articleNumber: 'VI',
     content: `
-But So Hard To Stay Married Happily
+## But So Hard To Stay Married Happily
 
 Introduction: The theme of this article is that individuals go into marriage without knowing what they are getting into. Our educational system fails to prepare our citizens as to the problems they might face in marriage, much less give them the skills to cope with them should they arise… and they do. Is it any wonder that so many marriages fall apart?
 
 The article highlights the importance of training individuals as early as possible, even beginning in childhood, to interact healthfully with others and to develop emotional intelligence which will stand with them for the rest of their lives. The article also proposes free screening for couple compatibility, free premarital training, and even free “on the job” training for a marriage’s first three years, to help couples develop a healthy and happy relationship —all at governmental expense. The article also offers ideas on help that is available today for couples who wish to improve their relationship.
 
-It Takes Training, Supervision and Practice to Develop a Skill
+## It Takes Training, Supervision and Practice to Develop a Skill
 
 It is universally understood that without education in reading and writing an individual would be illiterate…that it takes instruction and practice to play a musical instrument…that it would be foolhardy to jump into deep water if you never had a swimming lesson or drive a car without prior instruction and practice… In short, people do not achieve competence in any difficult skill by wishful thinking or by osmosis. How many of us would step into a plane if the pilot never went to flight training school, never flew a plane, and intended to learn flying by trial and error with us as passengers on this voyage… undoubtedly his first and last. The answer is obvious. So why do we assume that no preparation or training is necessary for that most complicated of challenges: marriage?
 
 Why are we so willing to take a gamble when it comes to marriage, even though we know that the marriage “licensing” process tells us nothing about the competencies of our prospective mate. When it comes to marriage we play by different rules. Is it any surprise that 50% of U.S. marriages end up in divorce?
 
-Why is Marriage Different?
+## Why is Marriage Different?
 
 When “Joe” and “Joyce” decide to become exclusive, would it ever occur to either of them to demand evidence from their prospective partner that they have training, experience and documented proof of competence at being a caring and loving partner and that he/she truly understands the responsibilities of being a good spouse? Of course not. Would they ever think of asking for assurance that he/she is also open-minded enough to take courses, instruction or couple/marriage counseling should they get off the track at some future point? Same answer.
 
 The fact is that we jump into marriage and make ourselves vulnerable by putting our happiness into the hands of another without asking for documented proof of competence. But marriage is no different than flying or surgery; marital skills need to be learned and those who choose marriage need to be competent at fulfilling the role. But how many people fit into that category?
 
-The Role of Biological, Psychological And Sociological Factors in Decision Making
+## The Role of Biological, Psychological And Sociological Factors in Decision Making
 
 In view of the fact that we are so very cautions when we make other important decisions, why do we ignore our usual precautions when it comes to marriage? Are we so intoxicated by the hormonal surge of sexual attraction, the wonders of the being in love experience and our hopeful fantasies of the future that we minimize and sometimes ignore the hardcore rational thinking processes that we use when making so many other very important decisions? True, many individuals do consider and consciously evaluate a number of important factors when choosing a partner. But it is also true that many attribute too much weight to how much fun they have with each other and how well they get along during the dating period, when they are both excited about the relationship and happy to please each other with their best behavior. Many people consider the “I’m in love” feeling an indisputable reason that this is the right person for them. They fail to consider that dating and marriage are two different experiences.
 
@@ -2229,7 +2226,7 @@ Yes, I am very much in touch with the reality of the progressive stages in today
 
 At the other end of the spectrum are those who have been burnt, or know others who have been burnt and are very much aware of the complications of marriage and push it off for years. But even within these groups, it doesn’t occur to these individuals to demand training or proof of competence since this is not the norm among couples of any level of experience. So why am I bothering to ask these rhetorical questions about demanding training and competence from your friend before you agree on an exclusive relationship? Well, I want to make a point.
 
-Society’s Tolerance For Failed Marriages is Extraordinary
+## Society’s Tolerance For Failed Marriages is Extraordinary
 
 Can you imagine what outrage, and call for action there would be? If all cars, buses and planes had a 50% chance of malfunctioning and inevitable crash during their life? If 50% of buildings and bridges collapsed within their first 1–30 years? Under those circumstances who would ever undergo an operation, step into a building, cross a bridge or enter a vehicle, much less with all the pomp and ceremony that accompanies a typical marriage?
 
@@ -2237,9 +2234,9 @@ Understandably, “society” would not stand for it, and Congress would be besi
 
 Clearly in today’s society, we consider marriage a very personal matter, and we accept the irrational thinking that training and formal preparation for marriage is: a) unnecessary and b) certainly not an obligation of society to its citizens. How long will we go on thinking this way?
 
-Is Jumping Into The Unknown Responsible Behavior On The Part Of An Individual?
+## Is Jumping Into The Unknown Responsible Behavior On The Part Of An Individual?
 
-An Educational Challenge to Society: Making The Unknown Known
+### An Educational Challenge to Society: Making The Unknown Known
 
 Humans are born with zero skills to survive in this world, much less to tackle the complicated challenges of normal adult human interaction. But even long after individuals develop adequate self sufficiency and many social skills, they are still quite illiterate when it comes to the great challenge of managing a marital relationship. Although it is generally assumed that the two individuals are at fault when a marriage flounders or fails, I propose that part of the blame should be laid at the foot of society because of its failure to provide an education for marriage. It has been my belief for many years, that society shortchanges its marriage-hopefuls by failing to teach, advise and prepare them for what they’re getting into. We fail to notify them that “they got married and lived happily ever after” takes place in fairy tales, but in real life, marriages are a very different story.
 
@@ -2247,11 +2244,11 @@ When a person buys a piece of property and wishes to build a home, he must submi
 
 It is hard to stay married (happily) because consciously we mistakenly believe that getting married is all we have to do, and the rest will come naturally. We were never taught that building a good marriage requires continuous involvement in a series of complex tasks which can only be accomplished with excellent communication skills and a host of emotional competencies.
 
-The Need For Sensitivity Training And The Development Of Emotional Intelligence As a Basis For Healthy Social Interaction
+## The Need For Sensitivity Training And The Development Of Emotional Intelligence As a Basis For Healthy Social Interaction
 
-Clearly, a conscious understanding of one’s own feelings and needs in a relationship, the ability to express them constructively, and sensitivity and care for others’ feelings and rights, are the basis of intelligent and friendly human interaction. These competencies serve as the infrastructure of a good marriage and are an absolute necessity. Further, unless each spouse understands the panorama of emotional, conversational, intellectual, social, affectionate, physical, familial and other needs and wishes of the other person, how can he possibly throw himself into the process of making his partner happy? For more on this, please [click here](article:hidden-agenda-relationships) for my article on “The Hidden Agenda in Marriage.”
+Clearly, a conscious understanding of one’s own feelings and needs in a relationship, the ability to express them constructively, and sensitivity and care for others’ feelings and rights, are the basis of intelligent and friendly human interaction. These competencies serve as the infrastructure of a good marriage and are an absolute necessity. Further, unless each spouse understands the panorama of emotional, conversational, intellectual, social, affectionate, physical, familial and other needs and wishes of the other person, how can he possibly throw himself into the process of making his partner happy? For more on this, please [click here](article:hidden-agenda-in-relationships) for my article on “The Hidden Agenda in Marriage.”
 
-When Should Training Begin?
+## When Should Training Begin?
 
 Training for competence in human relationships should begin in kindergarten with a focus on peers, teachers, siblings, parents, etc. and continue at an increasingly sophisticated level right through every grade of school. Fortunately, many sensitive and emotionally aware teachers and guidance counselors in elementary and middle schools, already do this informally.…but their efforts are scattered and few teachers follow formal curriculums. In fact, such curriculums do exist and are described by Daniel Goleman, PhD in his book “Emotional Intelligence.”
 
@@ -2269,7 +2266,7 @@ A vice president of a large firm told me about an employee who had closed multip
 
 In view of this high-level recognition of the importance of EQ and relationship building skills in the business world, how can we possibly ignore their importance when considering a person’s chances for success in the most emotionally intense and complex relationships of them all: marriage?
 
-Is There a Need For Formal Premarital Training?
+## Is There a Need For Formal Premarital Training?
 
 It took thousands of years before most societies in the world instituted universal compulsory education to combat illiteracy in the “Three R’s.” It’s been thousands of years since the institution of marriage, but we have yet to address its high illiteracy rate. In fact, our illiteracy rate in marriage is higher than the oft-stated 50% which is based on the divorce rate. When you consider the dissatisfaction and unhappiness that exist in so many “intact” marriages, the percentage is much greater.
 
@@ -2279,11 +2276,11 @@ Now, some will argue that training takes place in the home. Sadly, this is often
 
 But even in the best of cases, where the parental couple is happy, how much training of the child, if any, takes place? And for those who claim that the training takes place via observation, can you learn how to fly an airplane by sitting in the cockpit and observing a pilot? Learn how to paint by watching an artist paint? Play a violin by watching a violinist perform? So, too, with the successful building of the marital relationship and the handling of its various complications. Consequently, even in well functioning families, where children do observe kindness and caring between their parents, are they privy to the private conversations of their parents where the foundation of the relationship is built, complaints are made, problems are discussed, differences are argued out productively, and the marital structure maintained and fine-tuned on a regular basis?
 
-Should There Be Governmental Support For Premarital Training?
+## Should There Be Governmental Support For Premarital Training?
 
 In view of the personal pain and psychological harm to the couple and family directly involved in a marital breakup and the social and sometimes financial cost to society, doesn’t it make sense to do what we can to address the divorce epidemic in America? Wouldn’t it be wise for society to finance formal structured courses, in preparation for marriage, to any couple that wants it? Or perhaps we should even make such training a requirement to get a marriage license. And following the big day, wouldn’t it be helpful if there were ongoing refresher courses as well as private, couple counseling sessions freely available, provided by a sophisticated adult educational system staffed by experienced licensed marriage counselors (and other mental health providers if needed), funded by the state. If not for the life of the marriage, than at least for the first three years, to make sure that the marriage stays on track?
 
-Would “Born-Free” American Couples Stand For Mandatory Premarital Training?
+## Would “Born-Free” American Couples Stand For Mandatory Premarital Training?
 
 But is it conceivable that independent-minded Americans would allow their state legislatures to mandate such a “hassle” “just to get a marriage license?” Perhaps not at this time. However, let’s consider this: The state requires many white and blue collar would-be professionals to document formal training and demonstrations of competence in order to be licensed to do what they claim to do, but when it comes to getting a marriage license in NJ this is not necessary. All a person has to do is: 1. Plunk down $28 and 2. Fill out a simple form and sign on the dotted line. Does this make sense?
 
@@ -2291,13 +2288,13 @@ There are those who will say that a democratic society does not have the right t
 
 Now, if every professional–be he/she doctor, lawyer, engineer, teacher, nurse, plumber, electrician or bus driver etc, needs to prove formal training and pass a relevant state exam to prove knowledge and competence as a requirement for state licensing, why are spouses given a license to marry without similar requirements? Isn’t something amiss? Why should the state, which regulates marriage, allow any person at random to be a compelling influence on the happiness of another person (as well as their mental and physical health) without requiring proof of mental health and basic interpersonal skills?
 
-Is it Realistic to Require an Assessment of The Mental Health of Prospective Spouses And Will Such an Assessment Predict Marital Success?
+## Is it Realistic to Require an Assessment of The Mental Health of Prospective Spouses And Will Such an Assessment Predict Marital Success?
 
 Now, although measuring mental health can be done and would be very helpful to the individual, admittedly, requiring such an assessment is not realistic given that it would entail extensive psychological testing, great financial expenditure and a host of other social and political barriers, possibly including U.S. constitutional barriers. Additionally, even if the individual were to be found free of major personality defects, without formal training, he may still lack the required knowledge, emotional sensitivity and level of interpersonal skills, necessary to successfully meet the challenges of marriage.
 
 Further, even if a person were willing to undergo such testing and pay for it himself, can prediction of general success in marriage be measured? To my knowledge, no psychologists have done formal studies on this. But even if we cannot predict a person’s success in marriage to any unknown prospective partner chosen at random, can we at least measure the chances of success for a specific couple? Indeed, some psychologists say that a specific couple’s compatibility and chances for success can be measured!
 
-Measuring A Couple’s Chance For Success In Their Relationship
+## Measuring A Couple’s Chance For Success In Their Relationship
 
 There are highly respected and well-known psychologists who report that they have premarital assessment tools that can predict a couple’s chances for success in their relationship. Such noted psychological researchers as Jon Gottman, Ph.D. in his books: “Why Marriages Succeed or Fail” and “What Predicts Divorce” and Howard Markman, Ph.D., and Clifford Notarius, Ph.D. in “We Can Work It Out” and Howard Markman, Ph.D., Scott Stanley Ph.D., and Susan Blumberg, Ph.D. in “Fighting For Your Marriage,” provide research results to bolster their claims.
 
@@ -2309,7 +2306,7 @@ Why not offer these premarital assessments free to all couples who wish to marry
 
 But if testing and premarital assessments are too much of a “burden” to marriage hopefuls, can we at least settle for evidence of a minimal amount of formal training and preparation before issuing a license to marry?
 
-Additional Advantages of Premarital Training
+## Additional Advantages of Premarital Training
 
 In view of the fact that a good marriage is a known contributor to longevity, and a poor marriage is the primary environmental (as opposed to genetic) cause of depression and other ailments in women, also negatively affecting the emotions and behavior of men, we can expect a great reduction in the number of these problems if we increase marital stability and happiness. Further, universal ongoing training in sensitivity to the feelings of others and the development of enhanced interpersonal skills would spare society many social problems and financial responsibilities, too numerous to mention here.
 
@@ -2317,7 +2314,7 @@ The programs that I envision would thus enhance marital joy, family harmony, cre
 
 How is all this going to help you individually? Well, admittedly, my proposals for universal education to promote emotional intelligence to enhance interpersonal relationships and specific courses for premarital training, and my contention that society shares the blame for failed marriages won’t help you immediately, but perhaps it will energize you to do something about it which will benefit you in the long term. Society may have failed you, but you don’t have to fail yourself.
 
-Take Matters Into Your Own Hands!
+## Take Matters Into Your Own Hands!
 
 You and your partner can acquire a basic preparatory education for the challenge of marriage. Somewhat helpful are existing private programs for premarital education. There are also a variety of programs for married couples focusing on marriage enhancement. These programs range from a single lecture to weekend seminars and workshops and are offered in a variety of mental health, religious, and private settings. Understandably, these workshops are general in nature and are not geared to address specific problems of individual couples.
 
@@ -2329,7 +2326,7 @@ Thus, for all Americans, there is light at the end of the tunnel. You do not hav
 
 Thus, with appropriate training and guidance, you and your partner can learn what it takes to make your relationship work, can put into practice your new-found skills, can achieve a much better relationship and reach a level of closeness and happiness higher than you have ever had in the past!
 
-For information on premarital counseling [see](article:brief-overview)](article:hidden-agenda-relationships) for “The Counseling Process”.
+For information on premarital counseling [see](article:brief-overview)](article:hidden-agenda-in-relationships) for “The Counseling Process”.
   `
   },
 
@@ -2346,8 +2343,7 @@ For information on premarital counseling [see](article:brief-overview)](article:
     content: `
 to Maintain the Relationship
 
-## A. Ideally Both Persons Are Highly Motivated
-to Maintain the Relationship
+## A. Ideally Both Persons Are Highly Motivated to Maintain the Relationship
 
 In this category, the two individuals that come for counseling, be they married, living together, or just dating in an exclusive relationship, affirm their love for each other at the very first session and express their absolute intent of staying together. Both individuals are highly motivated for therapy. They come for couple counseling because they do not know how to translate their love into a comfortable, relaxed relationship. Although their motivation to find happiness with each other is high, their ability to interact successfully is low.
 
@@ -2355,15 +2351,15 @@ In some cases, in spite of a strong mutual attraction and love, the individuals 
 
 In other cases, two spouses have led peaceful, parallel, separate lives (no fighting or bickering), and have drifted apart over the years. These spouses do not share too much with each other and their sex life may have diminished. Eventually, one or both may begin to feel alone in the marriage. The analogy that I like is that of two horses working very hard as they are hitched together and pulling a wide plough (the family). Each horse is laboring to do its share, but has blinders on its eyes and is looking ahead. It does not look to the side and relate to its companion. Couples in this situation know that although each person is doing his best to keep the family going, and the work is being done, something very important is missing in their personal relationship; they wonder where the marriage is heading. Perhaps the couple has been jolted by an innocent flirtation or even an act of infidelity by one of the partners. At this juncture, the couple realizes that they have reached a crisis in their relationship and wisely seek marriage counseling.
 
-B. Some Times One Person is Highly Motivated. The Other Is Discouraged and Poorly Motivated to Maintain the Relationship
+## B. Some Times One Person is Highly Motivated. The Other Is Discouraged and Poorly Motivated to Maintain the Relationship
 
-1) Marriages That Are Held Together by External Constraints to Separation
+### 1) Marriages That Are Held Together by External Constraints to Separation
 
 In some situations, the “in love” feeling that each person had for each other when they first met may have dwindled greatly, remains only as a spark or perhaps only as a memory. However, even if they are both hurt, disappointed, alienated or angry, they do not necessarily hate each other. The problem is that the disappointment, hurt and/or alienation have grown to such a point that both individuals are utterly discouraged. In such a case, the relationship has deteriorated so much over the years that both persons are now ready to throw in the towel. Many of these couples are so frustrated in their attempts at resolution and exhausted from futile fighting that they would split up if not for their parental responsibilities to the children, financial, familial, cultural, religious or other external constraints. For these reasons, they will not go to a divorce attorney unless they have exhausted every possible approach to remedy their deteriorated situation.
 
 When a couple does not see divorce as a viable alternative, and see no success in their own efforts at remediation, they seek the help of a marriage counselor. These couples are determined to pull themselves out of their morass and since they are so unhappy they cling to the hope that there is only one way they can go: up. And they do go up when they throw themselves into the therapeutic process and stick with it, and the relationship begins to grow and progresses towards a mutually satisfactory relationship.
 
-2) Marriages That Are Held Together by Internal Constraints to Separation
+### 2) Marriages That Are Held Together by Internal Constraints to Separation
 
 In some instances, there are no external constraints to separation; the couple is free to pick up and go. but there are internal constraints. What are these internal constraints? People are reluctant to pull up stakes and walk away for a variety of reasons. Some fear the personal stigma of failure. Others wish to avoid a probable loss of self esteem and self blame, especially if this is their second or third serious attempt at marriage or living together. Others, male and female, not wishing to be alone, realize that to find another partner, they would have to return to square one of the dreaded singles scene.
 
@@ -2411,7 +2407,7 @@ If one partner is still reluctant to go along, the motivated partner should expr
 
 In a worst-case scenario, when the reluctant spouse refuses to go—here too, for a variety of reasons—the motivated spouse knows exactly where she/he stands and must go on with life accordingly. Should the motivated partner decide to fight for the relationship, a lot can be accomplished even if the spouse refuses to join the counseling process. Sad, but true, in extreme cases the reluctant spouse will agree to marriage counseling only when the willing spouse threatens separation or divorce.
 
-I also work with couples who are separated, and are exploring getting together again, but wish to resolve the issues that split them up in the first place. I will also work with you on issues that stem from conflicts of values and philosophy originating in personality, or different religious, ethnic or cultural backgrounds. please [click here](article:hidden-agenda-relationships) for “Different Levels of Motivation to Maintain The Relationship”
+I also work with couples who are separated, and are exploring getting together again, but wish to resolve the issues that split them up in the first place. I will also work with you on issues that stem from conflicts of values and philosophy originating in personality, or different religious, ethnic or cultural backgrounds. please [click here](article:hidden-agenda-in-relationships) for “Different Levels of Motivation to Maintain The Relationship”
   `
   },
   // Source: http://marriagecounselornj.com/26-spouse-resists-counseling/iii-fourteen-helpful-answers/
@@ -2425,10 +2421,9 @@ The purpose of this article is to help an unhappy partner, husband or wife, in t
 
 Couples who want to learn more about the counseling process are encouraged to click on the link “The Counseling Process” to read five articles describing my approach to couple counseling.
 
-Table of Contents
+## Table of Contents
 
-## A. It is a Painful and Burdensome Task for a Wife To Convince a
-Husband Who Resists Counseling.
+## A. It is a Painful and Burdensome Task for a Wife To Convince a Husband Who Resists Counseling.
 
 B. Suggested Responses to Fourteen Incorrect Beliefs or Unrealistic Fears Which May Underlie Your Husband’s Resistance to Marriage Counseling
 
@@ -2462,14 +2457,13 @@ We’ve Already Tried It; And It Didn’t Work
 
 The Cost
 
-## A. It is a painful and burdensome task for a wife to
-convince a husband who resists counseling.
+## A. It is a painful and burdensome task for a wife to convince a husband who resists counseling.
 
 The replies to husbands’ objections to marriage counseling that are suggested here are geared to a situation where an unhappily married wife’s recommendation that the couple seek professional help is ignored or rejected by her husband. Sometimes, the husband spells out his reasons, and sometimes he doesn’t. However, as noted above, sometimes it is the husband who suggests counseling and it is the wife who resists. However, as noted above the article is written as an information trove for the wife whose husband resists her suggestion for professional counseling for the marriage. In either case, it is hoped that both husbands and wives will benefit from reading the ideas presented here.
 
 The purpose of this article is to help you, the wife, answer your husband’s objections and convince him to seek out counseling when it is needed before the situation deteriorates to the point of hopelessness and no return. Hopefully, the information presented here will be read by both spouses, will encourage both of you to take steps that will spare each of you further bickering, fighting, avoidance, miscommunication, and continued unhappiness; and not only get your marriage back on track but even raise it to a level higher than you have ever experienced.
 
-Women Are More Attuned to Counseling Than Men
+### Women Are More Attuned to Counseling Than Men
 
 In general, women, more than men, are comfortable with emotional self-expression and have a stronger desire to discuss their marital relationships and problems directly with their spouse. Failing spousal receptivity, they might confide their problems to a sister, mother, friend, or they may seek the counsel of a licensed marriage counselor. Women are also more disposed –than are men—to express their emotions and feelings about themselves and others, and to discuss their various interpersonal experiences. They also like to go into greater detail, comment upon and even sometimes analyze the interpersonal situations in which they find themselves. To their dismay however, many women do not find the same trait in their partners. They are often frustrated by the fact that their husbands are not particularly interested in sharing their own inner lives with them, nor do their husbands show great interest in the inner lives of their wives.
 
@@ -2485,7 +2479,7 @@ People in general, but especially men, do not look upon the experience of “goi
 
 My goal in presenting the fourteen “suggested responses” here is to facilitate a warm, friendly discussion between you, the wife, and your husband or boyfriend. At no point are you looking to get into an argument wherein you demolish his logic and beat him into submission and walk away in a triumphant mood. The fourteen objections noted in this article may not be volunteered by your spouse at any time. In reading them here, however, you might acquire insight into the true source of his objection to counseling. Your next step would be to gently question and coax him to the point where he might come to a true realization of the thought process underlying his original “no.” You could do this by gently stating, I wonder why you are saying “no.” Look, Frank (name of husband) are you embarrassed that other people might find out? Do you think that seeking help signifies failure? Do you think that seeking help is a reflection on your intelligence, manhood…an attack on your autonomy, independence etc. thus using some of the 14 objections mentioned here as food for gently showing him that you wish to truly understand his point of view and are willing to openly discuss it with him.
 
-B. Suggested Responses to 14 Examples of Incorrect Beliefs, Illogical Thinking Or Unfounded Fears Which Might Underlie Your Husband’s Resistance to Marriage Counseling
+## B. Suggested Responses to 14 Examples of Incorrect Beliefs, Illogical Thinking Or Unfounded Fears Which Might Underlie Your Husband’s Resistance to Marriage Counseling
 
 ## 1. It is Humiliating to Seek Help
 
@@ -2493,11 +2487,11 @@ B. Suggested Responses to 14 Examples of Incorrect Beliefs, Illogical Thinking O
 
 If their marriage has reached such a low point that it needs outside help these individuals develop a very low opinion of themselves. Since seeking help is clearly an acknowledgment that the marriage has reached a very low point, going to a professional would not only result in loss of self-esteem, but resistors assume that going for professional help would give others a reason for others to view them less favorably. These individuals are extremely anxious about the slightest possibility that those others will somehow find out.
 
-Your reply:
+**Your reply:**
 
 In fact, there is nothing humiliating about seeking help for a problem –any problem. Quite to the contrary, a person should take pride in his ability to recognize a problem and do something constructive about it before it gets out of hand. If the brakes on our car began to fail would you ignore it, or would you wait until it crashed before you took it to our mechanic?
 
-You continue:
+**You continue:**
 
 Look Frank (insert partner’s name), you fail to realize that marriage is a most challenging adventure. All couples have problems of all kinds, including marital problems, some of which are insurmountable without outside help. Your embarrassment about seeking help is your own personal reaction and a product of your incorrect evaluation about seeking help.
 
@@ -2513,13 +2507,13 @@ In view of all this, it is perfectly possible that some of our best friends or y
 
 Other resistors carry their negative thinking a bit further. They believe that “Needing help means we have failed.”
 
-Your reply:
+**Your reply:**
 
 How does needing help equate with failure? Yes, we are doing poorly, but doing poorly is not the same as failing. Furthermore, we and virtually everybody else can use help in one area or another from time to time and don’t consider ourselves failures…why should marriage be an exception? And if we are failing, all the more reason why we need help to stop slipping down this slippery slope.
 
 ## 3. It is a Sign of Weakness to Seek Help
 
-Your reply:
+**Your reply:**
 
 In fact dear, we would comfortably seek help if our roof leaked, or our air-conditioning/heating system broke down and we wouldn’t feel “weak” that we can’t fix it ourselves and sought professional help.
 
@@ -2527,11 +2521,11 @@ Nor did you have qualms about (modify to fit the situation) seeking help in sett
 
 ## 4. Only Crazy People Go For Counseling
 
-Your reply:
+**Your reply:**
 
 In fact, “crazy people” are in locked wards in mental institutions, and don’t go to counselors. The counselors go to them. Crazy people who are delusional or psychotic (have poor contact with reality) can imagine their lives in any-which-way…can be kings or queens reigning in splendor over mighty kingdoms, and are perfectly happy in the setting in which they believe themselves to be. Really crazy people have such closed minds that they shut out the real world and don’t even know that they have problems. Furthermore, the healthier ones, among those in mental institutions, are open to counseling and psychotherapy.
 
-Your reply continues:
+**Your reply continues:**
 
 “Honey, normal people live in the real world and have problems. Since we are normal, we have problems. Please consider, we don’t need help because we have problems. We need help because we lack the skills to solve them. Hopefully:
 
@@ -2539,12 +2533,12 @@ We have open minds to recognize these problems, and
 
 We are smart enough, wise enough and mentally healthy enough to do something about them.
 
-Dear husband, please note:
+**Dear husband, please note:**
 If we do not seek help, then indeed, we are either crazy ourselves, or at least not smart enough, wise enough or mentally healthy enough to face the sad reality of our situation and do something about it. And I certainly don’t want to be in any of these categories.
 
 ## 5. People Should be Able to Solve Their Own Marital Problems
 
-Your reply:
+**Your reply:**
 
 In fact, why should people be able to solve their own problems? Where is the evidence for this?
 
@@ -2554,10 +2548,9 @@ Whatever job or profession a person practices, they either went to school, often
 
 Are we going to sit on your illogical “should be able to solve our own problems” when we had no training to live with each other, and the facts testify that in spite of our motivation, and our various efforts to solve our problems, we simply don’t have the skills to do so? How long do we have to go on living this way?
 
-## 6. If We Are Having Problems it Means:
-We Weren’t Meant For Each Other
+## 6. If We Are Having Problems it Means: We Weren’t Meant For Each Other
 
-Your reply continues:
+**Your reply continues:**
 
 In fact, where is the logic in that? All couples have problems. Your friends may not tell you about their problems, but you can rest assured that many of them have problems right now, and many others have had them in the past. Does that mean that none of your friends was meant for his wife? And in my opinion, virtually every couple has problems from time to time. Does that mean that no married person is meant for his spouse?
 
@@ -2574,23 +2567,21 @@ After all, this was not an arranged marriage. We married for love…is what we h
 AND WE CAN ACCOMPLISH THIS IF WE GO FOR PROFESSIONAL HELP
 AND SINCERELY THROW OURSELVES INTO THE PROCESS!
 
-## 7. People Should Get Married and
-Live Happily Ever After Without Problems
+## 7. People Should Get Married and Live Happily Ever After Without Problems
 
 Still other resistors have the false notion that a happy marriage is an automatic entitlement and that it should require no effort. This, too, is an irrational belief. It may be based on an unconscious memory of an often repeated phrase heard at the end of fairy tales involving a prince and his chosen bride. This person wants a free ride. He doesn’t understand that building and maintaining a lifelong relationship such as marriage is both a privilege and a job.
 
-Your reply:
+**Your reply:**
 
 In fact, no one ever promised us a bed of roses. A successful marriage does not come easily.
 
 People do not have a happy marriage handed to them on a silver platter. A marriage is like a complex garden. It requires a lot of effort. It has to be planned, built, attended to, worked on, cared for, fed and nurtured daily. We may be legally married, but that legal bond did not give us a marriage. A marriage is a complex relationship which must be built: one statement, communication, and behavior at a time. If we never built it, we never had a marriage And even if we had a good relationship at one time, if we neglected it, it is not surprising that it deteriorated.
 
-## 8. Our Marital Problems Are Your Fault;
-I’m Fine. You Need the Counseling
+## 8. Our Marital Problems Are Your Fault; I’m Fine. You Need the Counseling
 
 These husbands harbor the false belief that if the relationship is in trouble, it is their partner’s fault….they don’t need help; it is their wife (or girlfriend) who needs the help.
 
-Your reply:
+**Your reply:**
 
 Look, I am far from perfect and I know that I displease you in certain ways. But in fact, this marriage is the product of our own interaction. Each of us is half of the relationship and logically each of us may very well be responsible for half of the problem. But whether or not it is exactly true in our case, each person in a committed relationship should invest as much effort as he can to find a solution no matter who contributes more to the problem.
 
@@ -2600,30 +2591,30 @@ Further, when I do something that annoys you (sin of commission) or fail to do s
 
 Still another form of false thinking is “wishful thinking.” Many individuals hope that their marital problems will go away on their own accord. From “hope” they go to “convinced.” Well, why put effort into a situation that will remedy itself anyhow?
 
-Your reply:
+**Your reply:**
 
 Our problems have not gone away of their own accord, and there is no logical reason to believe that they will. Your statement is wishful thinking. I have suffered long enough, and you are not happy either. Neither of us wants to live this way… nor does this have to go on any longer. We both have a right to be happy and we owe it to ourselves and to each other to seize an opportunity to achieve that goal.
 
-Your further reply:
+**Your further reply:**
 
 Look, we are both aware of couples who were in love with each other when they married, whose relationships deteriorated and have lived many years in unhappy marriages with nagging and chronic problems, and in some cases ended up divorced (give examples of parents, relatives or friends). Why didn’t their problems go away on their own accord as you think they will? Clearly, problems do not remedy themselves. And that goes for the fifty percent of marriages in this country that end up in the divorce courts. Do you want to be another statistic? I don’t!
 
 ## 10. I’m An Adult. Nobody Is Going To Tell Me What To Do!
 
-Your reply: It is not the role of the marriage counselor to act like a boss and tell us what to do. We are both adults and we’ll make the decisions that govern our life. You are incorrect in your belief that the counselor’s comments amount to telling us what to do. Now consider this angle: If you had a legal problem and your lawyer advised you on how to proceed, would you be offended? It’s your decision whether you will take his advice. Same with a medical doctor; you make the final decision.
+**Your reply:** It is not the role of the marriage counselor to act like a boss and tell us what to do. We are both adults and we’ll make the decisions that govern our life. You are incorrect in your belief that the counselor’s comments amount to telling us what to do. Now consider this angle: If you had a legal problem and your lawyer advised you on how to proceed, would you be offended? It’s your decision whether you will take his advice. Same with a medical doctor; you make the final decision.
 
 Mental health providers are even more careful about telling their clients “what to do.” They prefer exploring with us what we are doing, and how (un)successful we are with that approach. The marriage counselor will then ask us what other approaches might be helpful, and might suggest a few himself. If we are reasonable and ready to get our act together on this, we will explore the pros and cons of new approaches and decide for ourselves what we think will work best in our situation.
 
 ## 11. I Don’t Believe in Marriage Counseling
 
-Your reply:
+**Your reply:**
 
 Why not? (If you get one of the answers enumerated above, reply to his objection accordingly.)
 If he says he doesn’t know why he doesn’t believe in it, you can say: How can you come to a conclusion about something without knowing why you came to such a conclusion? And/or you can gently probe as suggested above at the beginning of this article….and if you think you know what he fears or dislikes about the process, gently ask him that question: Well, Frank, you say you don’t know. Could it be because you think that……………
 
 The goal is not to dismiss him, but rather to engage him and draw it out of him in a constructive fashion. In the final analysis, you want him to go willingly, even if he’s skeptical. You don’t want him to feel that going for professional help is a loss of face to him, i.e. that you won, and he lost in the decision-making process.
 
-Your further reply:
+**Your further reply:**
 
 At some point you might want to gently challenge him: Where is the logic in your belief? On what evidence do you come to that conclusion? With how many people have you discussed this?
 
@@ -2633,13 +2624,13 @@ Do you know a single couple who have had marriage counseling? If he answers “Y
 
 If he says: “My parents sent me to a psychologist when I was 17 and I hated it; furthermore, it didn’t help.”
 
-Your reply:
+**Your reply:**
 
 If you were sent against your will, you probably resented it, were probably fighting the therapist, did not value what you were getting, and couldn’t have been very cooperative. Therefore it’s inaccurate to say that you tried it. How could you possibly have benefited from such an experience? Your experience at age 17 when you were a typically rebellious adolescent, which is probably why your parents sent you to a psychologist, has no bearing on what therapy or counseling has to offer us now that we are adults, recognize we have problems, and are motivated to do something about them.
 
 ## 13. We’ve Already Tried It And It Didn’t Work
 
-Your reply will depend on the situation:
+**Your reply will depend on the situation:**
 
 a.The guy we went to was a nice person and he tried to help. But I don’t think he knew what he was doing. He called himself a “therapist” but I don’t remember his credentials. Legally, anyone can call himself a marriage counselor or therapist. You could. I could. I don’t remember how we got to him…possibly an inspirational flyer in our mailbox offering a free consultation.
 
@@ -2663,7 +2654,7 @@ Or:
 
 f. Frank, the counselor we saw was excellent and should have been a perfect fit. Unfortunately, neither of us was psychologically ready or fully cooperative with him. We were too angry at each other to hear what he had to say about ourselves. And since each of us was expecting him to take our side and say that it’s all the other person’s fault, we copped out when he began to focus on each of our own shortcomings and made suggestions about changing our behavior.
 
-You continue with your reply:
+**You continue with your reply:**
 
 This time, we have to go with open minds and each of us must admit to our shortcomings and faults with the realization that we both, in our individual way, contribute to –and escalate– the negative interaction. If we don’t admit to our own failures in our behavior, how can the counselor possibly help us understand why we are behaving this way and suggest other ways of coping? Nor can he teach us to cope with, or be more understanding of, each other’s shortcomings.
 
@@ -2675,13 +2666,13 @@ g. Even though you don’t think it helped, I do. I learned how to cope better w
 
 ## 14. The Cost
 
-Your reply:
+**Your reply:**
 
 OK. But before we talk about the financial cost, which might even be covered in part by insurance, what about the emotional cost to you, me, and our children living this way?
 
 What about how our unhappy marriage is affecting our quality of life? And consider how this tension and painful relationship is (modify to fit your situation if applicable): affecting our lack of tolerance for even minor frustrations from each other, our patience with the children, our diminished enjoyment in our social or wider family life, relationships at work, increased chance of accidents on the highway, lack of sleep and our seeking happiness in food or alcohol? And how about the stress to our bodies and our increased risk for depression or high blood pressure. There are times when you get so enraged, I fear you’re going to have a heart attack or stroke.
 
-You Continue:
+**You Continue:**
 
 What about the cost to our children? How long will it be before they start sensing or outright experience our fighting and stop inviting friends to our house, or their friend’s parents stop initiating play dates with our children? And how long will it be before all this stress begins to affect their success at school or their self-image, believing that their friend’s parents are happy with each other, but their parents are not?
 

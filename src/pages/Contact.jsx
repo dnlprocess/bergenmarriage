@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { base44 } from '@/api/base44Client';
-import { useMutation } from '@tanstack/react-query';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -23,10 +21,13 @@ export default function Contact() {
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const submitMutation = useMutation({
-    mutationFn: (data) => base44.entities.ContactInquiry.create(data),
-    onSuccess: () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    // Simulate form submission delay
+    setTimeout(() => {
       setSubmitted(true);
       setFormData({
         name: '',
@@ -35,12 +36,8 @@ export default function Contact() {
         preferred_contact: 'phone',
         message: ''
       });
-    }
-  });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    submitMutation.mutate(formData);
+      setIsSubmitting(false);
+    }, 500);
   };
 
   return (
@@ -211,10 +208,10 @@ export default function Contact() {
 
                   <Button 
                     type="submit"
-                    disabled={submitMutation.isPending}
+                    disabled={isSubmitting}
                     className="w-full bg-[#2D5F3F] hover:bg-[#234A30] text-white rounded-full h-12"
                   >
-                    {submitMutation.isPending ? (
+                    {isSubmitting ? (
                       'Sending...'
                     ) : (
                       <>
