@@ -89,7 +89,7 @@ export default function Layout({ children, currentPageName }) {
               <span className="font-serif-display text-2xl md:text-3xl text-navy font-semibold tracking-tight">
                 Bergen Marriage & Couple Counseling
               </span>
-              <span className="text-base text-stone-500">Reuben E. Gross, PhD, LMFT</span>
+              <span className="text-lg text-stone-500">Reuben E. Gross, PhD, LMFT</span>
             </Link>
 
             {/* Desktop Navigation */}

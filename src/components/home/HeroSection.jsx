@@ -1,18 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../../utils';
 import { Button } from '@/components/ui/button';
 import { Phone, CheckCircle, ArrowRight } from 'lucide-react';
-
-// Drop the hero photo into public/images/ as hero.jpg (or update the path
-// below). Until a real photo is in place, a soft placeholder is shown.
-const HERO_IMAGE_SRC = '/images/hero.jpg';
-const HERO_IMAGE_ALT = 'Reaching out to connect';
-const HERO_IMAGE_PLACEHOLDER =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='500'%3E%3Crect fill='%23DDE8D8' width='100%25' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dy='.3em' fill='%23888' font-family='Georgia, serif'%3EReaching Out to Connect%3C/text%3E%3C/svg%3E";
+import HeroHandsReveal from './HeroHandsReveal';
 
 export default function HeroSection() {
-  const [heroImageSrc, setHeroImageSrc] = useState(HERO_IMAGE_SRC);
   return (
     <section className="relative overflow-hidden">
       {/* Section-specific decorative accents */}
@@ -32,7 +25,7 @@ export default function HeroSection() {
 
             {/* Credentials */}
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-5 border border-stone-100 shadow-sm">
-              <p className="font-semibold text-[#1B3A2F] mb-1">Reuben E. Gross, PhD, LMFT, ABP, ABPP, FAACP</p>
+              <p className="font-semibold text-[#1B3A2F] text-xl mb-1">Reuben E. Gross, PhD, LMFT, ABP, ABPP, FAACP</p>
               <p className="text-stone-600 text-base">Dually Licensed Marriage Counselor and Clinical Psychologist</p>
               <p className="text-stone-500 text-base mt-1">Clinical Member, American Association for Marriage and Family Therapy</p>
             </div>
@@ -88,14 +81,7 @@ export default function HeroSection() {
 
           {/* Image */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={heroImageSrc}
-                alt={HERO_IMAGE_ALT}
-                className="w-full h-[500px] object-cover"
-                onError={() => setHeroImageSrc(HERO_IMAGE_PLACEHOLDER)}
-              />
-            </div>
+            <HeroHandsReveal />
 
             {/* Caption below image */}
             <div className="mt-5 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-6 md:p-8 w-full max-w-lg md:max-w-xl border border-[#DDE8D8]/60 hover:shadow-xl transition-shadow duration-300">

@@ -32,11 +32,11 @@ export default function CredentialsBar() {
           {credentials.map((cred, index) => (
             <div key={index} className="flex items-start gap-3">
               <div className="p-2 bg-[#2D5F3F]/20 rounded-lg flex-shrink-0">
-                <cred.icon className="w-5 h-5 text-[#2D5F3F]" />
+                <cred.icon className="w-6 h-6 text-[#2D5F3F]" />
               </div>
               <div>
-                <h3 className="text-white font-medium text-sm">{cred.title}</h3>
-                <p className="text-stone-400 text-xs mt-0.5">{cred.desc}</p>
+                <h3 className="text-white font-medium text-base">{cred.title}</h3>
+                <p className="text-stone-400 text-sm mt-0.5">{cred.desc}</p>
               </div>
             </div>
           ))}

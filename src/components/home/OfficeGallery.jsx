@@ -7,27 +7,18 @@ import {
   CarouselNext,
 } from '@/components/ui/carousel';
 
-// Drop the three office photos into public/images/office/ using these exact
-// filenames (or update the paths below to match whatever you name them):
-//   public/images/office/office-1.jpg
-//   public/images/office/office-2.jpg
-//   public/images/office/office-3.jpg
-// Until a real photo is in place, a soft placeholder is shown automatically.
 const officeImages = [
   {
-    src: '/images/office/office-1.jpg',
-    alt: 'Waiting area at Dr. Gross’s Teaneck office',
-    caption: 'A warm, comfortable waiting area',
+    src: '/images/office/DSC_3503.jpg',
+    alt: 'Dr. Gross’s warm, wood-paneled counseling room in Teaneck, NJ',
   },
   {
-    src: '/images/office/office-2.jpg',
+    src: '/images/office/DSC_3510.jpg',
+    alt: 'Comfortable seating area in the counseling room',
+  },
+  {
+    src: '/images/office/DSC_3511.jpg',
     alt: 'Private counseling room where sessions take place',
-    caption: 'Our private counseling room',
-  },
-  {
-    src: '/images/office/office-3.jpg',
-    alt: 'Office building in Teaneck, Bergen County, NJ',
-    caption: 'Convenient Bergen County, NJ location',
   },
 ];
 
@@ -84,9 +75,6 @@ export default function OfficeGallery() {
                 >
                   <OfficeImage image={image} />
                 </button>
-                <p className="text-center text-stone-500 text-base mt-4 italic">
-                  {image.caption}
-                </p>
               </CarouselItem>
             ))}
           </CarouselContent>

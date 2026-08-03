@@ -27,8 +27,11 @@ export default function GoalsSection() {
 
         <h2 className="font-serif text-3xl md:text-4xl text-[#1B3A2F] leading-tight mb-8">
           Reducing Conflict of Couples is Half of the Goal
-          <span className="block text-[#2D5F3F]">Increasing Harmony and Joy is the Other Half</span>
         </h2>
+
+        <h3 className="font-serif text-2xl md:text-3xl text-[#1B3A2F] leading-tight mb-8">
+          Increasing Harmony and Joy is the Other Half
+        </h3>
 
         <div className="text-left space-y-6 text-xl leading-relaxed text-stone-600">
           <p>
