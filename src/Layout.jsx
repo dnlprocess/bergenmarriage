@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from './utils';
+import { createPageUrl } from './utils/index';
 import { Phone, Menu, X, Mail, MapPin, Clock, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { categories } from './components/articles/articleData';
