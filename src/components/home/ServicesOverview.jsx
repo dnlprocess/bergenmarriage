@@ -42,6 +42,7 @@ export default function ServicesOverview() {
             Whether you're facing communication challenges, trust issues, or simply want to 
             strengthen your relationship, I provide warm, nonjudgmental guidance tailored 
             to your unique situation.
+            I am very knowledgeable and can help you with the following problems: poor communication, misunderstanding each others’ wishes and needs, ignoring partners’ feelings and opinions, arguing disrespectfully leading to fights, lack of affection, sexual problems, feelings of alienation, and the biggest of them all: infidelity - which can definitely be helped (see my three articles). You might also be questioning whether the marriage is worth savings, but are willing to come and work hard to reestablish your original loving relationship. 
           </p>
         </div>
 
