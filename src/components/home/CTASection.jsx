@@ -104,7 +104,7 @@ export default function CTASection() {
               </a>
 
               <a
-                href="https://marriagecounselornj.co"
+                href="https://bergenmarriagecounselor.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-between p-4 bg-stone-50 rounded-xl hover:bg-[#DDE8D8] transition-colors group"
@@ -115,7 +115,7 @@ export default function CTASection() {
                   </div>
                   <div>
                     <p className="text-sm text-stone-500">Website</p>
-                    <p className="text-[#1B3A2F] font-medium">marriagecounselornj.co</p>
+                    <p className="text-[#1B3A2F] font-medium">bergenmarriagecounselor.com</p>
                   </div>
                 </div>
               </a>

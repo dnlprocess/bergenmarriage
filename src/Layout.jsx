@@ -267,9 +267,9 @@ export default function Layout({ children, currentPageName }) {
                   <Mail className="w-4 h-4 text-sage" />
                   BergenMarriage1@gmail.com
                 </a>
-                <a href="https://marriagecounselornj.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-stone-300 hover:text-white transition-colors">
+                <a href="https://bergenmarriagecounselor.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-stone-300 hover:text-white transition-colors">
                   <Globe className="w-4 h-4 text-sage" />
-                  marriagecounselornj.co
+                  bergenmarriagecounselor.com
                 </a>
                 <div className="flex items-center gap-3 text-stone-300">
                   <MapPin className="w-4 h-4 text-sage" />
