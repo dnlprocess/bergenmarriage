@@ -395,7 +395,6 @@ or
 
 | ![Cooperate](/images/articles/cooperate.jpg) | ![Fight](/images/articles/fight.png) | ![Withdrawal](/images/articles/withdrawal.png) |
 | :---: | :---: | :---: |
-| **Cooperate** | **Fight** | **Withdrawal** |
 
 Dr. Karen Horney, one of Sigmund Freud’s famous students, once remarked that people can interact in three modes: a. cooperate, b.fight, or c. withdraw.
 

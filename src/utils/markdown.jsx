@@ -112,7 +112,7 @@ export function createMarkdownComponents() {
     img: ({ node, src, alt, ...props }) => (
       <figure className="my-10">
         <div className="rounded-2xl overflow-hidden shadow-lg border border-stone-200">
-          <img src={src} alt={alt || ''} className="w-full h-auto" loading="lazy" {...props} />
+          <img src={src} alt={alt || ''} className="w-full h-auto" {...props} />
         </div>
         {alt && (
           <figcaption className="text-center text-base text-stone-500 mt-3 italic">
