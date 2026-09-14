@@ -2732,7 +2732,7 @@ If he agrees to come, then I recommend both of you read [“The Marriage Counsel
         }
         
         .font-serif-display {
-          font-family: 'Georgia', 'Times New Roman', serif;
+          font-family: 'Fraunces', 'Georgia', 'Times New Roman', serif;
         }
         
         .text-sage { color: var(--color-sage); }
