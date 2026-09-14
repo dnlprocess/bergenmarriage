@@ -109,18 +109,32 @@ export function createMarkdownComponents() {
     li: ({ node, ...props }) => (
       <li className="text-stone-600" {...props} />
     ),
-    img: ({ node, src, alt, title, ...props }) => (
-      <figure className="my-10 max-w-md mx-auto">
-        <div className="rounded-2xl overflow-hidden shadow-lg border border-stone-200">
-          <img src={src} alt={alt || ''} className="w-full h-auto" {...props} />
-        </div>
-        {title && (
-          <figcaption className="text-center text-base text-stone-500 mt-3 italic">
-            {title}
-          </figcaption>
-        )}
-      </figure>
-    ),
+    img: ({ node, src, alt, title, ...props }) => {
+      // Special title "float-left" floats a smaller image beside the text
+      // that follows it, instead of the standard centered block image.
+      if (title === 'float-left') {
+        return (
+          <img
+            src={src}
+            alt={alt || ''}
+            className="float-left w-40 sm:w-48 h-auto mr-6 mb-2 rounded-xl shadow-lg border border-stone-200"
+            {...props}
+          />
+        );
+      }
+      return (
+        <figure className="my-10 max-w-md mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-stone-200">
+            <img src={src} alt={alt || ''} className="w-full h-auto" {...props} />
+          </div>
+          {title && (
+            <figcaption className="text-center text-base text-stone-500 mt-3 italic">
+              {title}
+            </figcaption>
+          )}
+        </figure>
+      );
+    },
     blockquote: ({ node, ...props }) => (
       <blockquote className="border-l-4 border-[#2D5F3F] bg-[#FAF6EF] py-4 px-6 rounded-r-lg my-6 italic text-stone-600 text-xl" {...props} />
     ),

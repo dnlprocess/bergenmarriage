@@ -568,6 +568,8 @@ Many people have never considered the difference between “talking” and “co
 
 Talking is uttering words with the goal of getting a message across; sometimes it works, sometimes it doesn’t. Communicating refers to one step further in the process: it is the successful transmission of a message. When a person talks to his partner and there is no communication, the relationship will suffer.
 
+![Radio](/images/articles/radio.jpg)
+
 ## Do Radio, TV and Podcast Hosts Talk Or Communicate?
 
 In choosing a metaphor to illustrate my point, may I offer that of a radio, TV or cellphone blaring away in an empty room. The person who is talking may be thousands of miles away from that empty room. He has no idea who—if anybody—in that room is listening to him/her (or that the room and the radio, TV and cellphone exist in the first place). And even if someone did step into the room at some point, the speaker would have no idea who the potential listener might be. Nor would the speaker know whether that “someone” is paying attention, is interested in what he’s saying, or understands the concepts proposed or the terminology used to express them. In short, the speaker does not know anything about “the listener,” nor can he adjust his words to make them more intelligible or interesting to “the listener” in any way. The speaker simply talks and hopes that someone, somewhere out there is listening, and understands what he is talking about. But all this is wishful thinking. For all he knows, his microphone isn’t even plugged in. Consequently, no one is listening to him and he is talking to the four walls of the studio. But the speaker may have no clue about this while reading his carefully prepared script and making his points with energy and enthusiasm.
@@ -1493,6 +1495,8 @@ The goal of the counselor in marriage counseling is to help people make their ow
 
 One lawyer whose husband had an affair with a coworker said, “If I had the (divorce) papers before me right now, I would sign them!” In response to this woman, I said that it was perfectly normal and self-protective to want to detach herself from this man who had hurt her so much.
 
+![Divorce](/images/articles/divorce.jpg)
+
 I explained to her that I empathized with her emotion, but at that moment, she was in the heat of anger, and that she was under the control of the emotional part of her brain. I suggested she put off a final decision until the logical part of her brain is brought into the decision-making process. Feelings of rage, betrayal, depression, and a host of other painful and often contradictory emotions are perfectly normal.
 
 One lawyer whose husband had an affair with a coworker said, “If I had the (divorce) papers before me right now, I would sign them!” In response to this woman, I said that it was perfectly normal and self-protective to want to detach herself from this man who had hurt her so much. I explained to her that I empathized with her emotion, but at that moment, she was in the heat of anger, and that she was under the control of the emotional part of her brain.
@@ -1573,7 +1577,10 @@ Another weakness in the metaphor: No one can predict the harm of infidelity to a
 
 Now, some may question: “How can there even be infidelity in a very good marriage?” Unfortunately, even very good marriages are not infidelity-proof. Janet Spring, Ph.D., writes in her book “After The Affair” that most men who have affairs have no complaints about their marriage. My own professional experience is similar: When I ask the offending husband “How would you rate your happiness in the marriage before the affair?” it is amazing how many say “I was perfectly happy. It was an ‘A’ marriage.”
 
-## 2. Nor Are All "Earthquakes" The Same;
+| ![Earthquake damage](/images/articles/earthquake1.jpg) | ![Earthquake aftermath](/images/articles/earthquake2.jpg) |
+| :---: | :---: |
+
+## 2. Nor Are All "Earthquakes" The Same
 
 ### The Difference Between A Real Earthquake and The Infidelity "Earthquake"
 
@@ -1606,6 +1613,8 @@ I then say to the husband:
 After the repairs and renovations are completed, the couple ends up with a better house than they ever had before. Now, at this point you know why I believe:
 
 “Yes, there can be a silver lining around the cloud caused by infidelity.”
+
+![Silver lining](/images/articles/yessilver.png)
 
 If both partners throw themselves wholeheartedly into the healing process, the crisis could become a stepping stone to better and increased communication between the couple, greater bonding, a much deeper understanding of each other, a greater appreciation of what marriage and love is all about, a happier and more mature relationship and a greater love for each other than they ever had before the infidelity lifting the marriage to a level it had never reached before. I have seen this happen again and again, so many times.
 
@@ -1668,6 +1677,8 @@ I’ve worked with wives who accidentally came across a female’s name and phon
 
 One client told me that she smelled perfume on her husband as he walked into the house. Another wife found a lipstick in the husband’s car. However, neither of these situations are “smoking guns” since the man may have taken a heavily perfumed female colleague to the train station after work or driven some colleagues to a team lunch during which time a woman spilled contents of her pocketbook. In these two cases, the husband bolstered his claim with other facts and evidence, and the wife believed him.
 
+![Fire](/images/articles/fire.jpg)
+
 ## Playing With Fire is Dangerous
 
 Sometimes, the wife becomes suspicious when she discovers a cell phone in her husband’s possession that she did not know existed. Or she may note E-Z Pass charges for trips across the G.W. Bridge or the Lincoln Tunnel, not at the usual commuting times of her spouse. On one occasion, a husband told his wife that his arrival time from his out-of-town business trip was at 8:22 p.m., and in fact, he did come home shortly after that time. The problem was that the bill from the chauffeur service, which she found on their vanity, said that he was picked up at the airport at 1 p.m. The wife wondered how her husband spent his time between the 1 p.m. pickup at the airport and his arrival at home at 9:30 p.m.
@@ -1691,6 +1702,8 @@ An upsetting behavior may range from a comparatively innocent, but secret, phone
 Sometimes, a wife will close one eye to the suspicious behavior of her spouse. She may even brush off the delicately-put comments of her alert and suspicious close friends. Such a woman may flit in and out of denial, ignoring signs of infidelity because she fears a confrontation, hurt and pain, and the possibility of the breakup of her marriage. I’ve had situations where husbands have been unfaithful for years and even decades and often with more than one woman.
 
 ## Technology Tells All: You Can’t Really Hide
+
+![Suspicion](/images/articles/suspicion.png)
 
 ### Other Sources of Suspicion: Even More Likely Symptoms of an Affair
 
@@ -1731,6 +1744,8 @@ Often, infidelity takes place in a marriage that is vulnerable. However, infidel
     categoryName: 'Growing a Couple\'s Loving Relationship',
     articleNumber: 'I',
     content: `
+![Happily ever after](/images/articles/everafter.png "float-left")
+
 Once upon a time when one heard the phrase; “They got married and . . . ” an internal cue would prompt the words, “they lived happily ever after.” But those associations took place when we were younger and the memory of Cinderella and other fairy tales still lurked in our minds. Nowadays, many of us are more knowledgeable about the complications of marriage and our thought might be a more sophisticated “their problems first began.”
 
 ## First-Time Marriages
