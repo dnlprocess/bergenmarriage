@@ -17,7 +17,7 @@ export default function About() {
   return (
     <div className="bg-[#FAF6EF]">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#DDE8D8] to-white py-16 md:py-24">
+      <section className="bg-gradient-to-br from-[#DDE8D8] to-white py-10 md:py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -28,9 +28,9 @@ export default function About() {
                 Dually Licensed Marriage Counselor and Psychologist
               </h1>
               <p className="text-xl text-stone-600 leading-relaxed">
-                Dr. Reuben E. Gross, Ph.D. of Bergen Marriage & Couples Counseling, is a 
-                dually licensed marriage counselor and psychologist in Teaneck, NJ. 
-                He has 39 years of experience and was awarded Diplomate Status by 
+                Dr. Reuben E. Gross, Ph.D. of Bergen Marriage & Couples Counseling, is a
+                dually licensed marriage counselor and psychologist in Teaneck, NJ.
+                He has 39 years of experience and was awarded Diplomate Status by
                 fellow experts.
               </p>
             </div>
@@ -49,6 +49,16 @@ export default function About() {
         </div>
       </section>
 
+      {/* Certificate Banner — background matches the image's own white background
+          so it reads as one seamless strip regardless of viewport width */}
+      <div className="bg-white py-2">
+        <img
+          src="/images/banner-certificate.png"
+          alt="Graduation cap and diploma"
+          className="w-full h-20 md:h-28 object-contain mx-auto"
+        />
+      </div>
+
       {/* Main Content */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,7 +68,7 @@ export default function About() {
               About Reuben E. Gross, PhD, LMFT
             </h2>
             
-            <div className="text-stone-600 leading-relaxed space-y-6">
+            <div className="text-lg text-stone-600 leading-relaxed space-y-6">
               <p>
                 Reuben E. Gross, Ph.D., LMFT (Licensed Marriage Counselor NJ & Family Therapist) offers warm, active, nonjudgmental, empathic, solution-oriented couples and marriage counseling in Bergen County, NJ. He is a highly trained, credentialed, experienced, and caring Marriage Counselor and Psychologist, Licensed In the State of New York as a Psychologist, and in NJ by the New Jersey State Board of Marriage Counselors and the New Jersey State Board of Psychologists.
               </p>
@@ -93,10 +103,19 @@ export default function About() {
               {licenses.map((license, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 bg-stone-50 rounded-xl">
                   <CheckCircle className="w-5 h-5 text-[#2D5F3F] flex-shrink-0 mt-0.5" />
-                  <span className="text-stone-600">{license}</span>
+                  <span className="text-lg text-stone-600">{license}</span>
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Certificate — card background matches the image's own white background */}
+          <div className="bg-white rounded-2xl shadow-sm p-6 mb-12 flex justify-center">
+            <img
+              src="/images/certificate.jpg"
+              alt="Diploma certificate"
+              className="h-24 md:h-32 w-auto object-contain"
+            />
           </div>
 
           {/* Abbreviated Resume */}
@@ -110,7 +129,7 @@ export default function About() {
               </h2>
             </div>
             
-            <div className="text-stone-600 leading-relaxed space-y-6">
+            <div className="text-lg text-stone-600 leading-relaxed space-y-6">
               <p>
                 After college and prior to graduate school in psychology, Dr. Gross lived near Manila for eighteen months while serving as an officer in the U.S. Air Force. In addition to his Air Force service, after duty hours, he was enrolled at the University of the Philippines, where he studied the political, sociological, religious, and cultural foundations of many countries in the Far East and earned an M.A. in Political Science. During his tour of duty, he traveled extensively in that part of the world. Following his Air Force experience, he worked for a youth organization and subsequently began to study psychology. He earned an M.S and Ph.D. in psychology from Yeshiva University in New York, NY. Since then, he has enhanced his cultural and ethnic knowledge through visits to countries in the Mid East, Asia, Africa, Europe, and Central America.
               </p>
@@ -134,7 +153,7 @@ export default function About() {
               </h2>
             </div>
             
-            <div className="text-stone-600 leading-relaxed space-y-6">
+            <div className="text-lg text-stone-600 leading-relaxed space-y-6">
               <p>
                 In view of his dual licensure and close to four decades of practice as a Licensed Psychologist and as a Licensed Marriage and Family Therapist (LMFT), Dr. Gross has had extensive experience as a marriage counselor and psychotherapist with many individuals and couples covering a wide panorama of age, education, ethnic and cultural heritage. His frequent attendance at professional conventions in both disciplines and participation in continuing education classes, seminars, and extended educational programs has greatly expanded his repertoire of therapeutic techniques. When working with clients, he draws from many modalities, including Psychodynamic, Therapy, Cognitive/Behavioral Therapy, Rational-Emotive-Behavioral Therapy (Dr. Gross has an Advanced Certificate from The Albert Ellis Institute), Emotional Focused Couple Therapy, Solution-Focused Marital Therapy, Schema Marital Therapy, John Gottman's "Relationship Theory," and the "Prevention and Relationship Enhancement Program" (PREP) for couples.
               </p>
@@ -155,7 +174,7 @@ export default function About() {
               </h2>
             </div>
             
-            <div className="text-stone-600 leading-relaxed space-y-6">
+            <div className="text-lg text-stone-600 leading-relaxed space-y-6">
               <h3 className="font-semibold text-[#1B3A2F] text-lg">NJ Licensed Marriage and Family Therapist</h3>
               <p>
                 All Licensed Marriage and Family Therapists in NJ, are required to take 20 hours of continued education per annum to maintain their licensure. Dr. Gross has maintained that schedule for 39 years. The seminars he has taken are too numerous to mention here.
