@@ -4,10 +4,12 @@ import { useLocation } from 'react-router-dom';
 export default function NavigationTracker() {
     const location = useLocation();
 
-    // Track page navigation
+    // Reset scroll position on navigation, unless linking to an in-page anchor
     useEffect(() => {
-        // Page tracking code can be added here if needed
-    }, [location]);
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [location.pathname, location.search]);
 
     return null;
 }

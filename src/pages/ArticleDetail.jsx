@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { articlesContent, articlesList, categories } from '../components/articles/articleData';
-import { createMarkdownComponents, scrollToSection } from '../utils/markdown';
+import { createMarkdownComponents, markdownUrlTransform, scrollToSection } from '../utils/markdown';
 
 const markdownComponents = createMarkdownComponents();
 
@@ -119,7 +119,7 @@ export default function ArticleDetail() {
           {/* Content - Styled like a proper article/webpage */}
           <div className="max-w-4xl">
             <div className="text-xl leading-relaxed text-stone-700">
-              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents} urlTransform={markdownUrlTransform}>
                 {article.content}
               </ReactMarkdown>
             </div>

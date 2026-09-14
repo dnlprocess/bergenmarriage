@@ -22,6 +22,21 @@ export function slugify(text) {
     .replace(/^-|-$/g, '');
 }
 
+const SAFE_PROTOCOLS = ['http', 'https', 'mailto', 'tel'];
+
+// react-markdown's default urlTransform strips unrecognized protocols (e.g. our
+// custom "article:" and "category:" internal link scheme), reducing them to "".
+// Allow those through explicitly while still sanitizing everything else.
+export function markdownUrlTransform(url) {
+  if (url.startsWith('article:') || url.startsWith('category:') || url.startsWith('#')) {
+    return url;
+  }
+  const colonIndex = url.indexOf(':');
+  if (colonIndex < 0) return url;
+  const protocol = url.slice(0, colonIndex).toLowerCase();
+  return SAFE_PROTOCOLS.includes(protocol) ? url : '';
+}
+
 export function scrollToSection(id) {
   const el = document.getElementById(id);
   if (el) {

@@ -645,16 +645,16 @@ In a healthy relationship, it is the speaker’s right and responsibility to say
 Now for the C: when the listener pays careful attention and is astute and correctly interprets what is conveyed (the B), or when he misinterprets what is being conveyed we call that the C. In short, the listener’s interpretation of what he hears is the C. When A, B, and C are exactly the same, we experience perfect communication, but, unfortunately, many of us fall short of that ideal.
 
 Often, the speaker does not say what is on his mind, or, if he does, he fails to get his point across. In both cases, there is a breakdown in the communication and a resultant gap in the relationship. Let’s consider some of the reasons why A, B, and C might not be equal to each other.
-1. Poor Communicators Do Not Reveal The Complexity of Their Emotional State; They Reveal Only Part of What is Going On Inside of Them, Hence Their B is Not The Same as Their A. [See more](article:poor-communication-patterns)
+1. Poor Communicators Do Not Reveal The Complexity of Their Emotional State; They Reveal Only Part of What is Going On Inside of Them, Hence Their B is Not The Same as Their A. [See more](article:reasons-spouses-fail-to-communicate)
 2. Communication Breaks Down When C is Not The Same as B Due to:
 1. Inattention,
-2. Selective Hearing, 3. Misinterpreting, or Mind Reading on the part of the listener. [See how to avoid this](article:poor-communication-patterns)
+2. Selective Hearing, 3. Misinterpreting, or Mind Reading on the part of the listener. [See how to avoid this](article:reasons-spouses-fail-to-communicate)
 3. People Miscommunicate Under The Influence of Anger; Their B is Not The Same as Their True A
-1. Using the “Never” word, 2. Using the “Always” word, 3. Making a blanket statement, and 4. Name- calling. [Avoid these mistakes](article:poor-communication-patterns)
+1. Using the “Never” word, 2. Using the “Always” word, 3. Making a blanket statement, and 4. Name- calling. [Avoid these mistakes](article:reasons-spouses-fail-to-communicate)
 4. It is Poor Communication When The Speaker Knowingly Distorts What He Truly Believes or
-Feels in His Heart. His B is Not The Same as His A. [Learn more](article:poor-communication-patterns)
-5. It is Poor Communication When B is Not The Same as A due to an Honest Mistake on the Part of the Speaker. [Read more](article:poor-communication-patterns)
-6. Other Reasons Why Misinterpretation Takes Place: 6a. The Role of the Speaker  6b. The Role of the Listener [See more](article:poor-communication-patterns)
+Feels in His Heart. His B is Not The Same as His A. [Learn more](article:reasons-spouses-fail-to-communicate)
+5. It is Poor Communication When B is Not The Same as A due to an Honest Mistake on the Part of the Speaker. [Read more](article:reasons-spouses-fail-to-communicate)
+6. Other Reasons Why Misinterpretation Takes Place: 6a. The Role of the Speaker  6b. The Role of the Listener [See more](article:reasons-spouses-fail-to-communicate)
 ## Detailed Illustrations With Case History Examples of the 6 Points Listed Above
 
 ## Reason 1. Poor Communicators Do Not Reveal The Complexity of Their Emotional State; They Reveal Only Part of What is Going On Inside of Them, Hence Their B is Not The Same as Their A
@@ -741,11 +741,11 @@ His embarrassment at appearing untrustworthy and immature, his fear that he woul
 Another example of a breakdown of communication, due to the speaker’s failure to say what she thinks, a problem that I have seen time and time again, occurred with Marjorie, 29, who one evening wanted to go out for dinner with her live-in boyfriend Frank, 31. Partly because of her insecurity with Frank arising from his ambivalence about a commitment to marriage (after four years of living together), Marjorie was afraid to tell Frank her wish to go out for dinner (her A). When he walked in that evening, she should have said, “Honey, I feel like eating out, how about us going out tonight?” Instead, she went about it in a roundabout way by asking him “Honey, would you like to go out for dinner tonight?” Her B was not equal to her A since it gave no indication of her own wishes on the matter.
 When Frank gave her an honest “no,” Marjorie felt rejected, hurt, angry, and sulked for the rest of the evening. She brought up this incident during counseling as an example of Frank’s insensitivity to her feelings. Frank remembered the incident but had a different slant on the matter. As he reported it, he had come home in a great mood from his construction job but said “no” in reply to her question because he was tired and wanted to spend a quiet evening at home. We reviewed the events of the evening and I helped him explore the progression of his thoughts and feelings for the next few hours. It emerged that he was baffled by Marjorie’s increasing distance and moodiness, and in turn, found himself distancing himself from her as the evening progressed and his own mood worsened.
 Marjorie’s failure to communicate her wishes in this situation was part of a pattern wherein she would barely hint at her wishes. In another situation, while watching TV with Frank, she asked “Isn’t it cold in here?” when she really meant, “Why don’t you come over here on the couch and cuddle with me a bit?” Marjorie’s round-about approach constituted a breakdown in communication and the relationship suffered accordingly.
-In my dual role as a marriage counselor/psychologist, I spent individual time working with each member of this couple. I helped Marjorie understand why she was afraid to express her wishes directly and I encouraged her to speak up for what she wanted as the situation required. I explained that, whereas, in some cases, a wife might be intimidated by a demanding or dictatorial spouse, and fears to express her wishes directly, this was not the case here. Frank was not intimidating in any way, if fact, he loved her, respected her and was open to her input. The origin of Marjorie’s problem with Frank began long before Frank came on the scene. Marjorie had been brought up by a close-minded, angry, alcoholic father whom she feared. I explained that it was natural, but unfortunate that she would bring this learned fear into her adult relationship with Frank. It was part of her hidden agenda. For further explanation, please see my article titled, “The Hidden Agenda in Relationships.”
+In my dual role as a marriage counselor/psychologist, I spent individual time working with each member of this couple. I helped Marjorie understand why she was afraid to express her wishes directly and I encouraged her to speak up for what she wanted as the situation required. I explained that, whereas, in some cases, a wife might be intimidated by a demanding or dictatorial spouse, and fears to express her wishes directly, this was not the case here. Frank was not intimidating in any way, if fact, he loved her, respected her and was open to her input. The origin of Marjorie’s problem with Frank began long before Frank came on the scene. Marjorie had been brought up by a close-minded, angry, alcoholic father whom she feared. I explained that it was natural, but unfortunate that she would bring this learned fear into her adult relationship with Frank. It was part of her hidden agenda. For further explanation, please see my article titled [“The Hidden Agenda in Relationships.”](article:hidden-agenda-in-relationships)
 After exploring Marjorie’s childhood, I explained to her that whereas it had been a wise and adaptive (appropriate) behavior on her part to “walk around on eggshells” in a previous setting (her childhood home) when her father came home drunk because it served the valuable purpose of sparing her from abuse. However, her timid behavior was not adaptive in her present situation with Frank since it was not only not necessary, but worse, it restricted her freedom to express herself normally and interact healthfully with her boyfriend. Accordingly, her miscommunications interrupted the healthy flow of their relationship.
 I then trained both of them in the A-B-C’s of good communication. My focus with Marjorie was to be open in revealing her wishes and to be more self-assertive in asking that they are fulfilled. My focus with Frank was to be more sensitive to Marjorie’s early experiences as a child and her consequent “beating around the bush” type of communication. To help her compensate for her fear of self-assertion, he was asked to encourage her to express her wishes directly, and say her true thoughts in any given situation. I helped them understand how a breakdown in communication, such as the one that occurred with the hoped-for dinner date and the desire for cuddling—neither of which (unexpressed) wishes were fulfilled—can initiate unintended and totally unnecessary feelings of rejection, hurt, confusion, and an unnecessary distance between them.
 In this example with Marjorie, as in the case cited above with Harvey who was also afraid, to tell the truth, both of these individuals were aware that they were not saying what they meant. In my work with more than a thousand couples over the past 35 years, I have found that a failure to express one’s feelings can happen to either gender, due to a fear of loss of love, fear of starting a fight, or for other reasons. This crippling reticence can go on for years. Not saying what you really mean in any situation that involves your partner is a psychological problem for the “quiet” party, shortchanges the partner, and creates an interpersonal problem for the couple. Keeping silent when something should be said hurts both persons and diminishes the relationship.
-For a more elaborate discussion on people’s failures to say what is on their mind, [Thirteen Reasons Why Spouses Fail to Communicate](article:thirteen-reasons-fail-communicate) Why Spouses Fail to Communicate”.
+For a more elaborate discussion on people’s failures to say what is on their mind, [Thirteen Reasons Why Spouses Fail to Communicate](article:reasons-spouses-fail-to-communicate) Why Spouses Fail to Communicate”.
 ## Reason 4 (b). People Misrepresent (lie) or Withhold Information to Paint Themselves in a Better Light or Defend Themselves Against Blame or Attack.
 
 In other situations, a person may deliberately withhold information, mislead, or lie, to keep something hidden from his partner. People lie to their partners to paint themselves in a better light, e.g., by boasting about an accomplishment that never happened, or by not mentioning a failure that did happen, or to hide some experience or activity that their partner would have disapproved of had they known about it. Withholding information might involve past or present problems with alcohol, drugs, sex, gambling, or other unflattering behaviors; or it may involve an erratic employment history, or large debts to credit cards, or personal loans. At still other times, a person may withhold information about medical or psychological problems in oneself or one’s family.
@@ -757,10 +757,10 @@ The good news, however, is that third-party liaisons do not automatically destro
 Another piece of good news is that every cloud has a silver lining. In your despair, you may not see it now, but it is there. Not only is there hope, but in many cases, the couple emerges from counseling with a much better marriage than they had had in years, and sometimes better than they ever had from the very beginning.
 I have seen many “offenders” (a technical term for the unfaithful partner) not only guilty and shaken by the enormity of the hurt and pain they inflicted on their spouse, but also frightened by the damage done, and by the prospect of losing the love of their partner and the possible death of their marriage. In such situations, they take serious stock of the situation and come face to face with the vital importance of the marriage to them and their underlying love for their spouse. They then throw themselves into the hard work that is required for the healing process.
 In many cases, the marriage counseling process opens their eyes to the possibility of a good marriage. Sadness and regret over the numerous lost opportunities for growth and love over the preceding years mobilize the couple to grow their relationship from routine and humdrum to dynamic and fulfilling. The sensitive interaction required by both spouses for the promotion of healing and reconciliation often brings about a closer, more caring, and intimate relationship than the couple ever thought possible.
-Unfortunately, it often takes a crisis for the marriage to get the attention it should have gotten all along. [See the silver lining in infidelity](article:silver-lining-infidelity) for “Can There Be a Silver Lining Around The Cloud of Infidelity?
+Unfortunately, it often takes a crisis for the marriage to get the attention it should have gotten all along.
 ## Is Lying the Same as Poor Communication?
 
-It might be argued that lying is not an example of poor communication, but rather one of pure deception. This is true. Withal, I would like to also say that withholding information or lying is a very serious category of deliberate miscommunication or breakdown in communication. Communication means “to share” or “make known” and withholding information or lying does neither of these. A lie creates a separation between two individuals. The dangers that lying brings to a relationship are obvious and cannot be overemphasized. Lying is a recipe for disaster and is discussed in another article on this website. [see Thirteen Reasons Why Spouses Fail to Communicate](article:thirteen-reasons-fail-communicate)
+It might be argued that lying is not an example of poor communication, but rather one of pure deception. This is true. Withal, I would like to also say that withholding information or lying is a very serious category of deliberate miscommunication or breakdown in communication. Communication means “to share” or “make known” and withholding information or lying does neither of these. A lie creates a separation between two individuals. The dangers that lying brings to a relationship are obvious and cannot be overemphasized. Lying is a recipe for disaster and is discussed in another article on this website. [see Thirteen Reasons Why Spouses Fail to Communicate](article:reasons-spouses-fail-to-communicate)
 ## Reason 5. It is Poor Communication When B is Not The Same as A due to an Honest Mistake on the Part of the Speaker
 At times, the speaker does his best to honestly say what is on his mind, i.e., convey an accurate A. However, the words that come out of his mouth, B, is not what he has on his mind. In the following examples the person wants to say what is on his mind but unintentionally says something else:
 ## Reason 5 (a). Illustrating When C is Not the Same as B Due to A Slip of the Tongue
@@ -1537,7 +1537,7 @@ Other husbands, for a variety of reasons, are less sensitive to the pain they ha
     categoryName: 'Infidelity & Trust Issues',
     articleNumber: 'II',
     content: `
-Before reading this article I recommend you read Article 1 “Achieve A Happy Togetherness After The Devastation Of An Infidelity.” [See Article on Recovering After Infidelity](article:happy-togetherness-infidelity)
+Before reading this article I recommend you read Article 1 “Achieve A Happy Togetherness After The Devastation Of An Infidelity.” [See Article on Recovering After Infidelity](article:hurt-and-pain-of-infidelity)
 
 ## Not All Houses are the Same
 
@@ -1632,7 +1632,7 @@ Although men cheat more frequently, women also cheat. It would be confusing if I
 
 Unfaithful partners are seeking their own emotional satisfaction, the fulfillment of psychological needs, and/or physical pleasures. Since they do not wish to hurt their spouses, they delude themselves into believing that their spouse “will never find out, and what they don’t know won’t hurt them.” The purpose of this article is to highlight the fragility of this self-serving belief and hopefully deter those individuals who are on the brink of an affair. Further, for those already involved, it is always better to confess and reveal rather than be discovered. Rebuilding trust is more difficult when the hurt party makes the discovery by herself, …and she can.
 
-The devastation and heartache of an affair cannot be simply “smoothed over” by the couple as they “get on with their lives.” The lack of trust, pain, and heartbraking devastation will linger. The problem should be faced directly. It can be addressed successfully with professional guidance. Click here for the article “Coping With Infidelity.”
+The devastation and heartache of an affair cannot be simply “smoothed over” by the couple as they “get on with their lives.” The lack of trust, pain, and heartbraking devastation will linger. The problem should be faced directly. It can be addressed successfully with professional guidance.
 
 Disclaimer: I am not an expert on tracking down errant spouses. Nothing in this article should be understood that I am giving advice on how to do so. The purpose of the article is to let people know that errant behavior can be traced and discovered comparatively easily.
 
@@ -1710,7 +1710,7 @@ Infidelity in a marriage is like an earthquake to a house. It can bring havoc: s
 
 One of the many women I have helped (as part of a couple that came because of infidelity) remarked that her husband’s errant behavior was “a blessing in disguise.” It was a shock to both of them and constituted the “wakeup call” that Janis Spring, Ph.D., mentions in her book “After The Affair,” which helps couples deal with the aftermath of this shattering experience and go through a healing process. The husband’s errant behavior opened this couple’s eyes to the gradual deterioration of their marriage, the vulnerability of their relationship, and their need to stop ignoring the situation. It galvanized them (as it does others who do not wish to give up their relationship) to throw their best efforts into their marriage and make it a number one priority.
 
-Often, infidelity takes place in a marriage that is vulnerable. However, infidelities can also occur even in marriages where both spouses thought they were happy in the relationship. But even if a marriage was considered “good” by both parties, after going through a properly conducted healing process by an experienced professional, following infidelity, the marriage can become a lot richer, stronger, more mature, fulfilling, and satisfying in many different ways. It can end up better than it ever was and stay at a loftier level for the rest of its existence. More on this in my article Can There Be A Silver Cloud Around The Cloud Of An Infidelity?”
+Often, infidelity takes place in a marriage that is vulnerable. However, infidelities can also occur even in marriages where both spouses thought they were happy in the relationship. But even if a marriage was considered “good” by both parties, after going through a properly conducted healing process by an experienced professional, following infidelity, the marriage can become a lot richer, stronger, more mature, fulfilling, and satisfying in many different ways. It can end up better than it ever was and stay at a loftier level for the rest of its existence.
   `
   },
 
@@ -1805,25 +1805,6 @@ Interpersonal problems are complex and there is no one-solution-fits-all “ulti
 
 With goodwill, commitment to change, and energetic involvement by both parties, you and your spouse can learn to overcome your problems and lead a life of harmony and peacefulness. Aside from the normal periodic problems that assail every couple, why shouldn’t the two of you be able to fulfill your dream of living together Happily Ever After?
 
-End Of Article I. “Happily Ever After”
-
-For More “Growing a Couple’s Loving Relationships” article [click here](category:growing-loving-relationships).
-
-Inquiries Welcome
-
-The quickest way to reach me is by phone.
-
-With effort and commitment
-you CAN achieve your goals!
-
-Make Us Your Favorite:
-www.MarriageCounselorNJ.com
-
-For a Regular 60-minute Counseling Session or for a free 15-minute consultation call me at:
-Landline: (201) 836-2737 Cell: (201) 218-3112
-
-Email:
-BergenMarriage1@gmail.com
   `
   },
   // Source: http://marriagecounselornj.com/19-growing-a-couples-loving-relationship/21-ii-love-conquers-all/
@@ -1965,7 +1946,7 @@ Hidden agendas do not remain dormant; they eventually emerge; and when they do, 
 
 ### Relationship-Building Communications Are The Key To Emotional Bonding & Intimacy
 
-This article addresses the issues of women who say “My husband is quiet,” “We barely talk,” ” We’re like two ships passing at night,” We’re like roommates.” “I feel lonely in this relationship.” Couples who say “We don’t communicate effectively, we’re always fighting” have a different problem which is addressed in the article “How to Complain Diplomatically, Disagree and Yet Argue Constructively Without Fighting Thus Achieving A Win-Win Situation” ([see How to Complain Diplomatically and Argue](article:complain-diplomatically))
+This article addresses the issues of women who say “My husband is quiet,” “We barely talk,” ” We’re like two ships passing at night,” We’re like roommates.” “I feel lonely in this relationship.” Couples who say “We don’t communicate effectively, we’re always fighting” have a different problem which is addressed in the article “How to Complain Diplomatically, Disagree and Yet Argue Constructively Without Fighting Thus Achieving A Win-Win Situation” ([see How to Complain Diplomatically and Argue](article:how-to-complain-diplomatically))
 
 ## How Do We Assess a Couples' Relationship-Building Communications?
 
@@ -2125,7 +2106,7 @@ After introducing them to this list, my next step is to get the couple to agree 
 
 Couples that follow these suggestions and the techniques that I introduce are amazed at how quickly following a few simple rules can dramatically change the atmosphere in their household. Understandably, old habits resist change; we don’t expect magical transformations. But very real noticeable change can, and does take place with serious effort. The newly created positive, respectful atmosphere is self-reinforcing and, with practice, becomes the mode.
 
-For more information on this subject, [see How to Complain Diplomatically](article:complain-diplomatically) and Argue Without Fighting.”
+For more information on this subject, [see How to Complain Diplomatically](article:how-to-complain-diplomatically) and Argue Without Fighting.”
 
 ## Developing Better Communication When Fighting is Not an Issue
 
@@ -2160,35 +2141,8 @@ But who thinks of these concepts when they walk down the aisle? How many of the 
 
 Spousal responsibilities, duties, obligations and respectful behavior that each partner owes the other are given scant attention if any at all. This sad fact is reflected in a language deficit. There is not a single verb describing the active role a husband or wife must fulfill in their obligations to their partner. Accordingly, many people get married with the mistaken belief that all they have to do is get married, and happiness will be an automatic result. Society fails our singles by not preparing them for marriage with the result that so many people are disappointed with their partners, and so many marriages end in failure.
 
-For more information on this subject, [see So Easy To Get Married But So Hard To Stay Married](article:easy-marry-hard-stay) (Happily)”
+For more information on this subject, [see So Easy To Get Married But So Hard To Stay Married](article:easy-to-get-married-hard-to-stay) (Happily)”
 
-End of article 5. “Language Deficit Reflects Conceptual Deficit”
-
-For more articles on “Growing a Couple’s Loving Relationships” please [click here](article:hidden-agenda-in-relationships).
-
-The quickest way to reach me is by phone.
-
-I Offer Daytime, Evening & Occasional Weekend Hours,
-
-Prompt Return of Calls, and
-
-Emergency Appointments Upon Request.
-
-Call (201) 218-3112 and (201) 836-2737 in Bergen County, NJ to speak with a solution-oriented
-Dually Licensed Marriage Counselor and NJ Psychologist with 39 years of experience
-helping couples restore harmony, peace, mutual understanding and love.
-
-With effort and commitment
-you CAN achieve your goals!
-
-Make Us Your Favorite:
-www.MarriageCounselorNJ.com
-
-For a Regular 60-minute Counseling Session or for a free 15-minute consultation call me at:
-Landline: (201) 836-2737 Cell: (201) 218-3112
-
-Email:
-BergenMarriage1@gmail.com
   `
   },
   // Source: http://marriagecounselornj.com/19-growing-a-couples-loving-relationship/25-vi-so-easy-to-get-married-but-so-hard-to-stay/
@@ -2369,25 +2323,6 @@ Many others committed to striving for the success of their marriage/ relationshi
 
 In still other situations, no matter how unhappy they are and no matter how poorly they treat each other, both spouses forcefully affirm that they love each other. Sadly, they are stuck in a neurotic struggle that they cannot control and want to be liberated from their neurotic bondage. Having married for love with the intention of building a happy family, these people have absolutely no thought of splitting up and will not abandon their goal without giving it everything they have.
 
-End of article 1 “Different Levels of Motivation to Maintain The Relationship”
-
-For more articles, see [Spouse Resists Counseling](category:spouse-resists-counseling).
-
-Inquiries Welcome
-
-The quickest way to reach me is by phone
-
-With effort and commitment
-you CAN achieve your goals!
-
-Make Us Your Favorite:
-www.MarriageCounselorNJ.com
-
-For a Regular 60-minute Counseling Session or for a free 15-minute consultation call me at:
-Landline: (201) 836-2737 Cell: (201) 218-3112
-
-Email:
-BergenMarriage1@gmail.com
   `
   },
   // Source: http://marriagecounselornj.com/26-spouse-resists-counseling/ii-what-if-only-one-person-is-motivated/
@@ -2695,9 +2630,9 @@ Please listen to me: If therapy can teach us how to resolve our problems and liv
 
 BOTTOM LINE: If all of your arguments fail to persuade him, ask him to agree to five sessions of counseling as an indication of his love for you, even if he doesn’t believe in it…a special favor to you. Tell him, that the more he sees it as a waste of time and money, the more you will see his coming as a commitment to you and his desire to preserve the marriage. This will give him an opportunity to size up the situation and get a feel for what marriage counseling is all about. You are asking for a commitment of five visits, and his promise that he will open up, tell the counselor his true feelings and beliefs, and will have an open mind to what the counselor will say.
 
-If he refuses, then you, the wife, should make your own appointment and explore your situation one-to-one with the counselor. Your husband’s refusal to come is a loss, but it does not mean that the situation is hopeless. You might want to read my article “What if Only One Person is Motivated?”
+If he refuses, then you, the wife, should make your own appointment and explore your situation one-to-one with the counselor. Your husband’s refusal to come is a loss, but it does not mean that the situation is hopeless. You might want to read my article [“What if Only One Person is Motivated?”](article:only-one-person-motivated)
 
-If he agrees to come, then I recommend both of you click on the link “The Counseling Process” to learn more about what you can expect in session, and what you can both do to help yourselves in cooperation with your marriage counselor.
+If he agrees to come, then I recommend both of you read [“The Marriage Counseling Process”](category:marriage-counseling-process) to learn more about what you can expect in session, and what you can both do to help yourselves in cooperation with your marriage counselor.
 
 ## WHERE THERE IS LIFE, THERE IS HOPE!
   `
