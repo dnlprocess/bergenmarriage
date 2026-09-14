@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from './utils/index';
-import { Phone, Menu, X, Mail, MapPin, Clock, ChevronDown } from 'lucide-react';
+import { Phone, Menu, X, Mail, MapPin, Clock, ChevronDown, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { categories } from './components/articles/articleData';
 
@@ -268,7 +268,7 @@ export default function Layout({ children, currentPageName }) {
                   BergenMarriage1@gmail.com
                 </a>
                 <a href="https://marriagecounselornj.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-stone-300 hover:text-white transition-colors">
-                  <Mail className="w-4 h-4 text-sage" />
+                  <Globe className="w-4 h-4 text-sage" />
                   marriagecounselornj.co
                 </a>
                 <div className="flex items-center gap-3 text-stone-300">

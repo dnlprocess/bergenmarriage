@@ -12,8 +12,8 @@ export default function HeroSection() {
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#DDE8D8]/30 to-transparent pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#2D5F3F]/5 rounded-full -translate-x-1/2 translate-y-1/2 pointer-events-none" />
       
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 md:pt-16 pb-16 md:pb-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-6">
             <div className="space-y-4">
@@ -91,9 +91,9 @@ export default function HeroSection() {
           <div className="relative">
             <HeroHandsReveal />
 
-            {/* Caption below image */}
-            <div className="mt-5 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-6 md:p-7 w-full max-w-lg md:max-w-xl border border-[#DDE8D8]/60 hover:shadow-xl transition-shadow duration-300">
-              <p className="text-[#1B3A2F] font-serif text-xl md:text-2xl italic leading-relaxed">
+            {/* Caption — overlaps the bottom edge of the image */}
+            <div className="relative z-10 -mt-12 md:-mt-14 w-fit max-w-[92%] mx-auto bg-white/95 backdrop-blur-sm rounded-xl shadow-lg px-6 py-5 border border-[#DDE8D8]/60 hover:shadow-xl transition-shadow duration-300">
+              <p className="text-[#1B3A2F] font-serif text-xl md:text-2xl italic leading-relaxed text-center">
                 Reaching out to connect is the responsibility of both partners.
               </p>
             </div>

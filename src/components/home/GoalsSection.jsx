@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '../../utils';
 
-// Drop the photo into public/images/ as smiling-couple.jpg (or update the
+// Drop the photo into public/images/ as smiling-couple.png (or update the
 // path below). Until a real photo is in place, a soft placeholder is shown.
-const GOALS_IMAGE_SRC = '/images/smiling-couple.jpg';
+const GOALS_IMAGE_SRC = '/images/smiling-couple.png';
 const GOALS_IMAGE_ALT = 'Smiling couple enjoying their relationship';
 const GOALS_IMAGE_PLACEHOLDER =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='500'%3E%3Crect fill='%23DDE8D8' width='100%25' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dy='.3em' fill='%23888' font-family='Georgia, serif'%3ESmiling Couple%3C/text%3E%3C/svg%3E";
@@ -71,6 +71,14 @@ export default function GoalsSection() {
             other and significantly increase your chances of rekindling some of the magic that
             characterized the beginning of your relationship.
           </p>
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <img
+            src="/images/aamft-badge.png"
+            alt="AAMFT Clinical Member"
+            className="h-32 w-[113px]"
+          />
         </div>
       </div>
     </section>

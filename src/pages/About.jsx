@@ -73,15 +73,22 @@ export default function About() {
 
           {/* Licensure & Credentials */}
           <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-12">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-3 bg-[#DDE8D8] rounded-xl">
-                <Award className="w-8 h-8 text-[#2D5F3F]" />
+            <div className="flex items-center justify-between gap-4 mb-8">
+              <div className="flex items-center gap-4">
+                <div className="p-3 bg-[#DDE8D8] rounded-xl">
+                  <Award className="w-8 h-8 text-[#2D5F3F]" />
+                </div>
+                <h2 className="font-serif text-2xl md:text-3xl text-[#1B3A2F]">
+                  Licensure, Diplomate Awards & Professional Memberships
+                </h2>
               </div>
-              <h2 className="font-serif text-2xl md:text-3xl text-[#1B3A2F]">
-                Licensure, Diplomate Awards & Professional Memberships
-              </h2>
+              <img
+                src="/images/aamft-badge.png"
+                alt="AAMFT Clinical Member"
+                className="hidden sm:block h-20 w-[70px] flex-shrink-0"
+              />
             </div>
-            
+
             <div className="grid md:grid-cols-2 gap-4">
               {licenses.map((license, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 bg-stone-50 rounded-xl">
