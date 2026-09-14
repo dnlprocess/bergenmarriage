@@ -107,15 +107,14 @@ export default function About() {
                 </div>
               ))}
             </div>
-          </div>
 
-          {/* Certificate — card background matches the image's own white background */}
-          <div className="bg-white rounded-2xl shadow-sm p-6 mb-12 flex justify-center">
-            <img
-              src="/images/certificate.jpg"
-              alt="Diploma certificate"
-              className="h-24 md:h-32 w-auto object-contain"
-            />
+            <div className="mt-8 flex justify-center">
+              <img
+                src="/images/certificate.jpg"
+                alt="Diploma certificate"
+                className="h-24 md:h-32 w-auto object-contain"
+              />
+            </div>
           </div>
 
           {/* Abbreviated Resume */}

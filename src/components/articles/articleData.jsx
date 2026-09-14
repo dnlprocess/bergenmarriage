@@ -34,6 +34,7 @@ export const articlesContent = {
     category: 'marriage-counseling-process',
     categoryName: 'Marriage Counseling Process',
     articleNumber: 'I',
+    imageUrl: '/images/articles/marriage-counseling-process.jpg',
     content: `
 ## A. Your First Call
 
@@ -54,6 +55,8 @@ My immediate initial goals include relieving your tension, fears, or depression 
 In contradistinction to what may take place at home, the counseling sessions take place in a quiet office setting wherein both of you will have an opportunity to enumerate specific problem areas, explain what you mean, elaborate your hurt, pain, frustration, disappointment, anger and other emotions in a constructive fashion. You will have a peaceful and supportive environment wherein you will be encouraged to delineate the needs and wishes that you hope to satisfy in your marriage and get your spouse to listen respectfully, comment caringly, and commit to appropriate behavior in the future. [Learn about happily ever after](article:hope-for-troubled-marriages)“
 
 ## E. Homework Assignments
+
+![Homework](/images/articles/homework.jpg)
 
 The purpose of homework assignments is to enrich our sessions, extend the impact of each session, and maintain momentum from meeting to meeting. Sometimes I assign tasks that require written responses to help you explore yourself, your partner, your interactions and to evaluate important themes in your marriage. The information elicited by this approach enriches the material that you bring up during our counseling sessions and is used during subsequent meetings as a map and guide for our work together. At other times, I assign specific activities for you to do (including reading) as well as the weekly “business meeting.” which you have with each other to augment the work that we do in a session.
   `
@@ -117,6 +120,8 @@ This article has eight sections labeled 1–8.
 
 ## 1. Overview of the Marriage Counseling Process
 
+![Overview of the Marriage Counseling Process](/images/articles/overview.jpg)
+
 This article touches upon some of the techniques that I employ in working with couples. This article is limited in scope since it can hardly begin to describe the twists, turns, and complexity of the marriage counseling process. Furthermore, the needs of each couple vary, and my attention to this results in variations on the themes recorded here. The paragraphs below are merely designed to give the reader an introduction to my approach to marriage counseling.
 
 One of my goals with this description is to offer hope and encouragement to couples who need counseling by removing the mystery and consequent anxieties that surround this subject. These anxieties often result in delays of many months and even years before a couple will take advantage of the professional help that is available to them for their relationship difficulties.
@@ -172,6 +177,8 @@ Differences between males and females have been described by John Grey, Ph.D., a
 Additionally, differences between the sexes are noticed in areas of the brain that are activated by men and by women, even when performing the same task. These differences are often manifested in different emotional responses and behaviors in real-life situations. These differences should be understood by both partners, and tolerance as well as accommodation should be made accordingly.
 
 # What Are the Necessary Ingredients to Improve the Relationship?
+
+![Necessary ingredients to improve the relationship](/images/articles/ingredients.jpg)
 
 Although the strength of each person’s love for the other and their commitment to the relationship are extremely important, love or commitment alone will not solve the problem(s). Virtually all people who marry in this country marry for love; sadly, love alone does not stem the epidemic of marital breakups.
 
@@ -286,6 +293,8 @@ But before changing their living arrangement, the separated individuals would be
 
 Couples differ from each other in the nature, severity, and chronicity of their problems, their psychological insight, capacity to change, sense of fairness, and above all, their love for each other, their commitment to the relationship, and their willingness to invest time and effort into the therapeutic process.
 
+![There is no magic wand](/images/articles/wand.jpg)
+
 Unhappy couples should understand that there is no magic bullet and no magic wand. But with the encouraging guidance of an experienced professional, and with hard work and sincerity on their part, each person can put the following behaviors into motion:
 
 Stop the vicious cycle of negative interactions and pull themselves and their spouse out of their morass.
@@ -384,11 +393,9 @@ or
 
 ## Three Different Ways of Relating:
 
-- Cooperate
-
-- Fight
-
-- Withdrawal
+| ![Cooperate](/images/articles/cooperate.jpg) | ![Fight](/images/articles/fight.png) | ![Withdrawal](/images/articles/withdrawal.png) |
+| :---: | :---: | :---: |
+| **Cooperate** | **Fight** | **Withdrawal** |
 
 Dr. Karen Horney, one of Sigmund Freud’s famous students, once remarked that people can interact in three modes: a. cooperate, b.fight, or c. withdraw.
 
