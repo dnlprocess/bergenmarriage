@@ -188,7 +188,7 @@ export default function About() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-[#1B3A2F] rounded-full px-8"
+                className="bg-transparent border-white text-white hover:bg-white hover:text-[#1B3A2F] rounded-full px-8"
               >
                 <a href="mailto:BergenMarriage1@gmail.com" className="flex items-center gap-2">
                   <Mail className="w-5 h-5" />

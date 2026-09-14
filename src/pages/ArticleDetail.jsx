@@ -211,7 +211,7 @@ export default function ArticleDetail() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="text-white border-white hover:bg-white/10 rounded-full px-8"
+                className="bg-transparent text-white border-white hover:bg-white/10 rounded-full px-8"
               >
                 <a href="mailto:BergenMarriage1@gmail.com">
                   Email Your Questions

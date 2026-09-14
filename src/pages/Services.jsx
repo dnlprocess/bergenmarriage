@@ -191,7 +191,7 @@ export default function Services() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-[#1B3A2F] rounded-full px-8"
+                className="bg-transparent border-white text-white hover:bg-white hover:text-[#1B3A2F] rounded-full px-8"
               >
                 <a href="tel:2012183112" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />

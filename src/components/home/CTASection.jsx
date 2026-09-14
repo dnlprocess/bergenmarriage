@@ -48,7 +48,7 @@ export default function CTASection() {
           {/* Contact Card */}
           <div className="bg-white rounded-2xl p-8 shadow-2xl">
             <h3 className="font-serif text-2xl text-[#1B3A2F] mb-6">
-              Free 15-Minute Consultation
+              Free 15-Minute Consultation or Regular 60-Minute Counseling Session
             </h3>
             
             <div className="space-y-4">
