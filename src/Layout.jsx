@@ -267,6 +267,10 @@ export default function Layout({ children, currentPageName }) {
                   <Mail className="w-4 h-4 text-sage" />
                   BergenMarriage1@gmail.com
                 </a>
+                <a href="https://marriagecounselornj.co" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-stone-300 hover:text-white transition-colors">
+                  <Mail className="w-4 h-4 text-sage" />
+                  marriagecounselornj.co
+                </a>
                 <div className="flex items-center gap-3 text-stone-300">
                   <MapPin className="w-4 h-4 text-sage" />
                   1299 Wellington Avenue, Teaneck, NJ 07666
@@ -284,7 +288,7 @@ export default function Layout({ children, currentPageName }) {
                 </div>
                 <p className="mt-4">Prompt Return of Calls</p>
                 <p>Emergency Appointments Upon Request</p>
-                <p className="mt-4 text-sage font-medium">PPO Insurance Plans Accepted</p>
+                <p className="mt-4 text-sage font-medium">All PPO, POS, and Medicare insurance plans are welcome.</p>
               </div>
             </div>
           </div>

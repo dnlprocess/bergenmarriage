@@ -46,7 +46,15 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center gap-2 text-base text-stone-600">
                 <CheckCircle className="w-5 h-5 text-[#2D5F3F]" />
-                PPO, POS, Medicare Insurance Accepted
+                Telehealth Zoom Appointments Available
+              </div>
+              <div className="flex items-center gap-2 text-base text-stone-600">
+                <CheckCircle className="w-5 h-5 text-[#2D5F3F]" />
+                All PPO, POS, and Medicare insurance welcome
+              </div>
+              <div className="flex items-center gap-2 text-base text-stone-600">
+                <CheckCircle className="w-5 h-5 text-[#2D5F3F]" />
+                Discount Available for Veterans
               </div>
               <div className="flex items-center gap-2 text-base text-stone-600">
                 <CheckCircle className="w-5 h-5 text-[#2D5F3F]" />

@@ -251,7 +251,7 @@ export default function Contact() {
               <div className="bg-[#DDE8D8]/50 rounded-2xl p-8">
                 <h3 className="font-serif text-xl text-[#1B3A2F] mb-4">Insurance</h3>
                 <p className="text-stone-600 mb-4">
-                  PPO Insurance Plans Accepted
+                  All PPO, POS, and Medicare insurance plans are welcome.
                 </p>
                 <p className="text-sm text-stone-500">
                   Please call to discuss your specific insurance coverage.
@@ -274,6 +274,12 @@ export default function Contact() {
                     <div>
                       <p className="font-medium text-[#1B3A2F]">Online Sessions</p>
                       <p className="text-sm text-stone-500">Secure video consultations</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-[#2D5F3F] mt-0.5" />
+                    <div>
+                      <p className="font-medium text-[#1B3A2F]">Telehealth Zoom Appointments Available</p>
                     </div>
                   </div>
                 </div>

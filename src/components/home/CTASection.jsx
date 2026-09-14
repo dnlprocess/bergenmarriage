@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Clock, MapPin } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function CTASection() {
@@ -35,6 +35,12 @@ export default function CTASection() {
                   <MapPin className="w-5 h-5 text-[#2D5F3F]" />
                 </div>
                 <span className="text-stone-300">In-person sessions in Teaneck, NJ or online</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="p-2 bg-[#2D5F3F]/20 rounded-lg">
+                  <Phone className="w-5 h-5 text-[#2D5F3F]" />
+                </div>
+                <span className="text-stone-300">Telehealth Zoom Appointments Available</span>
               </div>
             </div>
           </div>
@@ -93,6 +99,23 @@ export default function CTASection() {
                   <div>
                     <p className="text-sm text-stone-500">Email</p>
                     <p className="text-[#1B3A2F] font-medium">BergenMarriage1@gmail.com</p>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="https://marriagecounselornj.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between p-4 bg-stone-50 rounded-xl hover:bg-[#DDE8D8] transition-colors group"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="p-3 bg-[#1B3A2F] rounded-lg">
+                    <Globe className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-stone-500">Website</p>
+                    <p className="text-[#1B3A2F] font-medium">marriagecounselornj.co</p>
                   </div>
                 </div>
               </a>
