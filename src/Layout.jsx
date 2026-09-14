@@ -32,7 +32,7 @@ export default function Layout({ children, currentPageName }) {
         }
         
         .font-serif-display {
-          font-family: 'Georgia', 'Times New Roman', serif;
+          font-family: 'Fraunces', 'Georgia', 'Times New Roman', serif;
         }
         
         .text-sage { color: var(--color-sage); }
