@@ -393,7 +393,7 @@ or
 
 ## Three Different Ways of Relating:
 
-| ![Cooperate](/images/articles/cooperate.jpg) | ![Fight](/images/articles/fight.png) | ![Withdrawal](/images/articles/withdrawal.png) |
+| ![Cooperate](/images/articles/cooperate.jpg "Cooperate") | ![Fight](/images/articles/fight.png "Fight") | ![Withdrawal](/images/articles/withdrawal.png "Withdrawal") |
 | :---: | :---: | :---: |
 
 Dr. Karen Horney, one of Sigmund Freud’s famous students, once remarked that people can interact in three modes: a. cooperate, b.fight, or c. withdraw.

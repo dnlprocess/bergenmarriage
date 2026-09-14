@@ -109,14 +109,14 @@ export function createMarkdownComponents() {
     li: ({ node, ...props }) => (
       <li className="text-stone-600" {...props} />
     ),
-    img: ({ node, src, alt, ...props }) => (
-      <figure className="my-10">
+    img: ({ node, src, alt, title, ...props }) => (
+      <figure className="my-10 max-w-md mx-auto">
         <div className="rounded-2xl overflow-hidden shadow-lg border border-stone-200">
           <img src={src} alt={alt || ''} className="w-full h-auto" {...props} />
         </div>
-        {alt && (
+        {title && (
           <figcaption className="text-center text-base text-stone-500 mt-3 italic">
-            {alt}
+            {title}
           </figcaption>
         )}
       </figure>

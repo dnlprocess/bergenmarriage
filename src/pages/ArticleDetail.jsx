@@ -107,9 +107,9 @@ export default function ArticleDetail() {
 
           {/* Featured Image */}
           {article.imageUrl && (
-            <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
-              <img 
-                src={article.imageUrl} 
+            <div className="mb-8 max-w-md mx-auto rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src={article.imageUrl}
                 alt={article.title}
                 className="w-full h-auto"
               />
