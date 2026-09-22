@@ -11,8 +11,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useSEO } from '../hooks/use-seo';
 
 export default function Contact() {
+  useSEO({
+    title: 'Contact',
+    description: 'Reach Dr. Reuben E. Gross for a free 15-minute phone consultation. Office in Teaneck, NJ, offering in-person and online marriage and couples counseling.',
+    path: '/Contact',
+  });
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',

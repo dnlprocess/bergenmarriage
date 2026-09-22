@@ -12,8 +12,15 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { articlesList, categories } from '../components/articles/articleData';
+import { useSEO } from '../hooks/use-seo';
 
 export default function Articles() {
+  useSEO({
+    title: 'Articles & Insights on Marriage & Relationship Counseling',
+    description: 'Educational articles on marriage counseling, effective communication, infidelity recovery, and building a loving relationship, drawn from 39 years of counseling experience.',
+    path: '/Articles',
+  });
+
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');

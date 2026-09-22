@@ -7,6 +7,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { articlesContent, articlesList, categories } from '../components/articles/articleData';
 import { createMarkdownComponents, markdownUrlTransform, scrollToSection } from '../utils/markdown';
+import { useSEO } from '../hooks/use-seo';
 
 const markdownComponents = createMarkdownComponents();
 
@@ -27,6 +28,13 @@ export default function ArticleDetail() {
   }, [searchParams]);
 
   const article = articleId ? articlesContent[articleId] : null;
+  const listEntry = articleId ? articlesList.find(a => a.id === articleId) : null;
+
+  useSEO({
+    title: article ? article.title : 'Article Not Found',
+    description: listEntry ? listEntry.excerpt : undefined,
+    path: articleId ? `/ArticleDetail?id=${articleId}` : '/Articles',
+  });
 
   // Get related articles from same category
   const relatedArticles = article ? articlesList

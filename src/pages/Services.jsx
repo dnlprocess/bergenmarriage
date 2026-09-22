@@ -3,8 +3,15 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '../utils';
 import { Phone, Heart, Users, MessageCircle, Shield, ArrowRight, CheckCircle, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useSEO } from '../hooks/use-seo';
 
 export default function Services() {
+  useSEO({
+    title: 'Marriage & Couples Counseling Services',
+    description: 'Marriage counseling, premarital counseling, communication training, and infidelity & trust recovery with Reuben E. Gross, PhD, LMFT in Bergen County, NJ.',
+    path: '/Services',
+  });
+
   return (
     <div className="bg-[#FAF6EF]">
       {/* Hero */}

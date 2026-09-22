@@ -1,8 +1,15 @@
 import React from 'react';
 import { Phone, Mail, Award, BookOpen, GraduationCap, Globe, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useSEO } from '../hooks/use-seo';
 
 export default function About() {
+  useSEO({
+    title: 'About & Credentials',
+    description: "Reuben E. Gross, PhD, LMFT — dually licensed marriage counselor and clinical psychologist with 39 years of experience, Diplomate credentials, and AAMFT clinical membership.",
+    path: '/About',
+  });
+
   const licenses = [
     "New Jersey Board of Psychological Examiners License to Practice Psychology #851",
     "New Jersey Licensed Marriage and Family Therapist #139",
